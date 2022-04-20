@@ -1,0 +1,78 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1649933874677' stop='1649933883036'>
+    <name>Validate the Some of function</name>
+    <title>Validate the Some of function</title>
+    <test-cases>
+        <test-case start='1649933874678' status='failed' stop='1649933883033'>
+            <name>Check fot the Subscription plan and getScreenShot</name>
+            <title>Check fot the Subscription plan and getScreenShot</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.88'/>
+            </parameters>
+            <steps>
+                <step start='1649933874682' status='passed' stop='1649933881501'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='98cf89ba-31dd-4df6-9ec0-68be676678c0-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1649933881502' status='passed' stop='1649933882755'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='0635c59a-3c82-4945-926b-c2371fd8535f-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1649933882758' status='passed' stop='1649933882791'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='afc45751-7601-4206-9929-86f0051c498a-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='edd31e08-5777-4044-aa25-9c964b6a355b-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1649933882804' status='passed' stop='1649933883015'>
+                    <name>POST /session/:sessionId/element/afad2285-fed4-4d45-be09-93ced64ddf14/click</name>
+                    <title>POST /session/:sessionId/element/afad2285-fed4-4d45-be09-93ced64ddf14/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649933883016' status='failed' stop='1649933883033'>
+                    <name>GET /session/:sessionId/window/handles</name>
+                    <title>GET /session/:sessionId/window/handles</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Malformed type for "handle" parameter of command switchToWindow
+                Expected: string
+                Actual: undefined
+                
+                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-window
+                </message>
+                <stack-trace>Error: Malformed type for "handle" parameter of command switchToWindow
+                Expected: string
+                Actual: undefined
+                
+                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-window
+                
+                    at Browser.protocolCommand (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriver\build\command.js:53:23)
+                    at Browser.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:38)
+                    at Browser.switchToWindow (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:276:24)
+                    at Context.&lt;anonymous> (C:\Users\FL_LPT-201\Documents\forbes\test\specs\/ForbesHome.js:10:24)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

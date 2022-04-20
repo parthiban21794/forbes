@@ -1,0 +1,487 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650179824886' stop='1650179853155'>
+    <name>Check the Sign In Functions</name>
+    <title>Check the Sign In Functions</title>
+    <test-cases>
+        <test-case start='1650179824887' status='broken' stop='1650179840508'>
+            <name>Email Empty</name>
+            <title>Email Empty</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1650179824893' status='passed' stop='1650179833368'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='e686d79f-401a-4049-9b4d-9c9942a219e7-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650179833368' status='passed' stop='1650179836002'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='484d113d-5886-49c9-b5c9-3031c66c6d78-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650179838020' status='passed' stop='1650179838141'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6a9daf41-9ea6-4349-b961-8516038d707f-attachment.json' type='application/json' size='63'/>
+                        <attachment title='Response' source='0dbb8d35-903c-4a85-9530-5e27e8d8848f-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650179838158' status='passed' stop='1650179838295'>
+                    <name>POST /session/:sessionId/element/1ed61274-cc21-44e1-804e-86e892037ac7/click</name>
+                    <title>POST /session/:sessionId/element/1ed61274-cc21-44e1-804e-86e892037ac7/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1650179840306' status='passed' stop='1650179840339'>
+                    <name>POST /session/:sessionId/frame</name>
+                    <title>POST /session/:sessionId/frame</title>
+                    <attachments>
+                        <attachment title='Request' source='2380f1eb-7419-4dde-aed0-499f3da236ed-attachment.json' type='application/json' size='14'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650179840340' status='passed' stop='1650179840362'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a7d7779b-1f4f-4409-bbb7-fef3e4d7c25c-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='23de1eca-3e68-4f9c-a9c4-349207998a76-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650179840367' status='broken' stop='1650179840507'>
+                    <name>POST /session/:sessionId/element/38f02dff-3d6c-4b84-bf91-6f56d7c342d8/clear</name>
+                    <title>POST /session/:sessionId/element/38f02dff-3d6c-4b84-bf91-6f56d7c342d8/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element not interactable
+                  (Session info: chrome=100.0.4896.127)</message>
+                <stack-trace>element not interactable: element not interactable
+                  (Session info: chrome=100.0.4896.127)
+                    at getErrorFromResponseBody (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriver\build\utils.js:197:12)
+                    at NodeJSRequest._request (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriver\build\request\index.js:158:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1650179840508' status='broken' stop='1650179842619'>
+            <name>empty Password</name>
+            <title>empty Password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1650179840510' status='broken' stop='1650179842619'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='eaa63aa6-efa0-405c-9022-80ea8e26f8b0-attachment.json' type='application/json' size='53'/>
+                    </attachments>
+                    <steps>
+                        <step start='1650179840515' status='passed' stop='1650179840536'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='98892ce1-9d4f-4020-9d42-c25ba4320209-attachment.json' type='application/json' size='50'/>
+                                <attachment title='Response' source='232b35fa-687b-49ea-a4dd-d33234e45f2d-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1650179840541' status='passed' stop='1650179840551'>
+                            <name>POST /session/:sessionId/element/38f02dff-3d6c-4b84-bf91-6f56d7c342d8/clear</name>
+                            <title>POST /session/:sessionId/element/38f02dff-3d6c-4b84-bf91-6f56d7c342d8/clear</title>
+                            <attachments>
+                                <attachment title='Response' source='ed409bbe-8989-49a8-acf1-458986c10f54-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1650179840555' status='broken' stop='1650179842619'>
+                            <name>POST /session/:sessionId/element/690cb9cd-33b3-4244-8f26-608cee85e403/clear</name>
+                            <title>POST /session/:sessionId/element/690cb9cd-33b3-4244-8f26-608cee85e403/clear</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1650179842515' status='passed' stop='1650179842549'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='e1fb33e9-1980-425b-8e67-c3962f4bb06b-attachment.json' type='application/json' size='63'/>
+                                        <attachment title='Response' source='0993a4f2-682b-46b5-a6e9-3706c55a1517-attachment.json' type='application/json' size='83'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1650179842551' status='broken' stop='1650179842619'>
+                                    <name>POST /session/:sessionId/element/7ef650d4-16e3-4f21-8ca7-b14fc8f7c636/click</name>
+                                    <title>POST /session/:sessionId/element/7ef650d4-16e3-4f21-8ca7-b14fc8f7c636/click</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element not interactable
+                  (Session info: chrome=100.0.4896.127)</message>
+                <stack-trace>element not interactable: element not interactable
+                  (Session info: chrome=100.0.4896.127)
+                    at getErrorFromResponseBody (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriver\build\utils.js:197:12)
+                    at NodeJSRequest._request (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriver\build\request\index.js:158:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1650179842622' status='broken' stop='1650179844754'>
+            <name>Function Of ValidUserName And InValidPassword</name>
+            <title>Function Of ValidUserName And InValidPassword</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1650179842623' status='broken' stop='1650179844754'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='cd24fd4d-4f26-492b-b257-812f647ccf8c-attachment.json' type='application/json' size='53'/>
+                    </attachments>
+                    <steps>
+                        <step start='1650179842627' status='passed' stop='1650179842643'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='7dd1a094-89f5-485f-bf30-4137bc0d22a5-attachment.json' type='application/json' size='50'/>
+                                <attachment title='Response' source='1a5387a8-3ae5-4472-96fb-2e8ab31a3966-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1650179842650' status='passed' stop='1650179842656'>
+                            <name>POST /session/:sessionId/element/38f02dff-3d6c-4b84-bf91-6f56d7c342d8/clear</name>
+                            <title>POST /session/:sessionId/element/38f02dff-3d6c-4b84-bf91-6f56d7c342d8/clear</title>
+                            <attachments>
+                                <attachment title='Response' source='b2ad2160-406b-4aac-8bc5-ca0ce1344905-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1650179842660' status='broken' stop='1650179844754'>
+                            <name>POST /session/:sessionId/element/690cb9cd-33b3-4244-8f26-608cee85e403/clear</name>
+                            <title>POST /session/:sessionId/element/690cb9cd-33b3-4244-8f26-608cee85e403/clear</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1650179844639' status='passed' stop='1650179844663'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='ea1bdb21-9d61-4b97-85f4-0fdb005dbdb4-attachment.json' type='application/json' size='63'/>
+                                        <attachment title='Response' source='74141c14-3503-4274-94a7-00517c36fd14-attachment.json' type='application/json' size='83'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1650179844666' status='broken' stop='1650179844754'>
+                                    <name>POST /session/:sessionId/element/7ef650d4-16e3-4f21-8ca7-b14fc8f7c636/click</name>
+                                    <title>POST /session/:sessionId/element/7ef650d4-16e3-4f21-8ca7-b14fc8f7c636/click</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element not interactable
+                  (Session info: chrome=100.0.4896.127)</message>
+                <stack-trace>element not interactable: element not interactable
+                  (Session info: chrome=100.0.4896.127)
+                    at getErrorFromResponseBody (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriver\build\utils.js:197:12)
+                    at NodeJSRequest._request (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriver\build\request\index.js:158:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1650179844754' status='broken' stop='1650179846868'>
+            <name>Function Of InValidUserName And ValidPassword</name>
+            <title>Function Of InValidUserName And ValidPassword</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1650179844756' status='broken' stop='1650179846868'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e6418309-7ebc-45c1-9840-e72bb362923b-attachment.json' type='application/json' size='53'/>
+                    </attachments>
+                    <steps>
+                        <step start='1650179844763' status='passed' stop='1650179844785'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='1fe6082a-7a29-4ea1-a201-1924c14cb9d8-attachment.json' type='application/json' size='50'/>
+                                <attachment title='Response' source='0760c474-8087-444e-9add-7a860f67fb5f-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1650179844789' status='passed' stop='1650179844800'>
+                            <name>POST /session/:sessionId/element/38f02dff-3d6c-4b84-bf91-6f56d7c342d8/clear</name>
+                            <title>POST /session/:sessionId/element/38f02dff-3d6c-4b84-bf91-6f56d7c342d8/clear</title>
+                            <attachments>
+                                <attachment title='Response' source='ac6c0eca-5003-4812-96df-5806da49f5ad-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1650179844807' status='broken' stop='1650179846868'>
+                            <name>POST /session/:sessionId/element/690cb9cd-33b3-4244-8f26-608cee85e403/clear</name>
+                            <title>POST /session/:sessionId/element/690cb9cd-33b3-4244-8f26-608cee85e403/clear</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1650179846767' status='passed' stop='1650179846788'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='7530e27d-3852-4b6e-8194-daa84b7451e3-attachment.json' type='application/json' size='63'/>
+                                        <attachment title='Response' source='3e295c13-0c36-4db0-8e02-428ad521fc92-attachment.json' type='application/json' size='83'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1650179846796' status='broken' stop='1650179846868'>
+                                    <name>POST /session/:sessionId/element/7ef650d4-16e3-4f21-8ca7-b14fc8f7c636/click</name>
+                                    <title>POST /session/:sessionId/element/7ef650d4-16e3-4f21-8ca7-b14fc8f7c636/click</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element not interactable
+                  (Session info: chrome=100.0.4896.127)</message>
+                <stack-trace>element not interactable: element not interactable
+                  (Session info: chrome=100.0.4896.127)
+                    at getErrorFromResponseBody (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriver\build\utils.js:197:12)
+                    at NodeJSRequest._request (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriver\build\request\index.js:158:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1650179846869' status='broken' stop='1650179848967'>
+            <name>Function Of InValidUserName And InValidPassword</name>
+            <title>Function Of InValidUserName And InValidPassword</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1650179846869' status='broken' stop='1650179848967'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a192d88d-3a25-4086-8a17-e3a4bf1a0a10-attachment.json' type='application/json' size='53'/>
+                    </attachments>
+                    <steps>
+                        <step start='1650179846876' status='passed' stop='1650179846892'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='d4fcea50-ec04-401d-b84e-c79aa1baf08e-attachment.json' type='application/json' size='50'/>
+                                <attachment title='Response' source='aa3ba8ec-8c9b-4570-a39a-6f138c143757-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1650179846895' status='passed' stop='1650179846901'>
+                            <name>POST /session/:sessionId/element/38f02dff-3d6c-4b84-bf91-6f56d7c342d8/clear</name>
+                            <title>POST /session/:sessionId/element/38f02dff-3d6c-4b84-bf91-6f56d7c342d8/clear</title>
+                            <attachments>
+                                <attachment title='Response' source='909fd541-3c13-4461-aeb9-b1e1473bad2f-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1650179846904' status='broken' stop='1650179848967'>
+                            <name>POST /session/:sessionId/element/690cb9cd-33b3-4244-8f26-608cee85e403/clear</name>
+                            <title>POST /session/:sessionId/element/690cb9cd-33b3-4244-8f26-608cee85e403/clear</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1650179848878' status='passed' stop='1650179848899'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='eda623f2-4063-4568-98e8-cca6a1cc0319-attachment.json' type='application/json' size='63'/>
+                                        <attachment title='Response' source='8219f5e3-4750-4ee5-a24d-1b3fdc03cdf9-attachment.json' type='application/json' size='83'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1650179848902' status='broken' stop='1650179848967'>
+                                    <name>POST /session/:sessionId/element/7ef650d4-16e3-4f21-8ca7-b14fc8f7c636/click</name>
+                                    <title>POST /session/:sessionId/element/7ef650d4-16e3-4f21-8ca7-b14fc8f7c636/click</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element not interactable
+                  (Session info: chrome=100.0.4896.127)</message>
+                <stack-trace>element not interactable: element not interactable
+                  (Session info: chrome=100.0.4896.127)
+                    at getErrorFromResponseBody (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriver\build\utils.js:197:12)
+                    at NodeJSRequest._request (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriver\build\request\index.js:158:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1650179848967' status='broken' stop='1650179853154'>
+            <name>Email Password</name>
+            <title>Email Password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1650179850980' status='broken' stop='1650179853154'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1e750fe2-ddba-4048-ad4f-588f2b70303c-attachment.json' type='application/json' size='53'/>
+                    </attachments>
+                    <steps>
+                        <step start='1650179850989' status='passed' stop='1650179851034'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='6deca86b-066b-4dfc-86bd-6a62cbed815b-attachment.json' type='application/json' size='50'/>
+                                <attachment title='Response' source='d6e3d054-9028-4131-81cd-d412943ec1bb-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1650179851049' status='passed' stop='1650179851062'>
+                            <name>POST /session/:sessionId/element/38f02dff-3d6c-4b84-bf91-6f56d7c342d8/clear</name>
+                            <title>POST /session/:sessionId/element/38f02dff-3d6c-4b84-bf91-6f56d7c342d8/clear</title>
+                            <attachments>
+                                <attachment title='Response' source='6f39333b-6021-48ca-85af-bb57966f2ac2-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1650179851071' status='broken' stop='1650179853154'>
+                            <name>POST /session/:sessionId/element/690cb9cd-33b3-4244-8f26-608cee85e403/clear</name>
+                            <title>POST /session/:sessionId/element/690cb9cd-33b3-4244-8f26-608cee85e403/clear</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1650179852995' status='passed' stop='1650179853024'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='ce6fe99e-70c0-4c1f-8187-ee243a01ecbd-attachment.json' type='application/json' size='63'/>
+                                        <attachment title='Response' source='d56c302f-e512-42e6-b36d-a7d860556d21-attachment.json' type='application/json' size='83'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1650179853030' status='broken' stop='1650179853154'>
+                                    <name>POST /session/:sessionId/element/7ef650d4-16e3-4f21-8ca7-b14fc8f7c636/click</name>
+                                    <title>POST /session/:sessionId/element/7ef650d4-16e3-4f21-8ca7-b14fc8f7c636/click</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element not interactable
+                  (Session info: chrome=100.0.4896.127)</message>
+                <stack-trace>element not interactable: element not interactable
+                  (Session info: chrome=100.0.4896.127)
+                    at getErrorFromResponseBody (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriver\build\utils.js:197:12)
+                    at NodeJSRequest._request (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriver\build\request\index.js:158:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

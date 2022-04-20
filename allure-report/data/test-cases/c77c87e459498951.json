@@ -1,0 +1,996 @@
+{
+  "uid" : "c77c87e459498951",
+  "name" : "subscripe the plan of $49.99",
+  "fullName" : "Function of the subscription page.subscripe the plan of $49.99",
+  "historyId" : "1c52aa81f54d04ebaa556ace24271d6e",
+  "time" : {
+    "start" : 1650353991688,
+    "stop" : 1650353993236,
+    "duration" : 1548
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=100.0.4896.127)",
+  "statusTrace" : "no such window: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=100.0.4896.127)\n                    at getErrorFromResponseBody (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Browser.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Context.<anonymous> (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\/Subscribe.js:8:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 101,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=100.0.4896.127)",
+    "statusTrace" : "no such window: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=100.0.4896.127)\n                    at getErrorFromResponseBody (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Browser.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Context.<anonymous> (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\/Subscribe.js:8:9)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1650353991694,
+        "stop" : 1650353993136,
+        "duration" : 1442
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f9cdbc1386dae096",
+        "name" : "Request",
+        "source" : "f9cdbc1386dae096.json",
+        "type" : "application/json",
+        "size" : 38
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1650353993137,
+        "stop" : 1650353993236,
+        "duration" : 99
+      },
+      "status" : "broken",
+      "statusMessage" : "no such window: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=100.0.4896.127)\n                    at getErrorFromResponseBody (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Browser.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Context.<anonymous> (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\/Subscribe.js:8:9)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Function of the subscription page"
+  }, {
+    "name" : "testClass",
+    "value" : "Function of the subscription page"
+  }, {
+    "name" : "testMethod",
+    "value" : "subscripe the plan of $49.99"
+  }, {
+    "name" : "package",
+    "value" : "Function of the subscription page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a83eef5b9ce4f1da",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Function of the subscription page subscripe the plan of $49.99\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\Subscribe.js)",
+      "time" : {
+        "start" : 1650353759098,
+        "stop" : 1650353819129,
+        "duration" : 60031
+      }
+    }, {
+      "uid" : "146463266855a1ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650353572538,
+        "stop" : 1650353616001,
+        "duration" : 43463
+      }
+    }, {
+      "uid" : "b9bafb368d353660",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650351691177,
+        "stop" : 1650351736593,
+        "duration" : 45416
+      }
+    }, {
+      "uid" : "2f870d7c7f5ece4b",
+      "status" : "broken",
+      "statusDetails" : "invalid session id",
+      "time" : {
+        "start" : 1650351655112,
+        "stop" : 1650351669087,
+        "duration" : 13975
+      }
+    }, {
+      "uid" : "d831a7f86ca51c59",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=100.0.4896.127)",
+      "time" : {
+        "start" : 1650351281700,
+        "stop" : 1650351318948,
+        "duration" : 37248
+      }
+    }, {
+      "uid" : "8b0ef5cc7d84fc5",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Function of the subscription page subscripe the plan of $49.99\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\Subscribe.js)",
+      "time" : {
+        "start" : 1650350810660,
+        "stop" : 1650350870671,
+        "duration" : 60011
+      }
+    }, {
+      "uid" : "b6894983dc490320",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650350675947,
+        "stop" : 1650350712072,
+        "duration" : 36125
+      }
+    }, {
+      "uid" : "7d851dc97e2d0de3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650350409581,
+        "stop" : 1650350444233,
+        "duration" : 34652
+      }
+    }, {
+      "uid" : "46ee8aafc87dbcee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650350062226,
+        "stop" : 1650350114037,
+        "duration" : 51811
+      }
+    }, {
+      "uid" : "2ed35cb533087ebd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650349977530,
+        "stop" : 1650350013662,
+        "duration" : 36132
+      }
+    }, {
+      "uid" : "b4694b218d6b011c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650349825151,
+        "stop" : 1650349853214,
+        "duration" : 28063
+      }
+    }, {
+      "uid" : "34c5f593d6ed45d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650349733102,
+        "stop" : 1650349762052,
+        "duration" : 28950
+      }
+    }, {
+      "uid" : "9f6c931ba51ce3c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650349513639,
+        "stop" : 1650349549374,
+        "duration" : 35735
+      }
+    }, {
+      "uid" : "4adc3948a49fdc6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650349135564,
+        "stop" : 1650349171955,
+        "duration" : 36391
+      }
+    }, {
+      "uid" : "9492fe92c33b8284",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Function of the subscription page subscripe the plan of $49.99\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\Subscribe.js)",
+      "time" : {
+        "start" : 1650348281765,
+        "stop" : 1650348341804,
+        "duration" : 60039
+      }
+    }, {
+      "uid" : "cde7cf8240dc2f9c",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//a[text()='Subscribe ']\" because element wasn't found",
+      "time" : {
+        "start" : 1650348227722,
+        "stop" : 1650348254527,
+        "duration" : 26805
+      }
+    }, {
+      "uid" : "eaac0fe27bf33216",
+      "status" : "broken",
+      "statusDetails" : "no such frame\n                  (Session info: chrome=100.0.4896.127)",
+      "time" : {
+        "start" : 1650348157723,
+        "stop" : 1650348202125,
+        "duration" : 44402
+      }
+    }, {
+      "uid" : "a96a5099fd447477",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Function of the subscription page subscripe the plan of $49.99\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\Subscribe.js)",
+      "time" : {
+        "start" : 1650347124419,
+        "stop" : 1650347184430,
+        "duration" : 60011
+      }
+    }, {
+      "uid" : "8d45bfc90cb5d7d4",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=100.0.4896.127)",
+      "time" : {
+        "start" : 1650347001830,
+        "stop" : 1650347029331,
+        "duration" : 27501
+      }
+    }, {
+      "uid" : "e2759e731b21a903",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Function of the subscription page subscripe the plan of $49.99\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\Subscribe.js)",
+      "time" : {
+        "start" : 1650346793224,
+        "stop" : 1650346853244,
+        "duration" : 60020
+      }
+    }, {
+      "uid" : "22e730cb05d9e79",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Function of the subscription page subscripe the plan of $49.99\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\Subscribe.js)",
+      "time" : {
+        "start" : 1650346638312,
+        "stop" : 1650346698342,
+        "duration" : 60030
+      }
+    }, {
+      "uid" : "da865a0e1871ed08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650346514543,
+        "stop" : 1650346556828,
+        "duration" : 42285
+      }
+    }, {
+      "uid" : "9701a40c77b51736",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Function of the subscription page subscripe the plan of $49.99\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\Subscribe.js)",
+      "time" : {
+        "start" : 1650346354060,
+        "stop" : 1650346414090,
+        "duration" : 60030
+      }
+    }, {
+      "uid" : "f7a4bf64be76bb3a",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Function of the subscription page subscripe the plan of $49.99\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\Subscribe.js)",
+      "time" : {
+        "start" : 1650345781677,
+        "stop" : 1650345841709,
+        "duration" : 60032
+      }
+    }, {
+      "uid" : "3cfb16b64e0ecd4b",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Function of the subscription page subscripe the plan of $49.99\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\Subscribe.js)",
+      "time" : {
+        "start" : 1650345468217,
+        "stop" : 1650345528246,
+        "duration" : 60029
+      }
+    }, {
+      "uid" : "261fe9b5f48356b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650337883967,
+        "stop" : 1650337917157,
+        "duration" : 33190
+      }
+    }, {
+      "uid" : "12ad059200e88354",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650279229221,
+        "stop" : 1650279270096,
+        "duration" : 40875
+      }
+    }, {
+      "uid" : "9786f4c74e09f710",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650279160717,
+        "stop" : 1650279193998,
+        "duration" : 33281
+      }
+    }, {
+      "uid" : "a7cd164bf9e4e14e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650279006735,
+        "stop" : 1650279039908,
+        "duration" : 33173
+      }
+    }, {
+      "uid" : "96a28394186acd0a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650278800432,
+        "stop" : 1650278833722,
+        "duration" : 33290
+      }
+    }, {
+      "uid" : "2035299232c8fb79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650278577372,
+        "stop" : 1650278610994,
+        "duration" : 33622
+      }
+    }, {
+      "uid" : "36dd3b3e5da7006d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650276766958,
+        "stop" : 1650276800958,
+        "duration" : 34000
+      }
+    }, {
+      "uid" : "bcb17a8eac928cfc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650276645132,
+        "stop" : 1650276677772,
+        "duration" : 32640
+      }
+    }, {
+      "uid" : "dc878eddaa2f1f04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650269300634,
+        "stop" : 1650269335695,
+        "duration" : 35061
+      }
+    }, {
+      "uid" : "7ea9ed291a1f0890",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650264095688,
+        "stop" : 1650264131101,
+        "duration" : 35413
+      }
+    }, {
+      "uid" : "f130ed032b5720e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650263915847,
+        "stop" : 1650263951544,
+        "duration" : 35697
+      }
+    }, {
+      "uid" : "d75c6e5d6522f699",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650263844352,
+        "stop" : 1650263881356,
+        "duration" : 37004
+      }
+    }, {
+      "uid" : "e6ab5ecbadb5aa93",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650263334643,
+        "stop" : 1650263369754,
+        "duration" : 35111
+      }
+    }, {
+      "uid" : "bcb9351a98e1f6b4",
+      "status" : "broken",
+      "statusDetails" : "invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=100.0.4896.127)",
+      "time" : {
+        "start" : 1650263145123,
+        "stop" : 1650263183715,
+        "duration" : 38592
+      }
+    }, {
+      "uid" : "b7b6ad97289588c4",
+      "status" : "broken",
+      "statusDetails" : "invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=100.0.4896.127)",
+      "time" : {
+        "start" : 1650263038032,
+        "stop" : 1650263075075,
+        "duration" : 37043
+      }
+    }, {
+      "uid" : "8327c9bb085a1cdf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650262966290,
+        "stop" : 1650263004720,
+        "duration" : 38430
+      }
+    }, {
+      "uid" : "eef33dd955425972",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//*[@class='card-button card-button-middle unbutton']\" because element wasn't found",
+      "time" : {
+        "start" : 1650262880366,
+        "stop" : 1650262921912,
+        "duration" : 41546
+      }
+    }, {
+      "uid" : "1a6cd1a7b27bc623",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650262792953,
+        "stop" : 1650262825427,
+        "duration" : 32474
+      }
+    }, {
+      "uid" : "82f1fdd2f44df4b8",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Function of the subscription page subscripe the plan of $49.99\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\Subscribe.js)",
+      "time" : {
+        "start" : 1650262671557,
+        "stop" : 1650262731581,
+        "duration" : 60024
+      }
+    }, {
+      "uid" : "66e9303e4e97271c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650262603051,
+        "stop" : 1650262633772,
+        "duration" : 30721
+      }
+    }, {
+      "uid" : "f068cbf8a7b29799",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650262488972,
+        "stop" : 1650262521294,
+        "duration" : 32322
+      }
+    }, {
+      "uid" : "8ccd87c1290a6da3",
+      "status" : "broken",
+      "statusDetails" : "Can't call setValue on element with selector \"#first-name\" because element wasn't found",
+      "time" : {
+        "start" : 1650261033676,
+        "stop" : 1650261082267,
+        "duration" : 48591
+      }
+    }, {
+      "uid" : "8fd4ecdb43e66ed0",
+      "status" : "broken",
+      "statusDetails" : "Can't call setValue on element with selector \"#first-name\" because element wasn't found",
+      "time" : {
+        "start" : 1650251024895,
+        "stop" : 1650251062423,
+        "duration" : 37528
+      }
+    }, {
+      "uid" : "2317378e74bfae2c",
+      "status" : "broken",
+      "statusDetails" : "Can't call setValue on element with selector \"#first-name\" because element wasn't found",
+      "time" : {
+        "start" : 1650250933096,
+        "stop" : 1650250971035,
+        "duration" : 37939
+      }
+    }, {
+      "uid" : "d131bb83142a79bc",
+      "status" : "broken",
+      "statusDetails" : "browser.switchContext is not a function",
+      "time" : {
+        "start" : 1650250535876,
+        "stop" : 1650250567937,
+        "duration" : 32061
+      }
+    }, {
+      "uid" : "185ad1b86d67949f",
+      "status" : "broken",
+      "statusDetails" : "Wrong parameters applied for switchToFrame\n                Usage: switchToFrame(id)\n                \n                Property Description:\n                  \"id\" ((number|object|null)): one of three possible types: null: this represents the top-level browsing context (i.e., not an iframe), a Number, representing the index of the window object corresponding to a frame, an Element object received using `findElement`.\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame\n                ",
+      "time" : {
+        "start" : 1650250419572,
+        "stop" : 1650250455823,
+        "duration" : 36251
+      }
+    }, {
+      "uid" : "b240f92347fbc751",
+      "status" : "broken",
+      "statusDetails" : "Can't call setValue on element with selector \"#first-name\" because element wasn't found",
+      "time" : {
+        "start" : 1650250336212,
+        "stop" : 1650250383958,
+        "duration" : 47746
+      }
+    }, {
+      "uid" : "93715faafc28608",
+      "status" : "broken",
+      "statusDetails" : "Can't call setValue on element with selector \"#first-name\" because element wasn't found",
+      "time" : {
+        "start" : 1650250259438,
+        "stop" : 1650250303406,
+        "duration" : 43968
+      }
+    }, {
+      "uid" : "bd68a130774cd9b7",
+      "status" : "broken",
+      "statusDetails" : "no such frame\n                  (Session info: chrome=100.0.4896.127)",
+      "time" : {
+        "start" : 1650248936864,
+        "stop" : 1650248974628,
+        "duration" : 37764
+      }
+    }, {
+      "uid" : "451a3fa9227b89d0",
+      "status" : "broken",
+      "statusDetails" : "no such frame\n                  (Session info: chrome=100.0.4896.127)",
+      "time" : {
+        "start" : 1650248680506,
+        "stop" : 1650248714413,
+        "duration" : 33907
+      }
+    }, {
+      "uid" : "92cee704decd7bf0",
+      "status" : "broken",
+      "statusDetails" : "browser.switchContext is not a function",
+      "time" : {
+        "start" : 1650248292625,
+        "stop" : 1650248321199,
+        "duration" : 28574
+      }
+    }, {
+      "uid" : "1013bd636e824566",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"handle\" parameter of command switchToWindow\n                Expected: string\n                Actual: object\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-window\n                ",
+      "time" : {
+        "start" : 1650180126317,
+        "stop" : 1650180150428,
+        "duration" : 24111
+      }
+    }, {
+      "uid" : "6cdda07560839c71",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"handle\" parameter of command switchToWindow\n                Expected: string\n                Actual: object\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-window\n                ",
+      "time" : {
+        "start" : 1650179877884,
+        "stop" : 1650179903102,
+        "duration" : 25218
+      }
+    }, {
+      "uid" : "5720cff31977cc2f",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"handle\" parameter of command switchToWindow\n                Expected: string\n                Actual: object\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-window\n                ",
+      "time" : {
+        "start" : 1650179194451,
+        "stop" : 1650179222351,
+        "duration" : 27900
+      }
+    }, {
+      "uid" : "b91f39cdee0e93fb",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Function of the subscription page subscripe the plan of $49.99\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\Subscribe.js)",
+      "time" : {
+        "start" : 1650178789959,
+        "stop" : 1650179035666,
+        "duration" : 245707
+      }
+    }, {
+      "uid" : "e7cf5818182865e1",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_INTERNET_DISCONNECTED\n                  (Session info: chrome=100.0.4896.127)",
+      "time" : {
+        "start" : 1650178248847,
+        "stop" : 1650178249963,
+        "duration" : 1116
+      }
+    }, {
+      "uid" : "48def1c10e6daf68",
+      "status" : "broken",
+      "statusDetails" : "read ECONNRESET",
+      "time" : {
+        "start" : 1650173086300,
+        "stop" : 1650173118481,
+        "duration" : 32181
+      }
+    }, {
+      "uid" : "8b7437b752004d3",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"handle\" parameter of command switchToWindow\n                Expected: string\n                Actual: object\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-window\n                ",
+      "time" : {
+        "start" : 1650167258620,
+        "stop" : 1650167283541,
+        "duration" : 24921
+      }
+    }, {
+      "uid" : "fc6f610d66e656db",
+      "status" : "broken",
+      "statusDetails" : "Can't call setValue on element with selector \"#first-name\" because element wasn't found",
+      "time" : {
+        "start" : 1650166999815,
+        "stop" : 1650167035933,
+        "duration" : 36118
+      }
+    }, {
+      "uid" : "6e7674dd70f3561b",
+      "status" : "broken",
+      "statusDetails" : "Can't call setValue on element with selector \"#first-name\" because element wasn't found",
+      "time" : {
+        "start" : 1650164102046,
+        "stop" : 1650164143152,
+        "duration" : 41106
+      }
+    }, {
+      "uid" : "61b7071eb56a4044",
+      "status" : "broken",
+      "statusDetails" : "Can't call setValue on element with selector \"#first-name\" because element wasn't found",
+      "time" : {
+        "start" : 1650162398573,
+        "stop" : 1650162446332,
+        "duration" : 47759
+      }
+    }, {
+      "uid" : "369267bc0e4affe7",
+      "status" : "broken",
+      "statusDetails" : "no such frame\n                  (Session info: chrome=100.0.4896.127)",
+      "time" : {
+        "start" : 1650162227602,
+        "stop" : 1650162259511,
+        "duration" : 31909
+      }
+    }, {
+      "uid" : "8381bc56d89e596f",
+      "status" : "broken",
+      "statusDetails" : "no such frame\n                  (Session info: chrome=100.0.4896.127)",
+      "time" : {
+        "start" : 1650162140543,
+        "stop" : 1650162169239,
+        "duration" : 28696
+      }
+    }, {
+      "uid" : "710f116cc424bad9",
+      "status" : "broken",
+      "statusDetails" : "invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=100.0.4896.127)",
+      "time" : {
+        "start" : 1650161749861,
+        "stop" : 1650161776022,
+        "duration" : 26161
+      }
+    }, {
+      "uid" : "44fe667763341c54",
+      "status" : "broken",
+      "statusDetails" : "invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=100.0.4896.127)",
+      "time" : {
+        "start" : 1650161267781,
+        "stop" : 1650161294492,
+        "duration" : 26711
+      }
+    }, {
+      "uid" : "b971e7509115110e",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"id\" parameter of command switchToFrame\n                Expected: (number|object|null)\n                Actual: string\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame\n                ",
+      "time" : {
+        "start" : 1650160645149,
+        "stop" : 1650160672922,
+        "duration" : 27773
+      }
+    }, {
+      "uid" : "1539e3da50e1d7c0",
+      "status" : "broken",
+      "statusDetails" : "brrowser is not defined",
+      "time" : {
+        "start" : 1650160583387,
+        "stop" : 1650160611276,
+        "duration" : 27889
+      }
+    }, {
+      "uid" : "ae93d6c67a9a26fa",
+      "status" : "broken",
+      "statusDetails" : "awaitbrrowser is not defined",
+      "time" : {
+        "start" : 1650160521401,
+        "stop" : 1650160547784,
+        "duration" : 26383
+      }
+    }, {
+      "uid" : "bc493ddb6a8b2671",
+      "status" : "broken",
+      "statusDetails" : "invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=100.0.4896.127)",
+      "time" : {
+        "start" : 1650107741442,
+        "stop" : 1650107771162,
+        "duration" : 29720
+      }
+    }, {
+      "uid" : "c43ad00a5ed9e089",
+      "status" : "broken",
+      "statusDetails" : "invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=100.0.4896.127)",
+      "time" : {
+        "start" : 1650107657924,
+        "stop" : 1650107687571,
+        "duration" : 29647
+      }
+    }, {
+      "uid" : "310fe0f64008e20f",
+      "status" : "broken",
+      "statusDetails" : "invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=100.0.4896.127)",
+      "time" : {
+        "start" : 1650107589034,
+        "stop" : 1650107613499,
+        "duration" : 24465
+      }
+    }, {
+      "uid" : "a9614866dbb3c787",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Function of the subscription page subscripe the plan of $49.99\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\Subscribe.js)",
+      "time" : {
+        "start" : 1650101945941,
+        "stop" : 1650102005952,
+        "duration" : 60011
+      }
+    }, {
+      "uid" : "21db243447a1c39b",
+      "status" : "broken",
+      "statusDetails" : "invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=100.0.4896.127)",
+      "time" : {
+        "start" : 1650101689509,
+        "stop" : 1650101717955,
+        "duration" : 28446
+      }
+    }, {
+      "uid" : "902fce0ce2eff855",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Function of the subscription page subscripe the plan of $49.99\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\Subscribe.js)",
+      "time" : {
+        "start" : 1650101285394,
+        "stop" : 1650101345415,
+        "duration" : 60021
+      }
+    }, {
+      "uid" : "a288673eec65fde",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//button[text()='Sign in.']\" because element wasn't found",
+      "time" : {
+        "start" : 1650097194751,
+        "stop" : 1650097237919,
+        "duration" : 43168
+      }
+    }, {
+      "uid" : "b6fcd2ce4815f5da",
+      "status" : "broken",
+      "statusDetails" : "Can't call sendAlertText on element with selector \"//input[@id='first-name']\" because element wasn't found",
+      "time" : {
+        "start" : 1650096776187,
+        "stop" : 1650096817268,
+        "duration" : 41081
+      }
+    }, {
+      "uid" : "5d953cc3b769e5e",
+      "status" : "broken",
+      "statusDetails" : "Can't call setValue on element with selector \"//input[@id='first-name']\" because element wasn't found",
+      "time" : {
+        "start" : 1650095992550,
+        "stop" : 1650096032007,
+        "duration" : 39457
+      }
+    }, {
+      "uid" : "18106c39aa2711c5",
+      "status" : "broken",
+      "statusDetails" : "no such frame\n                  (Session info: chrome=100.0.4896.127)",
+      "time" : {
+        "start" : 1650091560840,
+        "stop" : 1650091588486,
+        "duration" : 27646
+      }
+    }, {
+      "uid" : "de4373ed55e58776",
+      "status" : "broken",
+      "statusDetails" : "no such frame\n                  (Session info: chrome=100.0.4896.127)",
+      "time" : {
+        "start" : 1650091416534,
+        "stop" : 1650091452375,
+        "duration" : 35841
+      }
+    }, {
+      "uid" : "ea231e7633d9c628",
+      "status" : "broken",
+      "statusDetails" : "invalid session id",
+      "time" : {
+        "start" : 1650091367162,
+        "stop" : 1650091371876,
+        "duration" : 4714
+      }
+    }, {
+      "uid" : "dd5fe7936df1144",
+      "status" : "broken",
+      "statusDetails" : "invalid session id",
+      "time" : {
+        "start" : 1650091268274,
+        "stop" : 1650091276129,
+        "duration" : 7855
+      }
+    }, {
+      "uid" : "cf3b7aaa611f6276",
+      "status" : "broken",
+      "statusDetails" : "no such frame\n                  (Session info: chrome=100.0.4896.127)",
+      "time" : {
+        "start" : 1650091180976,
+        "stop" : 1650091208561,
+        "duration" : 27585
+      }
+    }, {
+      "uid" : "dc90152a2251fa04",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//button[text()='Sign in.']\" because element wasn't found",
+      "time" : {
+        "start" : 1650090805508,
+        "stop" : 1650090846891,
+        "duration" : 41383
+      }
+    }, {
+      "uid" : "c5f40d43c3b1a26a",
+      "status" : "broken",
+      "statusDetails" : "no such frame\n                  (Session info: chrome=100.0.4896.127)",
+      "time" : {
+        "start" : 1650090752218,
+        "stop" : 1650090777969,
+        "duration" : 25751
+      }
+    }, {
+      "uid" : "6b3e23e1210fb14a",
+      "status" : "broken",
+      "statusDetails" : "no such frame\n                  (Session info: chrome=100.0.4896.127)",
+      "time" : {
+        "start" : 1650090477808,
+        "stop" : 1650090537405,
+        "duration" : 59597
+      }
+    }, {
+      "uid" : "31f5c92327c35265",
+      "status" : "broken",
+      "statusDetails" : "no such frame\n                  (Session info: chrome=100.0.4896.127)",
+      "time" : {
+        "start" : 1650090356305,
+        "stop" : 1650090381456,
+        "duration" : 25151
+      }
+    }, {
+      "uid" : "e01f1dc53d08977a",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//button[text()='Sign in.']\" because element wasn't found",
+      "time" : {
+        "start" : 1650089922512,
+        "stop" : 1650089953499,
+        "duration" : 30987
+      }
+    }, {
+      "uid" : "4fac396853f0502c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650089468621,
+        "stop" : 1650089493395,
+        "duration" : 24774
+      }
+    }, {
+      "uid" : "f55258253b2c2086",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//iframe//*[@id=\"view-offer\"]/div[2]/div/div[3]/div[2]/div[2]/button\" because element wasn't found",
+      "time" : {
+        "start" : 1650083854812,
+        "stop" : 1650083885658,
+        "duration" : 30846
+      }
+    }, {
+      "uid" : "fb1c32337a8aa0f",
+      "status" : "broken",
+      "statusDetails" : "no such window\n                  (Session info: chrome=100.0.4896.127)",
+      "time" : {
+        "start" : 1650083635821,
+        "stop" : 1650083654218,
+        "duration" : 18397
+      }
+    }, {
+      "uid" : "d6a59e267330a06f",
+      "status" : "broken",
+      "statusDetails" : "no such window\n                  (Session info: chrome=100.0.4896.127)",
+      "time" : {
+        "start" : 1650083560757,
+        "stop" : 1650083586287,
+        "duration" : 25530
+      }
+    }, {
+      "uid" : "a09ad489cd5363e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650083492630,
+        "stop" : 1650083509669,
+        "duration" : 17039
+      }
+    }, {
+      "uid" : "e074753d990ce24e",
+      "status" : "broken",
+      "statusDetails" : "no such window\n                  (Session info: chrome=100.0.4896.127)",
+      "time" : {
+        "start" : 1650083431103,
+        "stop" : 1650083446318,
+        "duration" : 15215
+      }
+    }, {
+      "uid" : "6bc66a174a5a697e",
+      "status" : "broken",
+      "statusDetails" : "no such window\n                  (Session info: chrome=100.0.4896.127)",
+      "time" : {
+        "start" : 1650083386209,
+        "stop" : 1650083396159,
+        "duration" : 9950
+      }
+    }, {
+      "uid" : "849b4dcc5964de13",
+      "status" : "broken",
+      "statusDetails" : "no such window\n                  (Session info: chrome=100.0.4896.127)",
+      "time" : {
+        "start" : 1650083283690,
+        "stop" : 1650083293732,
+        "duration" : 10042
+      }
+    }, {
+      "uid" : "2b8b76874b9c314e",
+      "status" : "broken",
+      "statusDetails" : "no such window\n                  (Session info: chrome=100.0.4896.127)",
+      "time" : {
+        "start" : 1650083224404,
+        "stop" : 1650083233230,
+        "duration" : 8826
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c77c87e459498951.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}

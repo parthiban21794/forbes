@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650179064097' stop='1650179115597'>
+    <name>Check The Function Of BreakingNews</name>
+    <title>Check The Function Of BreakingNews</title>
+    <test-cases>
+        <test-case start='1650179064098' status='broken' stop='1650179115594'>
+            <name>Open The Breaking News By BreakingNews Tag</name>
+            <title>Open The Breaking News By BreakingNews Tag</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1650179064102' status='passed' stop='1650179110303'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='05835372-f412-4565-8214-324c8b78d675-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650179115314' status='passed' stop='1650179115519'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='15c7bd3d-d915-4dbc-acfc-d3c7b39ee770-attachment.json' type='application/json' size='77'/>
+                        <attachment title='Response' source='bb4a3a05-09f9-41a1-9ec5-fead298aac98-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650179115536' status='passed' stop='1650179115576'>
+                    <name>GET /session/:sessionId/element/58cae644-8cee-4a35-995c-58c7eb0b5652/text</name>
+                    <title>GET /session/:sessionId/element/58cae644-8cee-4a35-995c-58c7eb0b5652/text</title>
+                    <attachments>
+                        <attachment title='Response' source='23b4abdf-18b1-4c0a-8952-37bd3e7e0e63-attachment.json' type='application/json' size='82'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>bnTitle is not defined</message>
+                <stack-trace>ReferenceError: bnTitle is not defined
+                    at Context.&lt;anonymous> (C:\Users\FL_LPT-201\Documents\forbes\test\specs\/BreakingNews.js:10:21)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

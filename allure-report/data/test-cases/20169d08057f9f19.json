@@ -1,0 +1,291 @@
+{
+  "uid" : "20169d08057f9f19",
+  "name" : "Checkout the product",
+  "fullName" : "Home.Checkout the product",
+  "historyId" : "e386c8539eca2093e2fb1ce9cfba6de8",
+  "time" : {
+    "start" : 1648232329837,
+    "stop" : 1648232329953,
+    "duration" : 116
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 21,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1648232329839,
+        "stop" : 1648232329865,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "878fc85276145fb7",
+        "name" : "Request",
+        "source" : "878fc85276145fb7.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "3781f6ac6aeee781",
+        "name" : "Response",
+        "source" : "3781f6ac6aeee781.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/64e630d1-c88f-4cc8-8211-fb92fd9ad915/click",
+      "time" : {
+        "start" : 1648232329888,
+        "stop" : 1648232329953,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "e70a9f7b31b029cd",
+      "name" : "Response",
+      "source" : "e70a9f7b31b029cd.json",
+      "type" : "application/json",
+      "size" : 83
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home"
+  }, {
+    "name" : "testClass",
+    "value" : "Home"
+  }, {
+    "name" : "testMethod",
+    "value" : "Checkout the product"
+  }, {
+    "name" : "package",
+    "value" : "Home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "328ca3af39425cca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648230325165,
+        "stop" : 1648230325257,
+        "duration" : 92
+      }
+    }, {
+      "uid" : "231417a6f93e08e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648230275422,
+        "stop" : 1648230275526,
+        "duration" : 104
+      }
+    }, {
+      "uid" : "94ed44ee8a05be4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648229980576,
+        "stop" : 1648229980715,
+        "duration" : 139
+      }
+    }, {
+      "uid" : "b0244fa058764cf5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648229926674,
+        "stop" : 1648229926824,
+        "duration" : 150
+      }
+    }, {
+      "uid" : "bc071f9c477b03f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648229846761,
+        "stop" : 1648229846855,
+        "duration" : 94
+      }
+    }, {
+      "uid" : "d1fcbb1752f3f860",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648221551811,
+        "stop" : 1648221551910,
+        "duration" : 99
+      }
+    }, {
+      "uid" : "c190c0eb65ac0249",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648221436250,
+        "stop" : 1648221436374,
+        "duration" : 124
+      }
+    }, {
+      "uid" : "88262b57fc06d644",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648221192217,
+        "stop" : 1648221192351,
+        "duration" : 134
+      }
+    }, {
+      "uid" : "46d19d405b79bc9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648221063201,
+        "stop" : 1648221063339,
+        "duration" : 138
+      }
+    }, {
+      "uid" : "eaee38b96278a5d8",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"#checkout\" because element wasn't found",
+      "time" : {
+        "start" : 1648220206026,
+        "stop" : 1648220216099,
+        "duration" : 10073
+      }
+    }, {
+      "uid" : "f54cdcc5b3139555",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"#checkout\" because element wasn't found",
+      "time" : {
+        "start" : 1648207981128,
+        "stop" : 1648207991179,
+        "duration" : 10051
+      }
+    }, {
+      "uid" : "b3c9bf95eeac42c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648207312397,
+        "stop" : 1648207312538,
+        "duration" : 141
+      }
+    }, {
+      "uid" : "73525e424e7b230",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648205604233,
+        "stop" : 1648205604358,
+        "duration" : 125
+      }
+    }, {
+      "uid" : "94883a17fcc7878c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648205214562,
+        "stop" : 1648205214716,
+        "duration" : 154
+      }
+    }, {
+      "uid" : "2768308530baa8f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648204277821,
+        "stop" : 1648204277918,
+        "duration" : 97
+      }
+    }, {
+      "uid" : "fada119f8fd46570",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648190684086,
+        "stop" : 1648190684197,
+        "duration" : 111
+      }
+    }, {
+      "uid" : "222e70dfb037682b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648107180142,
+        "stop" : 1648107180248,
+        "duration" : 106
+      }
+    }, {
+      "uid" : "ee9df480208a72b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648106133859,
+        "stop" : 1648106133951,
+        "duration" : 92
+      }
+    }, {
+      "uid" : "e3bb357b15a7f3e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648106088571,
+        "stop" : 1648106088666,
+        "duration" : 95
+      }
+    }, {
+      "uid" : "197ad911fb8f0017",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648106007412,
+        "stop" : 1648106007497,
+        "duration" : 85
+      }
+    }, {
+      "uid" : "81f72cce6953432d",
+      "status" : "broken",
+      "statusDetails" : "Cannot read properties of undefined (reading 'click')",
+      "time" : {
+        "start" : 1648105658041,
+        "stop" : 1648105658059,
+        "duration" : 18
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "20169d08057f9f19.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

@@ -1,0 +1,368 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1648448260631' stop='1648448457105'>
+    <name>AmazonTry</name>
+    <title>AmazonTry</title>
+    <test-cases>
+        <test-case start='1648448260631' status='passed' stop='1648448263339'>
+            <name>Open Amazon site and assert the url and title</name>
+            <title>Open Amazon site and assert the url and title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps>
+                <step start='1648448260634' status='passed' stop='1648448262304'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='f7d1bc77-fab6-415d-a505-818b4ad12526-attachment.json' type='application/json' size='37'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648448262304' status='passed' stop='1648448262335'>
+                    <name>POST /session/:sessionId/actions</name>
+                    <title>POST /session/:sessionId/actions</title>
+                    <attachments>
+                        <attachment title='Request' source='c4c85d83-2843-4a48-9395-78c7936ca116-attachment.json' type='application/json' size='249'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648448262336' status='passed' stop='1648448262360'>
+                    <name>DELETE /session/:sessionId/actions</name>
+                    <title>DELETE /session/:sessionId/actions</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1648448262361' status='passed' stop='1648448262601'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='66fa2b35-62d0-46f1-bbb0-91fcbb5b6588-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648448262605' status='passed' stop='1648448262792'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='1ad89508-6d97-4171-b5f7-2c176b5d3786-attachment.json' type='application/json' size='24'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648448262795' status='passed' stop='1648448262806'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='85ed6e82-62ee-450b-a0f0-106e107dbb5f-attachment.json' type='application/json' size='100'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648448262810' status='passed' stop='1648448263329'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='00f7ed46-dcb0-4f91-84cc-41574d89e820-attachment.png' type='image/png' size='734607'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1648448263340' status='passed' stop='1648448266086'>
+            <name>Search iphone and sort by customer reviews</name>
+            <title>Search iphone and sort by customer reviews</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps>
+                <step start='1648448263346' status='passed' stop='1648448263367'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d12835c1-5416-4c94-8d6b-4c45bcd780c9-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='904735ef-a1d4-4de7-b1b3-69da1cfc6bca-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648448263379' status='passed' stop='1648448263492'>
+                    <name>POST /session/:sessionId/element/7c6ae04b-3b61-405d-9194-f3187b6c9373/value</name>
+                    <title>POST /session/:sessionId/element/7c6ae04b-3b61-405d-9194-f3187b6c9373/value</title>
+                    <attachments>
+                        <attachment title='Request' source='9c3dca47-f553-40c4-9164-4042fd9f2cf5-attachment.json' type='application/json' size='22'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648448263493' status='passed' stop='1648448263526'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='537e4cf2-db50-49d2-be55-76ff33821e82-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='fce7f35a-9fff-4742-b775-ef372728f98e-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648448263531' status='passed' stop='1648448265283'>
+                    <name>POST /session/:sessionId/element/8bcf8df9-0b57-44c6-9c8e-33a4efe5bd0c/click</name>
+                    <title>POST /session/:sessionId/element/8bcf8df9-0b57-44c6-9c8e-33a4efe5bd0c/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1648448265284' status='passed' stop='1648448265654'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='912b7119-f883-4fcd-93c5-2938b2838806-attachment.png' type='image/png' size='355308'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648448265663' status='passed' stop='1648448265705'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='243aaec9-ea54-413b-aa80-d00a5d03ca8b-attachment.json' type='application/json' size='62'/>
+                        <attachment title='Response' source='dcdc56e4-722a-423c-9b84-6d80487952da-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648448265710' status='passed' stop='1648448265870'>
+                    <name>POST /session/:sessionId/element/5bdc111f-5732-4f2a-a95c-38c3e16a66a1/click</name>
+                    <title>POST /session/:sessionId/element/5bdc111f-5732-4f2a-a95c-38c3e16a66a1/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1648448265871' status='passed' stop='1648448265955'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2af4df50-0738-4a8f-896d-c5336f9c037c-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='07a33798-9d71-4ae9-8232-6f229abcce5b-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648448265959' status='passed' stop='1648448266086'>
+                    <name>POST /session/:sessionId/element/dc43fa24-49d4-473b-81f0-52bc7235b0a1/click</name>
+                    <title>POST /session/:sessionId/element/dc43fa24-49d4-473b-81f0-52bc7235b0a1/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1648448266086' status='broken' stop='1648448310595'>
+            <name>Going to new Release and buy top model</name>
+            <title>Going to new Release and buy top model</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps>
+                <step start='1648448266088' status='passed' stop='1648448266118'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='58901474-2578-49af-8ffa-15f320c4a3e7-attachment.json' type='application/json' size='81'/>
+                        <attachment title='Response' source='31ca1f9b-9cc5-474d-b4a3-1b4ec36a691d-attachment.json' type='application/json' size='1055'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648448266125' status='passed' stop='1648448266147'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='96c18883-2456-46f0-abc0-e9976931819f-attachment.json' type='application/json' size='81'/>
+                        <attachment title='Response' source='e261f1f0-adda-4f60-93f1-b0c6e0a39c94-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648448266648' status='passed' stop='1648448266712'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='83325d7f-a678-40bf-a1f2-70bac5ed620b-attachment.json' type='application/json' size='81'/>
+                        <attachment title='Response' source='9c84f7a2-279b-4a4a-b293-ff33a3f94eaa-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648448266715' status='passed' stop='1648448266817'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='8d8aa776-667e-4ba9-8db2-130cc94f78fc-attachment.json' type='application/json' size='81'/>
+                        <attachment title='Response' source='5cf904ea-b64d-45fc-91f4-a825c37ba345-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648448266819' status='passed' stop='1648448267136'>
+                    <name>POST /session/:sessionId/element/ec01db9b-d164-40ea-b100-1ca67699be74/click</name>
+                    <title>POST /session/:sessionId/element/ec01db9b-d164-40ea-b100-1ca67699be74/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1648448267136' status='passed' stop='1648448268673'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='7a97e695-46bb-45db-a6ea-b8fb51f8c3d0-attachment.png' type='image/png' size='349512'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648448268679' status='passed' stop='1648448268724'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='665d4b8b-46bd-45ea-860d-e1aef852cfdf-attachment.json' type='application/json' size='74'/>
+                        <attachment title='Response' source='039ae525-62d7-4526-8f90-05de89b0cab5-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648448268727' status='passed' stop='1648448269807'>
+                    <name>POST /session/:sessionId/element/494e2c81-3006-473c-9fd9-a224aff21aad/click</name>
+                    <title>POST /session/:sessionId/element/494e2c81-3006-473c-9fd9-a224aff21aad/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1648448269809' status='broken' stop='1648448310595'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>chrome not reachable
+                  (Session info: chrome=99.0.4844.82)</message>
+                <stack-trace>chrome not reachable: chrome not reachable
+                  (Session info: chrome=99.0.4844.82)
+                    at getErrorFromResponseBody (C:\Users\FL_LPT-201\Documents\SauseDemoAssement\node_modules\webdriver\build\utils.js:197:12)
+                    at NodeJSRequest._request (C:\Users\FL_LPT-201\Documents\SauseDemoAssement\node_modules\webdriver\build\request\index.js:158:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Browser.wrapCommandFn (C:\Users\FL_LPT-201\Documents\SauseDemoAssement\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Browser.saveScreenshot (C:\Users\FL_LPT-201\Documents\SauseDemoAssement\node_modules\webdriverio\build\commands\browser\saveScreenshot.js:36:26)
+                    at Browser.wrapCommandFn (C:\Users\FL_LPT-201\Documents\SauseDemoAssement\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (C:\Users\FL_LPT-201\Documents\SauseDemoAssement\test\specs\/Amazon.js:32:1)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1648448310596' status='broken' stop='1648448359445'>
+            <name>Select 2No of Quantity</name>
+            <title>Select 2No of Quantity</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps>
+                <step start='1648448310598' status='broken' stop='1648448359445'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='db67607b-9ee0-4586-a5e4-319f9ef35e4f-attachment.json' type='application/json' size='63'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>chrome not reachable
+                  (Session info: chrome=99.0.4844.82)</message>
+                <stack-trace>chrome not reachable: chrome not reachable
+                  (Session info: chrome=99.0.4844.82)
+                    at getErrorFromResponseBody (C:\Users\FL_LPT-201\Documents\SauseDemoAssement\node_modules\webdriver\build\utils.js:197:12)
+                    at NodeJSRequest._request (C:\Users\FL_LPT-201\Documents\SauseDemoAssement\node_modules\webdriver\build\request\index.js:158:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Browser.wrapCommandFn (C:\Users\FL_LPT-201\Documents\SauseDemoAssement\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Browser.$ (C:\Users\FL_LPT-201\Documents\SauseDemoAssement\node_modules\webdriverio\build\commands\browser\$.js:88:17)
+                    at Browser.wrapCommandFn (C:\Users\FL_LPT-201\Documents\SauseDemoAssement\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (C:\Users\FL_LPT-201\Documents\SauseDemoAssement\test\specs\/Amazon.js:43:16)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1648448359446' status='broken' stop='1648448408286'>
+            <name>Enter PinCode And Assert eligible for free delivery</name>
+            <title>Enter PinCode And Assert eligible for free delivery</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps>
+                <step start='1648448359448' status='broken' stop='1648448408286'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='9c06423d-5334-4fc7-945e-6b6be7f5537e-attachment.json' type='application/json' size='63'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>chrome not reachable
+                  (Session info: chrome=99.0.4844.82)</message>
+                <stack-trace>chrome not reachable: chrome not reachable
+                  (Session info: chrome=99.0.4844.82)
+                    at getErrorFromResponseBody (C:\Users\FL_LPT-201\Documents\SauseDemoAssement\node_modules\webdriver\build\utils.js:197:12)
+                    at NodeJSRequest._request (C:\Users\FL_LPT-201\Documents\SauseDemoAssement\node_modules\webdriver\build\request\index.js:158:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Browser.wrapCommandFn (C:\Users\FL_LPT-201\Documents\SauseDemoAssement\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Browser.$ (C:\Users\FL_LPT-201\Documents\SauseDemoAssement\node_modules\webdriverio\build\commands\browser\$.js:88:17)
+                    at Browser.wrapCommandFn (C:\Users\FL_LPT-201\Documents\SauseDemoAssement\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (C:\Users\FL_LPT-201\Documents\SauseDemoAssement\test\specs\/Amazon.js:50:12)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1648448408287' status='broken' stop='1648448457101'>
+            <name>Make as a gift</name>
+            <title>Make as a gift</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps>
+                <step start='1648448408288' status='broken' stop='1648448457101'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='22181316-0c15-42c9-bc2e-24d1f3b31818-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>chrome not reachable
+                  (Session info: chrome=99.0.4844.82)</message>
+                <stack-trace>chrome not reachable: chrome not reachable
+                  (Session info: chrome=99.0.4844.82)
+                    at getErrorFromResponseBody (C:\Users\FL_LPT-201\Documents\SauseDemoAssement\node_modules\webdriver\build\utils.js:197:12)
+                    at NodeJSRequest._request (C:\Users\FL_LPT-201\Documents\SauseDemoAssement\node_modules\webdriver\build\request\index.js:158:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Browser.wrapCommandFn (C:\Users\FL_LPT-201\Documents\SauseDemoAssement\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Browser.$ (C:\Users\FL_LPT-201\Documents\SauseDemoAssement\node_modules\webdriverio\build\commands\browser\$.js:88:17)
+                    at Browser.wrapCommandFn (C:\Users\FL_LPT-201\Documents\SauseDemoAssement\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (C:\Users\FL_LPT-201\Documents\SauseDemoAssement\test\specs\/Amazon.js:61:16)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

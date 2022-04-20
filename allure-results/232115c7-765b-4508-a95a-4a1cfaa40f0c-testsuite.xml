@@ -1,0 +1,123 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1648256698607' stop='1648256723308'>
+    <name>AmazonTry</name>
+    <title>AmazonTry</title>
+    <test-cases>
+        <test-case start='1648256698608' status='passed' stop='1648256714215'>
+            <name>Open Amazon site and assert the url and title</name>
+            <title>Open Amazon site and assert the url and title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps>
+                <step start='1648256698612' status='passed' stop='1648256714173'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='2f234d08-d8a6-43bd-8199-ad6f7ed489c2-attachment.json' type='application/json' size='37'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648256714175' status='passed' stop='1648256714198'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='d709b9e8-0ecf-453e-8e16-94dd91e790ee-attachment.json' type='application/json' size='24'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648256714201' status='passed' stop='1648256714213'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='c8c02697-e41c-4820-be03-ea19e5722935-attachment.json' type='application/json' size='100'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1648256714216' status='broken' stop='1648256723307'>
+            <name>Search iphone 11 and sort by customer reviews</name>
+            <title>Search iphone 11 and sort by customer reviews</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps>
+                <step start='1648256714217' status='passed' stop='1648256714240'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='21244fda-03d9-476b-8fc0-38948c0e1139-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='eea78163-3553-484d-ad24-f184073c29f9-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648256714252' status='passed' stop='1648256714375'>
+                    <name>POST /session/:sessionId/element/294f1159-7e10-4b6d-a462-f35a5791e10c/value</name>
+                    <title>POST /session/:sessionId/element/294f1159-7e10-4b6d-a462-f35a5791e10c/value</title>
+                    <attachments>
+                        <attachment title='Request' source='1f0b427e-a55c-4382-8f27-e53fd7ed4f4f-attachment.json' type='application/json' size='25'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648256714376' status='passed' stop='1648256714396'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='dd91a4ac-d3c1-4ddd-869d-6d55a618cccf-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='4d7aa4c7-8e98-402b-82c5-780761b3a57f-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648256714399' status='passed' stop='1648256723074'>
+                    <name>POST /session/:sessionId/element/21f1a027-0269-4e41-9a5b-f61d286c6c02/click</name>
+                    <title>POST /session/:sessionId/element/21f1a027-0269-4e41-9a5b-f61d286c6c02/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1648256723075' status='passed' stop='1648256723130'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='8eae5e68-35b5-4a4c-a775-8adef7401f12-attachment.json' type='application/json' size='62'/>
+                        <attachment title='Response' source='b7223064-578e-494f-9268-3621edb6786d-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648256723134' status='passed' stop='1648256723229'>
+                    <name>POST /session/:sessionId/element/982eeab4-dc84-4a62-94c0-3f3e5ed5a043/click</name>
+                    <title>POST /session/:sessionId/element/982eeab4-dc84-4a62-94c0-3f3e5ed5a043/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1648256723230' status='passed' stop='1648256723296'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='38d53e6e-42d5-4428-94b0-13dfca719897-attachment.json' type='application/json' size='89'/>
+                        <attachment title='Response' source='c306c8c7-c5ef-4edc-89c3-bb6f4207d3a0-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>(intermediate value).click is not a function</message>
+                <stack-trace>TypeError: (intermediate value).click is not a function
+                    at Context.&lt;anonymous> (C:\Users\FL_LPT-201\Documents\SauseDemoAssement\test\specs\/Amazon.js:25:46)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

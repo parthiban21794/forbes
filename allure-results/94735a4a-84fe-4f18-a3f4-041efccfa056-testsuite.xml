@@ -1,0 +1,99 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650377416496' stop='1650377448261'>
+    <name>Check function of the home page</name>
+    <title>Check function of the home page</title>
+    <test-cases>
+        <test-case start='1650377416497' status='failed' stop='1650377448259'>
+            <name>Check the Function of Cover News</name>
+            <title>Check the Function of Cover News</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1650377416500' status='passed' stop='1650377429055'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='a8a48c48-6f22-48c8-9c26-97418dfdc42a-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650377429056' status='passed' stop='1650377429688'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='7d7dc265-c140-479d-8ad0-5924b1e8fa98-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650377434695' status='passed' stop='1650377434712'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4e8e0f36-fb0e-430e-938c-29512631eada-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='b43ea24c-8387-4994-a3a9-d6a9d9d2ae37-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650377434717' status='passed' stop='1650377434800'>
+                    <name>POST /session/:sessionId/element/fa85b8d1-a8c7-4df9-a3b5-bf0ccb82cb33/click</name>
+                    <title>POST /session/:sessionId/element/fa85b8d1-a8c7-4df9-a3b5-bf0ccb82cb33/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1650377435801' status='passed' stop='1650377437619'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a6e1286e-540c-4cd6-9010-0c8e9c1c7442-attachment.json' type='application/json' size='130'/>
+                        <attachment title='Response' source='4ce46ef2-8bc9-4168-b42f-71337796917a-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650377437624' status='passed' stop='1650377438224'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='9e3b3adf-0319-49f1-93f7-30bc280a36ba-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps>
+                        <step start='1650377437630' status='passed' stop='1650377438182'>
+                            <name>GET /session/:sessionId/element/71d121b4-7db0-4cbb-8514-d13db8fe0872/text</name>
+                            <title>GET /session/:sessionId/element/71d121b4-7db0-4cbb-8514-d13db8fe0872/text</title>
+                            <attachments>
+                                <attachment title='Response' source='3e8cfcdb-564c-4a48-b0af-e1a90042b7ce-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1650377438190' status='passed' stop='1650377438207'>
+                            <name>GET /session/:sessionId/element/7ed86c84-f792-4b23-8fd8-a4c5a17307e0/text</name>
+                            <title>GET /session/:sessionId/element/7ed86c84-f792-4b23-8fd8-a4c5a17307e0/text</title>
+                            <attachments>
+                                <attachment title='Response' source='6b11191a-f498-4a3e-8e0a-d86e6544f4d1-attachment.json' type='application/json' size='98'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Expect  to have property value containing
+                
+                Expected: {}
+                Received: undefined</message>
+                <stack-trace>Error: Expect  to have property value containing
+                
+                Expected: {}
+                Received: undefined
+                    at Context.&lt;anonymous> (C:\Users\FL_LPT-201\Documents\forbes\test\specs\/Home.js:18:42)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,76 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650080851906' stop='1650080866396'>
+    <name>Check the Sign In Functions</name>
+    <title>Check the Sign In Functions</title>
+    <test-cases>
+        <test-case start='1650080851907' status='broken' stop='1650080866395'>
+            <name>Email Empty</name>
+            <title>Email Empty</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1650080851909' status='passed' stop='1650080860099'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='9d33aed4-8cc2-48ce-a3b1-5ce0782f8d82-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650080860099' status='passed' stop='1650080862234'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='ab637e8e-d6be-469b-98e6-bd8be265261a-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650080864240' status='passed' stop='1650080864256'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='66e1f749-4079-4dc8-8c07-06d92634ea35-attachment.json' type='application/json' size='63'/>
+                        <attachment title='Response' source='145a990f-7d5d-4c53-acc3-2aa2d8a76753-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650080864261' status='passed' stop='1650080864329'>
+                    <name>POST /session/:sessionId/element/c7f7caca-dc1a-4546-ae56-3e898dec7b57/click</name>
+                    <title>POST /session/:sessionId/element/c7f7caca-dc1a-4546-ae56-3e898dec7b57/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1650080866341' status='passed' stop='1650080866362'>
+                    <name>POST /session/:sessionId/frame</name>
+                    <title>POST /session/:sessionId/frame</title>
+                    <attachments>
+                        <attachment title='Request' source='60228451-ba6b-43d0-b432-700123403978-attachment.json' type='application/json' size='14'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650080866363' status='passed' stop='1650080866382'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='14ad7e62-cf5a-4567-80a9-23f5ffb53989-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='8245038f-5363-4e85-86dd-96f77837943c-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>(intermediate value) is not a function</message>
+                <stack-trace>TypeError: (intermediate value) is not a function
+                    at Context.&lt;anonymous> (C:\Users\FL_LPT-201\Documents\forbes\test\specs\/login.js:45:15)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

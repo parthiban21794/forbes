@@ -1,0 +1,463 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650171845242' stop='1650171880154'>
+    <name>Check the Sign In Functions</name>
+    <title>Check the Sign In Functions</title>
+    <test-cases>
+        <test-case start='1650171845243' status='passed' stop='1650171859292'>
+            <name>Every Credential are empty</name>
+            <title>Every Credential are empty</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1650171845250' status='passed' stop='1650171852174'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='9b9f9fdb-5a54-4ef7-9ed1-8d0c212ac084-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650171852174' status='passed' stop='1650171854344'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='8f64af12-68c0-4153-9d77-85c62051f442-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650171856358' status='passed' stop='1650171856418'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0fea0c73-fe07-4ddc-b85d-f5519618b5af-attachment.json' type='application/json' size='63'/>
+                        <attachment title='Response' source='d2f806b2-c69d-4138-bb04-95702d82e20b-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650171856435' status='passed' stop='1650171856523'>
+                    <name>POST /session/:sessionId/element/5b67e70c-d11d-4a9b-acfe-c9db293a3254/click</name>
+                    <title>POST /session/:sessionId/element/5b67e70c-d11d-4a9b-acfe-c9db293a3254/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1650171858532' status='passed' stop='1650171858741'>
+                    <name>POST /session/:sessionId/frame</name>
+                    <title>POST /session/:sessionId/frame</title>
+                    <attachments>
+                        <attachment title='Request' source='73b13631-d169-4404-81c0-f1c2309d1c0e-attachment.json' type='application/json' size='14'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650171858741' status='passed' stop='1650171858761'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1301edef-84bf-4740-878a-fa5747a82fab-attachment.json' type='application/json' size='63'/>
+                        <attachment title='Response' source='55e5bc15-7430-4345-9dc6-6b7270e201c6-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650171858771' status='passed' stop='1650171858999'>
+                    <name>POST /session/:sessionId/element/ffd542a8-35e3-4291-9dcb-53b9887a1540/click</name>
+                    <title>POST /session/:sessionId/element/ffd542a8-35e3-4291-9dcb-53b9887a1540/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1650171859000' status='passed' stop='1650171859287'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='cf256438-2bc1-4998-a459-428324a50e9e-attachment.png' type='image/png' size='125226'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1650171859294' status='passed' stop='1650171864798'>
+            <name>Email Empty</name>
+            <title>Email Empty</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1650171859297' status='passed' stop='1650171859330'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5ea732b3-e806-426d-8a0c-0f0ad6aa9fbb-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='671b3ec7-c55b-4e5b-9b33-b54330962140-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650171859336' status='passed' stop='1650171859384'>
+                    <name>POST /session/:sessionId/element/7aca1c0b-602a-404c-8aee-c02560d39304/clear</name>
+                    <title>POST /session/:sessionId/element/7aca1c0b-602a-404c-8aee-c02560d39304/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1650171859397' status='passed' stop='1650171859480'>
+                    <name>POST /session/:sessionId/element/7aca1c0b-602a-404c-8aee-c02560d39304/value</name>
+                    <title>POST /session/:sessionId/element/7aca1c0b-602a-404c-8aee-c02560d39304/value</title>
+                    <attachments>
+                        <attachment title='Request' source='33f19a50-46fb-41d5-94bd-f873ad61f1e6-attachment.json' type='application/json' size='26'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650171861488' status='passed' stop='1650171861515'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='da6ef83d-190e-4548-964a-e0eb26988135-attachment.json' type='application/json' size='63'/>
+                        <attachment title='Response' source='afb55527-1d1f-47db-be0d-a6af094d97d9-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650171861522' status='passed' stop='1650171861634'>
+                    <name>POST /session/:sessionId/element/ffd542a8-35e3-4291-9dcb-53b9887a1540/click</name>
+                    <title>POST /session/:sessionId/element/ffd542a8-35e3-4291-9dcb-53b9887a1540/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1650171864635' status='passed' stop='1650171864796'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='5db0a597-b9e1-493f-a02f-1e423160c01e-attachment.png' type='image/png' size='110734'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1650171864798' status='broken' stop='1650171869977'>
+            <name>empty Password</name>
+            <title>empty Password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1650171864800' status='passed' stop='1650171864986'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a067269d-4e8d-419f-8d6e-0703b1f14abe-attachment.json' type='application/json' size='53'/>
+                    </attachments>
+                    <steps>
+                        <step start='1650171864803' status='passed' stop='1650171864816'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='66f983fe-df75-40fc-8b38-a175c6b3d685-attachment.json' type='application/json' size='50'/>
+                                <attachment title='Response' source='28f6214d-7c2f-4d08-a3a3-045da0a69820-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1650171864820' status='passed' stop='1650171864829'>
+                            <name>POST /session/:sessionId/element/7aca1c0b-602a-404c-8aee-c02560d39304/clear</name>
+                            <title>POST /session/:sessionId/element/7aca1c0b-602a-404c-8aee-c02560d39304/clear</title>
+                            <attachments>
+                                <attachment title='Response' source='07c2a50b-0010-41a4-83bd-478b057762af-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1650171864835' status='passed' stop='1650171864849'>
+                            <name>POST /session/:sessionId/element/c86050e8-dd2e-47a6-bdd6-6bf70d200885/clear</name>
+                            <title>POST /session/:sessionId/element/c86050e8-dd2e-47a6-bdd6-6bf70d200885/clear</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1650171864850' status='passed' stop='1650171864885'>
+                            <name>POST /session/:sessionId/element/7aca1c0b-602a-404c-8aee-c02560d39304/value</name>
+                            <title>POST /session/:sessionId/element/7aca1c0b-602a-404c-8aee-c02560d39304/value</title>
+                            <attachments>
+                                <attachment title='Request' source='ae505052-dce3-4af3-922c-c5e39ba347b9-attachment.json' type='application/json' size='16'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1650171864888' status='passed' stop='1650171864918'>
+                            <name>POST /session/:sessionId/element/c86050e8-dd2e-47a6-bdd6-6bf70d200885/value</name>
+                            <title>POST /session/:sessionId/element/c86050e8-dd2e-47a6-bdd6-6bf70d200885/value</title>
+                            <attachments>
+                                <attachment title='Request' source='4821cf68-b7a4-4957-94d8-ee48a2c350ae-attachment.json' type='application/json' size='40'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1650171866816' status='passed' stop='1650171866830'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6d26dd6f-3ca7-49f9-812e-238669cb23dc-attachment.json' type='application/json' size='63'/>
+                        <attachment title='Response' source='f020689b-9f25-48d4-b1cf-17d4fed6e2af-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650171866831' status='passed' stop='1650171866883'>
+                    <name>POST /session/:sessionId/element/ffd542a8-35e3-4291-9dcb-53b9887a1540/click</name>
+                    <title>POST /session/:sessionId/element/ffd542a8-35e3-4291-9dcb-53b9887a1540/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1650171869891' status='passed' stop='1650171869961'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received null</message>
+                <stack-trace>TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received null
+                    at new NodeError (node:internal/errors:371:5)
+                    at Function.from (node:buffer:322:9)
+                    at Browser.saveScreenshot (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriverio\build\commands\browser\saveScreenshot.js:37:31)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Browser.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (C:\Users\FL_LPT-201\Documents\forbes\test\specs\/login.js:31:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1650171869978' status='broken' stop='1650171872025'>
+            <name>Function Of ValidUserName And InValidPassword</name>
+            <title>Function Of ValidUserName And InValidPassword</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1650171869979' status='broken' stop='1650171872025'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='efb64dd1-c8c4-4d4c-bf9c-3a639dd588f3-attachment.json' type='application/json' size='53'/>
+                    </attachments>
+                    <steps>
+                        <step start='1650171869983' status='broken' stop='1650171872025'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='f0668b83-a141-4992-b5bd-17477ad4f016-attachment.json' type='application/json' size='50'/>
+                            </attachments>
+                            <steps>
+                                <step start='1650171871985' status='broken' stop='1650171872025'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='67176b3f-f5a5-4a9a-adbb-a87f2e9d06e8-attachment.json' type='application/json' size='63'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=100.0.4896.127)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=100.0.4896.127)
+                    at getErrorFromResponseBody (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriver\build\utils.js:197:12)
+                    at NodeJSRequest._request (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriver\build\request\index.js:158:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Browser.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Browser.$ (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriverio\build\commands\browser\$.js:88:17)
+                    at Browser.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (C:\Users\FL_LPT-201\Documents\forbes\test\specs\/login.js:40:16)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1650171872026' status='broken' stop='1650171874061'>
+            <name>Function Of InValidUserName And ValidPassword</name>
+            <title>Function Of InValidUserName And ValidPassword</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1650171872026' status='broken' stop='1650171874061'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f5107bd0-fca1-43fa-8a9d-0b2e232cf3fe-attachment.json' type='application/json' size='53'/>
+                    </attachments>
+                    <steps>
+                        <step start='1650171872031' status='broken' stop='1650171874061'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='0584b084-5c07-4546-81fa-b6c2cc1acc0a-attachment.json' type='application/json' size='50'/>
+                            </attachments>
+                            <steps>
+                                <step start='1650171874036' status='broken' stop='1650171874061'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='8861db43-73ed-481d-ac0a-2db0406c14e9-attachment.json' type='application/json' size='63'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=100.0.4896.127)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=100.0.4896.127)
+                    at getErrorFromResponseBody (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriver\build\utils.js:197:12)
+                    at NodeJSRequest._request (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriver\build\request\index.js:158:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Browser.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Browser.$ (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriverio\build\commands\browser\$.js:88:17)
+                    at Browser.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (C:\Users\FL_LPT-201\Documents\forbes\test\specs\/login.js:49:16)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1650171874061' status='broken' stop='1650171876094'>
+            <name>Function Of InValidUserName And InValidPassword</name>
+            <title>Function Of InValidUserName And InValidPassword</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1650171874063' status='broken' stop='1650171876094'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5ed5cea1-66ae-41f3-bc13-95baf3824c25-attachment.json' type='application/json' size='53'/>
+                    </attachments>
+                    <steps>
+                        <step start='1650171874067' status='broken' stop='1650171876094'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='2ed14aeb-28ba-4619-a15a-f0fe56b378bc-attachment.json' type='application/json' size='50'/>
+                            </attachments>
+                            <steps>
+                                <step start='1650171876072' status='broken' stop='1650171876094'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='a947b9e2-3151-4d3b-97ee-f985c5bb588f-attachment.json' type='application/json' size='63'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=100.0.4896.127)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=100.0.4896.127)
+                    at getErrorFromResponseBody (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriver\build\utils.js:197:12)
+                    at NodeJSRequest._request (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriver\build\request\index.js:158:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Browser.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Browser.$ (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriverio\build\commands\browser\$.js:88:17)
+                    at Browser.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (C:\Users\FL_LPT-201\Documents\forbes\test\specs\/login.js:57:16)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1650171876095' status='broken' stop='1650171880153'>
+            <name>Email Password</name>
+            <title>Email Password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1650171878115' status='broken' stop='1650171880153'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ed035b94-b12f-4d5f-b6c6-a02ca053acfd-attachment.json' type='application/json' size='53'/>
+                    </attachments>
+                    <steps>
+                        <step start='1650171878122' status='broken' stop='1650171880153'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='ea58c520-4928-4747-b0ed-f23ecae4a832-attachment.json' type='application/json' size='50'/>
+                            </attachments>
+                            <steps>
+                                <step start='1650171880129' status='broken' stop='1650171880153'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='1ae54c0b-d12c-4c28-b95b-e82b6683a9f4-attachment.json' type='application/json' size='63'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=100.0.4896.127)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=100.0.4896.127)
+                    at getErrorFromResponseBody (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriver\build\utils.js:197:12)
+                    at NodeJSRequest._request (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriver\build\request\index.js:158:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Browser.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Browser.$ (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriverio\build\commands\browser\$.js:88:17)
+                    at Browser.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (C:\Users\FL_LPT-201\Documents\forbes\test\specs\/login.js:68:16)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

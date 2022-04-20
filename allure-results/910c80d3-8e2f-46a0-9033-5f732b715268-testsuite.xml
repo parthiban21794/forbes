@@ -1,0 +1,94 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650363866135' stop='1650363926182'>
+    <name>Check function of the home page</name>
+    <title>Check function of the home page</title>
+    <test-cases>
+        <test-case start='1650363866137' status='broken' stop='1650363926174'>
+            <name>Check the Function of Cover News</name>
+            <title>Check the Function of Cover News</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1650363866143' status='passed' stop='1650363913354'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='c83013ab-1561-4440-bcbc-e249772aa8cd-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650363913355' status='passed' stop='1650363913590'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='419e44a1-2ca2-4668-8a06-bf57571d18e5-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650363918607' status='passed' stop='1650363918668'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b34f204f-68b6-437b-b238-5a868f873566-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='a8721570-757a-4bf0-83ea-4e39566d8941-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650363918686' status='passed' stop='1650363918776'>
+                    <name>POST /session/:sessionId/element/3353aab1-5d42-412f-a5d4-55839f11f505/click</name>
+                    <title>POST /session/:sessionId/element/3353aab1-5d42-412f-a5d4-55839f11f505/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1650363919786' status='passed' stop='1650363920331'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='96e1a9a0-bf7e-4119-9ae5-ca2b446ace65-attachment.json' type='application/json' size='130'/>
+                        <attachment title='Response' source='bc047530-a4aa-45a1-b031-446bef2f73dd-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650363920340' status='broken' stop='1650363926173'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c5724446-abe2-4a17-9bf8-7fa1c279feb7-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps>
+                        <step start='1650363920346' status='passed' stop='1650363920850'>
+                            <name>GET /session/:sessionId/element/59207201-b36a-479c-9be4-7d66a6a2baab/text</name>
+                            <title>GET /session/:sessionId/element/59207201-b36a-479c-9be4-7d66a6a2baab/text</title>
+                            <attachments>
+                                <attachment title='Response' source='1c121c73-9233-4ef8-b84a-1faa5f9398de-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1650363920853' status='broken' stop='1650363926173'>
+                            <name>GET /session/:sessionId/element/fb5a4853-e6a6-4cd4-b0bd-ed4cfef11bdb/text</name>
+                            <title>GET /session/:sessionId/element/fb5a4853-e6a6-4cd4-b0bd-ed4cfef11bdb/text</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "Check function of the home page Check the Function of Cover News" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\FL_LPT-201\Documents\forbes\test\specs\Home.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "Check function of the home page Check the Function of Cover News" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\FL_LPT-201\Documents\forbes\test\specs\Home.js)
+                    at createTimeoutError (C:\Users\FL_LPT-201\Documents\forbes\node_modules\mocha\lib\errors.js:498:15)
+                    at Test.Runnable._timeoutError (C:\Users\FL_LPT-201\Documents\forbes\node_modules\mocha\lib\runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (C:\Users\FL_LPT-201\Documents\forbes\node_modules\mocha\lib\runnable.js:246:24)
+                    at listOnTimeout (node:internal/timers:559:17)
+                    at processTimers (node:internal/timers:502:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

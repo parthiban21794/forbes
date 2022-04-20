@@ -1,0 +1,138 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650160521399' stop='1650160547786'>
+    <name>Function of the subscription page</name>
+    <title>Function of the subscription page</title>
+    <test-cases>
+        <test-case start='1650160521401' status='broken' stop='1650160547784'>
+            <name>subscripe the plan of $49.99</name>
+            <title>subscripe the plan of $49.99</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1650160521409' status='passed' stop='1650160531722'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='b9b58692-62af-42c1-b707-1f3d8781dddb-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650160531723' status='passed' stop='1650160531952'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='2488c1a5-ba1e-44cf-8f10-2425bc35f1e9-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650160536961' status='passed' stop='1650160536991'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='fd018ab5-146e-4e55-9dfe-53a583cdbba0-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='ad432c28-741c-475b-b349-1799bdd3f0a6-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650160537002' status='passed' stop='1650160537217'>
+                    <name>POST /session/:sessionId/element/851f2774-969b-44e2-bae1-4201de27384f/click</name>
+                    <title>POST /session/:sessionId/element/851f2774-969b-44e2-bae1-4201de27384f/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1650160542231' status='passed' stop='1650160542245'>
+                    <name>GET /session/:sessionId/window/handles</name>
+                    <title>GET /session/:sessionId/window/handles</title>
+                    <attachments>
+                        <attachment title='Response' source='e25c54d6-c75e-48d3-acb5-6801fc6d330a-attachment.json' type='application/json' size='96'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650160542245' status='passed' stop='1650160542295'>
+                    <name>POST /session/:sessionId/window</name>
+                    <title>POST /session/:sessionId/window</title>
+                    <attachments>
+                        <attachment title='Request' source='1f76c509-edfc-4cbd-8055-8b25b154a4fd-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650160542295' status='passed' stop='1650160542345'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='ef4b5ada-3993-413b-8da5-782e94370417-attachment.json' type='application/json' size='41'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650160542345' status='passed' stop='1650160542377'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='38f4b10f-f77f-480a-bb53-b54590cd01d6-attachment.json' type='application/json' size='8'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650160542378' status='passed' stop='1650160542413'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='fd01daad-44eb-40ea-b9ca-e36ac1cadb46-attachment.json' type='application/json' size='81'/>
+                        <attachment title='Response' source='3d6e3e46-18a4-440c-a434-9941625e2b1c-attachment.json' type='application/json' size='10'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650160542413' status='passed' stop='1650160542467'>
+                    <name>POST /session/:sessionId/window</name>
+                    <title>POST /session/:sessionId/window</title>
+                    <attachments>
+                        <attachment title='Request' source='8ec22c7b-1e4a-45e0-8b65-d2ce380c6ab6-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650160542467' status='passed' stop='1650160542572'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='c6ee9800-0892-48c4-98ac-7b98f7039da7-attachment.json' type='application/json' size='100'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650160542573' status='passed' stop='1650160542601'>
+                    <name>POST /session/:sessionId/frame</name>
+                    <title>POST /session/:sessionId/frame</title>
+                    <attachments>
+                        <attachment title='Request' source='781cbf62-e17f-4181-9d91-dbfb9f6c4747-attachment.json' type='application/json' size='13'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650160542602' status='passed' stop='1650160542631'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b5462f58-d502-437b-9f14-f8141289d7ff-attachment.json' type='application/json' size='90'/>
+                        <attachment title='Response' source='7eb6eb22-2ed3-420c-8c7f-4e331dadb42d-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650160542638' status='passed' stop='1650160542763'>
+                    <name>POST /session/:sessionId/element/232aaf2b-54a5-4f69-8b35-2693401b9b06/click</name>
+                    <title>POST /session/:sessionId/element/232aaf2b-54a5-4f69-8b35-2693401b9b06/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>awaitbrrowser is not defined</message>
+                <stack-trace>ReferenceError: awaitbrrowser is not defined
+                    at Context.&lt;anonymous> (C:\Users\FL_LPT-201\Documents\forbes\test\specs\/Subscribe.js:18:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650179800244' stop='1650179819291'>
+    <name>Check The Function Of BreakingNews</name>
+    <title>Check The Function Of BreakingNews</title>
+    <test-cases>
+        <test-case start='1650179800245' status='broken' stop='1650179819288'>
+            <name>Open The Breaking News By BreakingNews Tag</name>
+            <title>Open The Breaking News By BreakingNews Tag</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1650179800249' status='passed' stop='1650179808348'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='9f1c07a4-5372-4dd3-8b56-89ecf4268e10-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650179813357' status='passed' stop='1650179813475'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='67a79ada-1306-4ed7-939e-6ca247acf643-attachment.json' type='application/json' size='77'/>
+                        <attachment title='Response' source='a58bdc5a-4851-4b17-ae68-6c8da2fd692a-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650179813485' status='passed' stop='1650179813512'>
+                    <name>GET /session/:sessionId/element/f0454dca-d586-4ace-bd12-9c9db99c79b4/text</name>
+                    <title>GET /session/:sessionId/element/f0454dca-d586-4ace-bd12-9c9db99c79b4/text</title>
+                    <attachments>
+                        <attachment title='Response' source='b72c5ef4-5d0a-4344-85fd-eebdcaed65b4-attachment.json' type='application/json' size='82'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650179815523' status='passed' stop='1650179815547'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f43b00e2-70e3-437f-9982-f5ffc723d734-attachment.json' type='application/json' size='77'/>
+                        <attachment title='Response' source='20e6821c-2df5-44fd-9257-e863ff5ad2de-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650179815554' status='passed' stop='1650179815653'>
+                    <name>POST /session/:sessionId/element/f0454dca-d586-4ace-bd12-9c9db99c79b4/click</name>
+                    <title>POST /session/:sessionId/element/f0454dca-d586-4ace-bd12-9c9db99c79b4/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1650179817667' status='broken' stop='1650179819288'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid session id</message>
+                <stack-trace>invalid session id: invalid session id
+                    at getErrorFromResponseBody (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriver\build\utils.js:197:12)
+                    at NodeJSRequest._request (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriver\build\request\index.js:158:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Browser.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Browser.saveScreenshot (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriverio\build\commands\browser\saveScreenshot.js:36:26)
+                    at Browser.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (C:\Users\FL_LPT-201\Documents\forbes\test\specs\/BreakingNews.js:14:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

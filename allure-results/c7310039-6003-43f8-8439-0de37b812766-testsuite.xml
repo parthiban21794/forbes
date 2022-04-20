@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650074115183' stop='1650074128294'>
+    <name>Check the Sign In Functions</name>
+    <title>Check the Sign In Functions</title>
+    <test-cases>
+        <test-case start='1650074115184' status='broken' stop='1650074128291'>
+            <name>Check the Sign in option</name>
+            <title>Check the Sign in option</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1650074115195' status='passed' stop='1650074121826'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='44c6426a-c47f-4206-9543-19f01b3e1df6-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650074121826' status='passed' stop='1650074124059'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='44ec354e-f4fb-47bb-9a9d-f932c394f4b5-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650074126073' status='passed' stop='1650074126119'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d48a53da-7bca-4f4b-8eb7-c89fc606ee9a-attachment.json' type='application/json' size='63'/>
+                        <attachment title='Response' source='b7e1dfa6-4397-432f-8dda-de937f5ed9e9-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650074126133' status='passed' stop='1650074126223'>
+                    <name>POST /session/:sessionId/element/98c47f2e-ce85-44bd-a2bc-21fc159b1824/click</name>
+                    <title>POST /session/:sessionId/element/98c47f2e-ce85-44bd-a2bc-21fc159b1824/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1650074128232' status='passed' stop='1650074128276'>
+                    <name>POST /session/:sessionId/frame</name>
+                    <title>POST /session/:sessionId/frame</title>
+                    <attachments>
+                        <attachment title='Request' source='56cb5f04-3125-4bba-8d8e-9a43b3f544e3-attachment.json' type='application/json' size='14'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>validPass is not defined</message>
+                <stack-trace>ReferenceError: validPass is not defined
+                    at Context.&lt;anonymous> (C:\Users\FL_LPT-201\Documents\forbes\test\specs\/login.js:13:57)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

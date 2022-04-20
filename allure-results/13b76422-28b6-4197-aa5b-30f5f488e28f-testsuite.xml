@@ -1,0 +1,97 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650375791105' stop='1650375824387'>
+    <name>Check The Function Of BreakingNews</name>
+    <title>Check The Function Of BreakingNews</title>
+    <test-cases>
+        <test-case start='1650375791106' status='failed' stop='1650375824386'>
+            <name>Open The Breaking News By BreakingNews Tag</name>
+            <title>Open The Breaking News By BreakingNews Tag</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1650375791110' status='passed' stop='1650375797096'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='d610ddf1-f634-4f35-9c5c-768a1c1da86d-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650375797096' status='passed' stop='1650375797246'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='f3b6443d-841f-49a4-a535-00914c6a86df-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650375802264' status='passed' stop='1650375802295'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='81646ae7-119c-46cf-a117-8fe6b9732f03-attachment.json' type='application/json' size='77'/>
+                        <attachment title='Response' source='d350db4e-ad2a-40cf-b2e5-af01d6829248-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650375802302' status='passed' stop='1650375802318'>
+                    <name>GET /session/:sessionId/element/72179429-4006-4539-b6c8-ce6f0df0ed62/text</name>
+                    <title>GET /session/:sessionId/element/72179429-4006-4539-b6c8-ce6f0df0ed62/text</title>
+                    <attachments>
+                        <attachment title='Response' source='d2af9750-df1c-43e1-9394-b0c65c558b7b-attachment.json' type='application/json' size='51'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650375804328' status='passed' stop='1650375804355'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='faa01f44-7ebe-47e8-a19f-79c960aff69d-attachment.json' type='application/json' size='77'/>
+                        <attachment title='Response' source='c1787dc1-fdce-4058-90ef-5188e7c4481e-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650375804358' status='passed' stop='1650375804427'>
+                    <name>POST /session/:sessionId/element/72179429-4006-4539-b6c8-ce6f0df0ed62/click</name>
+                    <title>POST /session/:sessionId/element/72179429-4006-4539-b6c8-ce6f0df0ed62/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1650375806443' status='passed' stop='1650375820333'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='79291de7-7e04-490c-bd1e-722fb337e571-attachment.png' type='image/png' size='487362'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650375822339' status='passed' stop='1650375822353'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='0c051f77-a105-4c1e-9064-7121cc9042e9-attachment.json' type='application/json' size='8'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expect(received).toEqual(expected) // deep equality
+                
+                Expected: "Uber Abandons Mask Mandate For Riders And Drivers"
+                Received: "Forbes"</message>
+                <stack-trace>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: "Uber Abandons Mask Mandate For Riders And Drivers"
+                Received: "Forbes"
+                    at Context.&lt;anonymous> (C:\Users\FL_LPT-201\Documents\forbes\test\specs\/BreakingNews.js:20:31)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

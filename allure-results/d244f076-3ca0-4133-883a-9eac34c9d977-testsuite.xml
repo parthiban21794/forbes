@@ -1,0 +1,108 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1648256755136' stop='1648256767803'>
+    <name>AmazonTry</name>
+    <title>AmazonTry</title>
+    <test-cases>
+        <test-case start='1648256755138' status='passed' stop='1648256763621'>
+            <name>Open Amazon site and assert the url and title</name>
+            <title>Open Amazon site and assert the url and title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps>
+                <step start='1648256755142' status='passed' stop='1648256763529'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='825067ad-6450-40db-b1b6-fee409fe7df8-attachment.json' type='application/json' size='37'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648256763531' status='passed' stop='1648256763577'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='effcc5d0-26f3-42aa-b89b-bad5046a7f3f-attachment.json' type='application/json' size='24'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648256763584' status='passed' stop='1648256763617'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='dd777dfd-5843-4d27-93bd-57272e990253-attachment.json' type='application/json' size='100'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1648256763625' status='passed' stop='1648256767802'>
+            <name>Search iphone 11 and sort by customer reviews</name>
+            <title>Search iphone 11 and sort by customer reviews</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps>
+                <step start='1648256763628' status='passed' stop='1648256763734'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b7ae841a-48da-4a83-a1fb-751e9d999444-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='478ca5c7-7e52-4d12-85a0-5f3399588482-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648256763755' status='passed' stop='1648256763923'>
+                    <name>POST /session/:sessionId/element/da734685-c9cb-4eba-a6a1-6cdbd9d0764b/value</name>
+                    <title>POST /session/:sessionId/element/da734685-c9cb-4eba-a6a1-6cdbd9d0764b/value</title>
+                    <attachments>
+                        <attachment title='Request' source='c5b67466-2f36-4630-9f22-7c9608df327e-attachment.json' type='application/json' size='25'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648256763924' status='passed' stop='1648256763942'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c7539817-a8d4-4bca-8543-1ad95b24f99b-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='99646440-686c-4aed-9756-73d3537eaab8-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648256763946' status='passed' stop='1648256767679'>
+                    <name>POST /session/:sessionId/element/d2184f7d-060e-4fdf-b800-676618de4ee7/click</name>
+                    <title>POST /session/:sessionId/element/d2184f7d-060e-4fdf-b800-676618de4ee7/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1648256767679' status='passed' stop='1648256767697'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a240afcb-c1db-4de1-bf40-2481f2b6728e-attachment.json' type='application/json' size='62'/>
+                        <attachment title='Response' source='f82346ef-dc70-441b-863d-31b3f86e137b-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648256767702' status='passed' stop='1648256767801'>
+                    <name>POST /session/:sessionId/element/2835c409-7883-42c1-8344-ebfe80c53980/click</name>
+                    <title>POST /session/:sessionId/element/2835c409-7883-42c1-8344-ebfe80c53980/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

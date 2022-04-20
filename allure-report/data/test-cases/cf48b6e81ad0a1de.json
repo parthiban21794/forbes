@@ -1,0 +1,246 @@
+{
+  "uid" : "cf48b6e81ad0a1de",
+  "name" : "List of news in breaking news section",
+  "fullName" : "Check function of the home page.List of news in breaking news section",
+  "historyId" : "6bcb7398f9544b4c38df35f29807096",
+  "time" : {
+    "start" : 1650361776821,
+    "stop" : 1650361799937,
+    "duration" : 23116
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1650361776827,
+        "stop" : 1650361784162,
+        "duration" : 7335
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a20eb18bac190622",
+        "name" : "Request",
+        "source" : "a20eb18bac190622.json",
+        "type" : "application/json",
+        "size" : 38
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1650361784163,
+        "stop" : 1650361784645,
+        "duration" : 482
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "24a669623a2f6659",
+        "name" : "Response",
+        "source" : "24a669623a2f6659.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1650361789655,
+        "stop" : 1650361789729,
+        "duration" : 74
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fd2aa208284b14ac",
+        "name" : "Request",
+        "source" : "fd2aa208284b14ac.json",
+        "type" : "application/json",
+        "size" : 84
+      }, {
+        "uid" : "1a1b7fb33d9aa1d6",
+        "name" : "Response",
+        "source" : "1a1b7fb33d9aa1d6.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1650361789746,
+        "stop" : 1650361789931,
+        "duration" : 185
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/element/43c1be81-58d3-483d-8349-a528b920a915/text",
+        "time" : {
+          "start" : 1650361789757,
+          "stop" : 1650361789799,
+          "duration" : 42
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "ca9df7b7543372c3",
+          "name" : "Response",
+          "source" : "ca9df7b7543372c3.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /session/:sessionId/element/b6641cf9-12de-4797-9a9f-eeb8d59bbd29/click",
+        "time" : {
+          "start" : 1650361789804,
+          "stop" : 1650361789837,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "7385487daeeb4f44",
+          "name" : "Response",
+          "source" : "7385487daeeb4f44.json",
+          "type" : "application/json",
+          "size" : 375
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "a0a1b2e60322026b",
+        "name" : "Request",
+        "source" : "a0a1b2e60322026b.json",
+        "type" : "application/json",
+        "size" : 71
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Check function of the home page"
+  }, {
+    "name" : "testClass",
+    "value" : "Check function of the home page"
+  }, {
+    "name" : "testMethod",
+    "value" : "List of news in breaking news section"
+  }, {
+    "name" : "package",
+    "value" : "Check function of the home page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "55162e15b1faffe6",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Check function of the home page List of news in breaking news section\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\Home.js)",
+      "time" : {
+        "start" : 1650361643163,
+        "stop" : 1650361703194,
+        "duration" : 60031
+      }
+    }, {
+      "uid" : "e5b19d8071ec5d1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650361480724,
+        "stop" : 1650361520995,
+        "duration" : 40271
+      }
+    }, {
+      "uid" : "b241fdb9cc0943eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650361267863,
+        "stop" : 1650361284219,
+        "duration" : 16356
+      }
+    }, {
+      "uid" : "6226de23ff3b929b",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"//fbs-carousel[@class='happening-now__carousel fbs-slider _f9ip730q311k00 fbs-slider--initialized']\" because element wasn't found",
+      "time" : {
+        "start" : 1650360836053,
+        "stop" : 1650360851070,
+        "duration" : 15017
+      }
+    }, {
+      "uid" : "59b2d30287ed311",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650360686558,
+        "stop" : 1650360690389,
+        "duration" : 3831
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cf48b6e81ad0a1de.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}

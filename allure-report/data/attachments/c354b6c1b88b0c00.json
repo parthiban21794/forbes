@@ -1,0 +1,133 @@
+{
+  "id": {
+    "sessionId": "1b20962f8d0bbf333466be8e9748b96a",
+    "error": {
+      "error": "no such element",
+      "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class='tp-iframe-wrapper tp-active']//iframe[starts-with(@id,'offer-')]\"}\n  (Session info: chrome=100.0.4896.127)",
+      "stacktrace": "Backtrace:\n\tOrdinal0 [0x00979943+2595139]\n\tOrdinal0 [0x0090C9F1+2148849]\n\tOrdinal0 [0x00804528+1066280]\n\tOrdinal0 [0x00830FD4+1249236]\n\tOrdinal0 [0x008311CB+1249739]\n\tOrdinal0 [0x0085D812+1431570]\n\tOrdinal0 [0x0084BA34+1358388]\n\tOrdinal0 [0x0085BAF2+1424114]\n\tOrdinal0 [0x0084B806+1357830]\n\tOrdinal0 [0x00826086+1204358]\n\tOrdinal0 [0x00826F96+1208214]\n\tGetHandleVerifier [0x00B1B232+1658114]\n\tGetHandleVerifier [0x00BD312C+2411516]\n\tGetHandleVerifier [0x00A0F261+560433]\n\tGetHandleVerifier [0x00A0E366+556598]\n\tOrdinal0 [0x0091286B+2173035]\n\tOrdinal0 [0x009175F8+2192888]\n\tOrdinal0 [0x009176E5+2193125]\n\tOrdinal0 [0x009211FC+2232828]\n\tBaseThreadInitThunk [0x7676FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x778C7A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x778C7A4E+238]\n"
+    },
+    "selector": "//div[@class='tp-iframe-wrapper tp-active']//iframe[starts-with(@id,'offer-')]",
+    "parent": {
+      "sessionId": "1b20962f8d0bbf333466be8e9748b96a",
+      "capabilities": {
+        "acceptInsecureCerts": true,
+        "browserName": "chrome",
+        "browserVersion": "100.0.4896.127",
+        "chrome": {
+          "chromedriverVersion": "99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875})",
+          "userDataDir": "C:\\Users\\FL_LPT~1\\AppData\\Local\\Temp\\scoped_dir3692_1611835812"
+        },
+        "goog:chromeOptions": {
+          "debuggerAddress": "localhost:62154"
+        },
+        "networkConnectionEnabled": false,
+        "pageLoadStrategy": "normal",
+        "platformName": "windows",
+        "proxy": {},
+        "setWindowRect": true,
+        "strictFileInteractability": false,
+        "timeouts": {
+          "implicit": 0,
+          "pageLoad": 300000,
+          "script": 30000
+        },
+        "unhandledPromptBehavior": "dismiss and notify",
+        "webauthn:extension:credBlob": true,
+        "webauthn:extension:largeBlob": true,
+        "webauthn:virtualAuthenticators": true
+      },
+      "config": {
+        "specs": [
+          "C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\Subscribe.js"
+        ],
+        "suites": {},
+        "exclude": [],
+        "logLevel": "info",
+        "logLevels": {},
+        "excludeDriverLogs": [],
+        "bail": 0,
+        "waitforInterval": 500,
+        "waitforTimeout": 10000,
+        "framework": "mocha",
+        "reporters": [
+          "spec",
+          [
+            "allure",
+            {
+              "outputDir": "allure-results",
+              "disableWebdriverStepsReporting": false,
+              "disableWebdriverScreenshotsReporting": false
+            }
+          ]
+        ],
+        "services": [
+          "chromedriver"
+        ],
+        "maxInstances": 10,
+        "maxInstancesPerCapability": 100,
+        "filesToWatch": [],
+        "connectionRetryTimeout": 120000,
+        "connectionRetryCount": 3,
+        "execArgv": [],
+        "runnerEnv": {},
+        "runner": "local",
+        "specFileRetries": 0,
+        "specFileRetriesDelay": 0,
+        "specFileRetriesDeferred": false,
+        "reporterSyncInterval": 100,
+        "reporterSyncTimeout": 5000,
+        "cucumberFeaturesWithLineNumbers": [],
+        "autoCompileOpts": {
+          "autoCompile": true,
+          "tsNodeOpts": {
+            "transpileOnly": true
+          },
+          "babelOpts": {}
+        },
+        "mochaOpts": {
+          "timeout": 60000,
+          "ui": "bdd"
+        },
+        "jasmineOpts": {
+          "defaultTimeoutInterval": 10000
+        },
+        "cucumberOpts": {
+          "timeout": 10000
+        },
+        "onPrepare": [],
+        "onWorkerStart": [],
+        "onWorkerEnd": [],
+        "before": [],
+        "beforeSession": [],
+        "beforeSuite": [],
+        "beforeHook": [],
+        "beforeTest": [],
+        "beforeCommand": [],
+        "afterCommand": [],
+        "afterTest": [],
+        "afterHook": [],
+        "afterSuite": [],
+        "afterSession": [],
+        "after": [],
+        "onComplete": [
+          null
+        ],
+        "onReload": [],
+        "beforeFeature": [],
+        "beforeScenario": [],
+        "beforeStep": [],
+        "afterStep": [],
+        "afterScenario": [],
+        "afterFeature": [],
+        "baseUrl": "https://www.forbes.com/?sh=66acca7d2254",
+        "_": [],
+        "spec": [
+          "test/specs/Subscribe.js\\"
+        ],
+        "$0": "node_modules\\@wdio\\cli\\bin\\wdio.js",
+        "ignoredWorkerServices": []
+      }
+    },
+    "isReactElement": false
+  }
+}

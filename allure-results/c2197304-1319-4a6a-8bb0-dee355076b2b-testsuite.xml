@@ -1,0 +1,51 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650169365541' stop='1650169382730'>
+    <name>Check The Function Of Hamburger Menu</name>
+    <title>Check The Function Of Hamburger Menu</title>
+    <test-cases>
+        <test-case start='1650169365542' status='broken' stop='1650169382728'>
+            <name>mghhj</name>
+            <title>mghhj</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1650169365549' status='passed' stop='1650169372547'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='c0d37475-231a-40ce-b586-32ff47ab3e33-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650169382559' status='passed' stop='1650169382610'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5cebd9c3-d9f5-4162-bb9a-c6184eee8bbc-attachment.json' type='application/json' size='77'/>
+                        <attachment title='Response' source='c736790b-521b-4191-9c30-24f707720421-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650169382618' status='passed' stop='1650169382720'>
+                    <name>POST /session/:sessionId/element/f453b4de-b5ce-416b-867c-2e18da7dea8d/click</name>
+                    <title>POST /session/:sessionId/element/f453b4de-b5ce-416b-867c-2e18da7dea8d/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>h2 is not defined</message>
+                <stack-trace>ReferenceError: h2 is not defined
+                    at Context.&lt;anonymous> (C:\Users\FL_LPT-201\Documents\forbes\test\specs\/Menu.js:19:22)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

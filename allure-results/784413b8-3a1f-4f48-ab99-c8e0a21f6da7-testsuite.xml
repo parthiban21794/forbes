@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650171505837' stop='1650171565871'>
+    <name>Check The Function Of Hamburger Menu</name>
+    <title>Check The Function Of Hamburger Menu</title>
+    <test-cases>
+        <test-case start='1650171505839' status='broken' stop='1650171565869'>
+            <name>mghhj</name>
+            <title>mghhj</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1650171505846' status='passed' stop='1650171551687'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='7bb386aa-63ef-4963-b4e0-4caea1cda215-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650171561710' status='passed' stop='1650171561805'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='df9b2452-3e6f-438c-bbb8-2778af35809c-attachment.json' type='application/json' size='77'/>
+                        <attachment title='Response' source='2108cdf1-e109-441d-972f-7bfec67f237c-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650171561823' status='passed' stop='1650171561981'>
+                    <name>POST /session/:sessionId/element/dd35658c-9a80-4b32-8117-dc5e735fe533/click</name>
+                    <title>POST /session/:sessionId/element/dd35658c-9a80-4b32-8117-dc5e735fe533/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "Check The Function Of Hamburger Menu mghhj" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\FL_LPT-201\Documents\forbes\test\specs\Menu.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "Check The Function Of Hamburger Menu mghhj" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\FL_LPT-201\Documents\forbes\test\specs\Menu.js)
+                    at createTimeoutError (C:\Users\FL_LPT-201\Documents\forbes\node_modules\mocha\lib\errors.js:498:15)
+                    at Test.Runnable._timeoutError (C:\Users\FL_LPT-201\Documents\forbes\node_modules\mocha\lib\runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (C:\Users\FL_LPT-201\Documents\forbes\node_modules\mocha\lib\runnable.js:246:24)
+                    at listOnTimeout (node:internal/timers:559:17)
+                    at processTimers (node:internal/timers:502:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

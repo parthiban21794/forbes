@@ -1,0 +1,174 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1648101967657' stop='1648101968785'>
+    <name>Home</name>
+    <title>Home</title>
+    <test-cases>
+        <test-case start='1648101967659' status='passed' stop='1648101968150'>
+            <name>Open Url And Asser the title</name>
+            <title>Open Url And Asser the title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps>
+                <step start='1648101967662' status='passed' stop='1648101967941'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='b8183ea1-23f8-4670-898a-1a59dc77bf55-attachment.json' type='application/json' size='41'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648101967943' status='passed' stop='1648101968128'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ceef4bd9-01c1-4a46-879b-c714ad6eacaf-attachment.png' type='image/png' size='83487'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648101968133' status='passed' stop='1648101968147'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='7dc97966-a842-4c3d-b3dc-e7a4820e93f5-attachment.json' type='application/json' size='11'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1648101968151' status='passed' stop='1648101968167'>
+            <name>Get the UserName and Password from the Section </name>
+            <title>Get the UserName and Password from the Section </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps>
+                <step start='1648101968157' status='undefined'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='04aada7b-9830-43c5-875e-776ceeb035c3-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps>
+                        <step start='1648101968164' status='undefined'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='d3831531-b3df-4759-b76f-227a041db1e4-attachment.json' type='application/json' size='61'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1648101968171' status='passed' stop='1648101968773'>
+            <name>Pass the username and password in thier fileds and assert them</name>
+            <title>Pass the username and password in thier fileds and assert them</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps>
+                <step start='1648101968173' status='passed' stop='1648101968192'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='646365a5-14a2-4002-ad58-52c460e87020-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='464a01d2-2088-42ee-9661-9684d53e8f17-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648101968236' status='passed' stop='1648101968331'>
+                    <name>POST /session/:sessionId/element/b8286b2f-58e3-4f0d-a969-f83cccb78535/value</name>
+                    <title>POST /session/:sessionId/element/b8286b2f-58e3-4f0d-a969-f83cccb78535/value</title>
+                    <attachments>
+                        <attachment title='Request' source='3dce5f17-ba1a-41a9-a53b-5188a8db8519-attachment.json' type='application/json' size='29'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648101968332' status='passed' stop='1648101968354'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a8593296-33ec-4448-bff7-b420046db218-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='4089d711-30be-4855-bd5d-09f2d3badf05-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648101968360' status='passed' stop='1648101968439'>
+                    <name>POST /session/:sessionId/element/fe0dafc1-9df4-4cc8-8f77-a971a0c9e8f3/value</name>
+                    <title>POST /session/:sessionId/element/fe0dafc1-9df4-4cc8-8f77-a971a0c9e8f3/value</title>
+                    <attachments>
+                        <attachment title='Request' source='93887c74-f5ec-4425-bc14-fb8c8657993f-attachment.json' type='application/json' size='28'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648101968439' status='passed' stop='1648101968615'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='255efa14-3e3d-4bcf-b09d-20f2c4cad848-attachment.png' type='image/png' size='83183'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648101968618' status='passed' stop='1648101968640'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2cac2a9e-d04d-4c32-b433-9e0d4392b113-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='3131de9c-80ed-4eed-8a97-0cd00e319730-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1648101968643' status='passed' stop='1648101968773'>
+                    <name>POST /session/:sessionId/element/5a9736b5-3219-483f-8634-de3b0d6f7d10/click</name>
+                    <title>POST /session/:sessionId/element/5a9736b5-3219-483f-8634-de3b0d6f7d10/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='f9f6177e-f262-4b08-98f9-82b423cee7b9-attachment.json' type='application/json' size='1035'/>
+                <attachment title='Response' source='7500beb0-63d9-4032-b2ed-fcb1b518989a-attachment.json' type='application/json' size='83'/>
+            </attachments>
+        </test-case>
+        <test-case start='1648101968773' status='broken' stop='1648101968784'>
+            <name>Select the product product which is having highest price</name>
+            <title>Select the product product which is having highest price</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>_HomePage.default.hightolow.click is not a function</message>
+                <stack-trace>TypeError: _HomePage.default.hightolow.click is not a function
+                    at Context.&lt;anonymous> (C:\Users\FL_LPT-201\Documents\SauseDemoAssement\test\specs\/Home.js:32:36)
+                    at Context.executeAsync (C:\Users\FL_LPT-201\Documents\SauseDemoAssement\node_modules\@wdio\utils\build\shim.js:331:27)
+                    at Context.testFrameworkFnWrapper (C:\Users\FL_LPT-201\Documents\SauseDemoAssement\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

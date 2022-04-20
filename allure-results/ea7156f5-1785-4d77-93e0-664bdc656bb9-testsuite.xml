@@ -1,0 +1,84 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1649993984124' stop='1649994039773'>
+    <name>Validate the Some of function</name>
+    <title>Validate the Some of function</title>
+    <test-cases>
+        <test-case start='1649993984126' status='broken' stop='1649994039770'>
+            <name>Check fot the Subscription plan and getScreenShot</name>
+            <title>Check fot the Subscription plan and getScreenShot</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.88'/>
+            </parameters>
+            <steps>
+                <step start='1649993984134' status='passed' stop='1649994030864'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='796c0abd-a36f-42a0-bf88-e8a4bddd6692-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1649994030864' status='passed' stop='1649994031056'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='4562d8e8-6f57-4365-b923-6807fecc58d0-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1649994033071' status='passed' stop='1649994033117'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ddc58a3d-c213-4e10-8cc9-952749751fec-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='ee3acbe3-0c30-46f0-a192-50c26ba49a03-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1649994033134' status='passed' stop='1649994033228'>
+                    <name>POST /session/:sessionId/element/74ec9430-1f18-4c42-8117-ae2ad3b954d2/click</name>
+                    <title>POST /session/:sessionId/element/74ec9430-1f18-4c42-8117-ae2ad3b954d2/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649994035235' status='passed' stop='1649994035313'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1f90625c-b3a3-474d-8ca7-b0f56f01fe05-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='28cb74ab-4aad-49a3-bafc-83f9236a21e8-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1649994035317' status='broken' stop='1649994039769'>
+                    <name>POST /session/:sessionId/element/1c709048-9f0d-4bff-b969-8adfa3316c56/click</name>
+                    <title>POST /session/:sessionId/element/1c709048-9f0d-4bff-b969-8adfa3316c56/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element click intercepted: Element &lt;iframe frameborder="0" src="https://90fec0e85743cab0654da225748b2a24.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html" id="google_ads_iframe_/7175/fdc.forbes/home_0" title="Ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="970" height="250" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" role="region" aria-label="Advertisement" tabindex="-1" data-google-container-id="2" aria-hidden="true" style="border: 0px; vertical-align: bottom;" data-load-complete="true">&lt;/iframe> is not clickable at point (768, 211). Other element would receive the click: &lt;iframe id="piano-id-WHST0" name="piano-id-WHST0" title="piano-id-WHST0" scrolling="no" allowtransparency="true" src="https://auth.forbes.com/id/?client_id=Yj2fRrCPpu&amp;amp;sender=piano-id-WHST0&amp;amp;origin=https%3A%2F%2Fwww.forbes.com&amp;amp;site=https%3A%2F%2Fwww.forbes.com%2F%3Fsh%3D3d4e3b5a2254&amp;amp;display_mode=modal&amp;amp;pageViewId=l1zvti8zhz352suv&amp;amp;tbc=%7Bkpex%7Dx81KG2GzLeddu2bwmTi1YyduJUpkdEr50kgWAZBULQ1jofqUtRoaRNA1QVhC7fZ7&amp;amp;screen=login&amp;amp;width=660" allow="payment" frameborder="0" class="" style="overflow: hidden; background-color: transparent; border: 0px; width: 660px; height: 600px;">&lt;/iframe>
+                  (Session info: chrome=100.0.4896.88)</message>
+                <stack-trace>element click intercepted: element click intercepted: Element &lt;iframe frameborder="0" src="https://90fec0e85743cab0654da225748b2a24.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html" id="google_ads_iframe_/7175/fdc.forbes/home_0" title="Ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="970" height="250" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" role="region" aria-label="Advertisement" tabindex="-1" data-google-container-id="2" aria-hidden="true" style="border: 0px; vertical-align: bottom;" data-load-complete="true">&lt;/iframe> is not clickable at point (768, 211). Other element would receive the click: &lt;iframe id="piano-id-WHST0" name="piano-id-WHST0" title="piano-id-WHST0" scrolling="no" allowtransparency="true" src="https://auth.forbes.com/id/?client_id=Yj2fRrCPpu&amp;amp;sender=piano-id-WHST0&amp;amp;origin=https%3A%2F%2Fwww.forbes.com&amp;amp;site=https%3A%2F%2Fwww.forbes.com%2F%3Fsh%3D3d4e3b5a2254&amp;amp;display_mode=modal&amp;amp;pageViewId=l1zvti8zhz352suv&amp;amp;tbc=%7Bkpex%7Dx81KG2GzLeddu2bwmTi1YyduJUpkdEr50kgWAZBULQ1jofqUtRoaRNA1QVhC7fZ7&amp;amp;screen=login&amp;amp;width=660" allow="payment" frameborder="0" class="" style="overflow: hidden; background-color: transparent; border: 0px; width: 660px; height: 600px;">&lt;/iframe>
+                  (Session info: chrome=100.0.4896.88)
+                    at getErrorFromResponseBody (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriver\build\utils.js:197:12)
+                    at NodeJSRequest._request (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriver\build\request\index.js:158:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

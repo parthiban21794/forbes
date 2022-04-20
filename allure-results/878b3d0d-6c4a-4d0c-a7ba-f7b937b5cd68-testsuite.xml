@@ -1,0 +1,85 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650355214183' stop='1650355274226'>
+    <name>Check the Sign In Functions</name>
+    <title>Check the Sign In Functions</title>
+    <test-cases>
+        <test-case start='1650355214184' status='broken' stop='1650355274221'>
+            <name>Login By LinkedIn</name>
+            <title>Login By LinkedIn</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1650355214190' status='passed' stop='1650355263541'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='4034caea-6022-450f-b513-bd89885e5a53-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650355263541' status='passed' stop='1650355263949'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='c74a32dc-6d11-4d85-8f76-6cb73e531d7b-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650355265968' status='passed' stop='1650355265996'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='fe3749d3-6c5c-47cf-80d6-952b4e3bfe7f-attachment.json' type='application/json' size='63'/>
+                        <attachment title='Response' source='00aaf0fa-5537-4bd9-bead-ccda010ba4f3-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650355266003' status='passed' stop='1650355266063'>
+                    <name>POST /session/:sessionId/element/63bcbc39-9aae-40c2-b87b-78d52e4ea78b/click</name>
+                    <title>POST /session/:sessionId/element/63bcbc39-9aae-40c2-b87b-78d52e4ea78b/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1650355268067' status='passed' stop='1650355268444'>
+                    <name>POST /session/:sessionId/frame</name>
+                    <title>POST /session/:sessionId/frame</title>
+                    <attachments>
+                        <attachment title='Request' source='6e3f1066-6ea3-40da-a1c9-2e6d65d08cbb-attachment.json' type='application/json' size='14'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650355273456' status='passed' stop='1650355273480'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ee343529-c031-4eeb-ae0f-414cf2fee3af-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='2abe8d36-823b-43b5-9c53-894f59984609-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650355273484' status='passed' stop='1650355273602'>
+                    <name>POST /session/:sessionId/element/d47616c8-05ad-444c-9d56-dcff5df5c79c/click</name>
+                    <title>POST /session/:sessionId/element/d47616c8-05ad-444c-9d56-dcff5df5c79c/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "Check the Sign In Functions Login By LinkedIn" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\FL_LPT-201\Documents\forbes\test\specs\login.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "Check the Sign In Functions Login By LinkedIn" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\FL_LPT-201\Documents\forbes\test\specs\login.js)
+                    at createTimeoutError (C:\Users\FL_LPT-201\Documents\forbes\node_modules\mocha\lib\errors.js:498:15)
+                    at Test.Runnable._timeoutError (C:\Users\FL_LPT-201\Documents\forbes\node_modules\mocha\lib\runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (C:\Users\FL_LPT-201\Documents\forbes\node_modules\mocha\lib\runnable.js:246:24)
+                    at listOnTimeout (node:internal/timers:559:17)
+                    at processTimers (node:internal/timers:502:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

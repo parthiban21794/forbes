@@ -1,0 +1,72 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650083386208' stop='1650083396161'>
+    <name>Function of the subscription page</name>
+    <title>Function of the subscription page</title>
+    <test-cases>
+        <test-case start='1650083386209' status='broken' stop='1650083396159'>
+            <name>subscripe the plan of $49.99</name>
+            <title>subscripe the plan of $49.99</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1650083386211' status='passed' stop='1650083392334'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ff4f3fc5-e01d-4e97-9001-8ae6b35c36b8-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650083395344' status='passed' stop='1650083395415'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='cd4e69e2-66cd-44a8-8a5e-4e0c01fdf324-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='d922d59b-ce15-42da-8fa3-124a932a532e-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650083395423' status='passed' stop='1650083395521'>
+                    <name>POST /session/:sessionId/element/493ac58c-b059-4b37-9f15-c74f041dd0e8/click</name>
+                    <title>POST /session/:sessionId/element/493ac58c-b059-4b37-9f15-c74f041dd0e8/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1650083395522' status='passed' stop='1650083395818'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='792a0d9a-427e-4865-9ef7-c4d586093de6-attachment.png' type='image/png' size='504023'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650083395827' status='broken' stop='1650083396159'>
+                    <name>POST /session/:sessionId/window</name>
+                    <title>POST /session/:sessionId/window</title>
+                    <attachments>
+                        <attachment title='Request' source='c4654cd0-899c-4113-81c1-2ecadd8cfa30-attachment.json' type='application/json' size='116'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window
+                  (Session info: chrome=100.0.4896.127)</message>
+                <stack-trace>no such window: no such window
+                  (Session info: chrome=100.0.4896.127)
+                    at getErrorFromResponseBody (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriver\build\utils.js:197:12)
+                    at NodeJSRequest._request (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriver\build\request\index.js:158:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Browser.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (C:\Users\FL_LPT-201\Documents\forbes\test\specs\/Subscribe.js:10:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

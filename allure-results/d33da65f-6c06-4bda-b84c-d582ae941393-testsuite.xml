@@ -1,0 +1,83 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650181167801' stop='1650181197048'>
+    <name>Check The Function Of BreakingNews</name>
+    <title>Check The Function Of BreakingNews</title>
+    <test-cases>
+        <test-case start='1650181167802' status='broken' stop='1650181197043'>
+            <name>Open The Breaking News By BreakingNews Tag</name>
+            <title>Open The Breaking News By BreakingNews Tag</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1650181167805' status='passed' stop='1650181175177'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='fc9de1ec-8cd0-4c1d-b8cb-6f9c88771b74-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650181180189' status='passed' stop='1650181180282'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='40d6c68c-5b5e-49f0-86db-8b418c1a624a-attachment.json' type='application/json' size='77'/>
+                        <attachment title='Response' source='e1910bd4-26c6-465c-9b2e-f70f97437309-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650181180294' status='passed' stop='1650181180331'>
+                    <name>GET /session/:sessionId/element/322e8883-41c2-4440-9e6d-cd22da1198e7/text</name>
+                    <title>GET /session/:sessionId/element/322e8883-41c2-4440-9e6d-cd22da1198e7/text</title>
+                    <attachments>
+                        <attachment title='Response' source='749b6781-cc30-4a7e-bced-e91dace8cd37-attachment.json' type='application/json' size='82'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650181182343' status='passed' stop='1650181182365'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e4148685-e8fc-4f6c-8820-e1d5b72a8787-attachment.json' type='application/json' size='77'/>
+                        <attachment title='Response' source='aff69371-01b7-4f27-bfa6-1c7a0b303e53-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650181182372' status='passed' stop='1650181182476'>
+                    <name>POST /session/:sessionId/element/322e8883-41c2-4440-9e6d-cd22da1198e7/click</name>
+                    <title>POST /session/:sessionId/element/322e8883-41c2-4440-9e6d-cd22da1198e7/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1650181184486' status='passed' stop='1650181192940'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='0ac612a2-b172-40ff-ac5b-b9ed70edf031-attachment.png' type='image/png' size='371326'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650181194956' status='passed' stop='1650181195016'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='908e1020-7dc7-4791-9d9e-78aafdbaf338-attachment.json' type='application/json' size='82'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>bnTitle.toHaveTextContaining is not a function</message>
+                <stack-trace>TypeError: bnTitle.toHaveTextContaining is not a function
+                    at Context.&lt;anonymous> (C:\Users\FL_LPT-201\Documents\forbes\test\specs\/BreakingNews.js:20:30)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

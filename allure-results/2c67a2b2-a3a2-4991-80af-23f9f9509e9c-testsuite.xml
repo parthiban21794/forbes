@@ -1,0 +1,89 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650362772513' stop='1650362826899'>
+    <name>Check function of the home page</name>
+    <title>Check function of the home page</title>
+    <test-cases>
+        <test-case start='1650362772515' status='failed' stop='1650362826898'>
+            <name>Check the Function of Cover News</name>
+            <title>Check the Function of Cover News</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1650362772524' status='passed' stop='1650362819886'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='7cae3381-7942-4607-946d-051d8bc9e407-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650362819886' status='passed' stop='1650362820101'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='acf4a970-706b-4e14-b898-d459a34ad678-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650362825111' status='passed' stop='1650362825194'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c6726a60-9eb3-4dea-b3b6-832de2996adc-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='db1399e9-088a-4c8e-a179-28822c6138dc-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650362825210' status='passed' stop='1650362825338'>
+                    <name>POST /session/:sessionId/element/9cd3ac92-b128-45a8-8c33-ba96aef6a75d/click</name>
+                    <title>POST /session/:sessionId/element/9cd3ac92-b128-45a8-8c33-ba96aef6a75d/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1650362826344' status='passed' stop='1650362826783'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4e253d2d-e003-4333-9baa-fdaa173fc1f6-attachment.json' type='application/json' size='130'/>
+                        <attachment title='Response' source='ba9addb5-07a9-4a6a-9ab1-34077c4cd514-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650362826787' status='failed' stop='1650362826897'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1650362826789' status='passed' stop='1650362826883'>
+                            <name>GET /session/:sessionId/element/979c9054-812b-4fb2-b321-9d9ead29b8a5/text</name>
+                            <title>GET /session/:sessionId/element/979c9054-812b-4fb2-b321-9d9ead29b8a5/text</title>
+                            <attachments>
+                                <attachment title='Response' source='4c53e779-902f-422d-a76b-f0589b8ae6e7-attachment.json' type='application/json' size='98'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expect(received).toEqual(expected) // deep equality
+                
+                Expected: "Hotel Chains From Hilton To Shangri-La Are Expanding Across Asia On Post-Pandemic Recovery Hopes"
+                Received: {}</message>
+                <stack-trace>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: "Hotel Chains From Hilton To Shangri-La Are Expanding Across Asia On Post-Pandemic Recovery Hopes"
+                Received: {}
+                    at Context.&lt;anonymous> (C:\Users\FL_LPT-201\Documents\forbes\test\specs\/Home.js:16:39)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

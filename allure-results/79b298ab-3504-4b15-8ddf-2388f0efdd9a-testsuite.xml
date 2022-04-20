@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650361267862' stop='1650361284228'>
+    <name>Check function of the home page</name>
+    <title>Check function of the home page</title>
+    <test-cases>
+        <test-case start='1650361267863' status='passed' stop='1650361284219'>
+            <name>List of news in breaking news section</name>
+            <title>List of news in breaking news section</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1650361267868' status='passed' stop='1650361284142'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='c04c72f4-adff-47e3-8dd6-34023bb2c332-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650361284144' status='passed' stop='1650361284202'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='9bda2e3b-3895-47e4-bc46-e4539f90acbc-attachment.json' type='application/json' size='84'/>
+                        <attachment title='Response' source='b2b4f662-23f9-485d-b7ec-655bb4267017-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650361284220' status='undefined'>
+                    <name>GET /session/:sessionId/element/f3826d4a-5ca3-4201-9157-6081e7ac5b0c/text</name>
+                    <title>GET /session/:sessionId/element/f3826d4a-5ca3-4201-9157-6081e7ac5b0c/text</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650168608745' stop='1650168632014'>
+    <name>Check The Function Of Hamburger Menu</name>
+    <title>Check The Function Of Hamburger Menu</title>
+    <test-cases>
+        <test-case start='1650168608746' status='failed' stop='1650168632011'>
+            <name>mghhj</name>
+            <title>mghhj</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1650168608753' status='passed' stop='1650168616884'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='26b040fe-7728-40ae-8e4d-25ac8dce1cb0-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650168621888' status='passed' stop='1650168621946'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='aff8e2b0-90e6-4904-8361-41e2c6159cf4-attachment.json' type='application/json' size='77'/>
+                        <attachment title='Response' source='d8dd8e14-cebc-4a9a-9970-f8d5f11f4525-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650168621953' status='passed' stop='1650168621974'>
+                    <name>GET /session/:sessionId/element/e7383537-c0a8-41e2-8318-924c5ad3478c/text</name>
+                    <title>GET /session/:sessionId/element/e7383537-c0a8-41e2-8318-924c5ad3478c/text</title>
+                    <attachments>
+                        <attachment title='Response' source='773df09a-c1f7-4236-b32d-8b4d6b6a8cc5-attachment.json' type='application/json' size='82'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Expect Ukrainian Troops Have Been Cleared Out Of Urban Areas Of Mariupol, Russia Claims to have text
+                
+                Expected: "Ukrainian Troops Have Been Cleared Out Of Urban Areas Of Mariupol, Russia Claims"
+                Received: undefined</message>
+                <stack-trace>Error: Expect Ukrainian Troops Have Been Cleared Out Of Urban Areas Of Mariupol, Russia Claims to have text
+                
+                Expected: "Ukrainian Troops Have Been Cleared Out Of Urban Areas Of Mariupol, Russia Claims"
+                Received: undefined
+                    at Context.&lt;anonymous> (C:\Users\FL_LPT-201\Documents\forbes\test\specs\/Menu.js:11:36)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

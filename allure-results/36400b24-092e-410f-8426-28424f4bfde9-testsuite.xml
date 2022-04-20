@@ -1,0 +1,80 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650083431102' stop='1650083446319'>
+    <name>Function of the subscription page</name>
+    <title>Function of the subscription page</title>
+    <test-cases>
+        <test-case start='1650083431103' status='broken' stop='1650083446318'>
+            <name>subscripe the plan of $49.99</name>
+            <title>subscripe the plan of $49.99</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1650083431107' status='passed' stop='1650083440085'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='531293f6-7ab2-412b-8e72-85c0a7f1bf83-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650083440085' status='passed' stop='1650083442790'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='f1be8af7-1dba-4418-a4ea-1a4a908d54e7-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650083445793' status='passed' stop='1650083445815'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c0e2d55a-accb-4d97-a02c-fdcd26312aff-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='5f1cbf33-1665-4591-9ad5-e16b70c33b33-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650083445821' status='passed' stop='1650083445923'>
+                    <name>POST /session/:sessionId/element/3537d3c5-1400-44bb-85f8-7d387fa77ce3/click</name>
+                    <title>POST /session/:sessionId/element/3537d3c5-1400-44bb-85f8-7d387fa77ce3/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1650083445924' status='passed' stop='1650083446205'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='4ece6fa1-ca39-4a5b-9a19-22681fed5574-attachment.png' type='image/png' size='254166'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650083446207' status='broken' stop='1650083446317'>
+                    <name>POST /session/:sessionId/window</name>
+                    <title>POST /session/:sessionId/window</title>
+                    <attachments>
+                        <attachment title='Request' source='8c057cea-c792-4461-b38b-7444d8212d98-attachment.json' type='application/json' size='116'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window
+                  (Session info: chrome=100.0.4896.127)</message>
+                <stack-trace>no such window: no such window
+                  (Session info: chrome=100.0.4896.127)
+                    at getErrorFromResponseBody (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriver\build\utils.js:197:12)
+                    at NodeJSRequest._request (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriver\build\request\index.js:158:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Browser.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (C:\Users\FL_LPT-201\Documents\forbes\test\specs\/Subscribe.js:11:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

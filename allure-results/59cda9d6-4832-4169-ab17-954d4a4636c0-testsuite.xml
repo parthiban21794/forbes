@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1649930099933' stop='1649930109354'>
+    <name>Validate the Some of function</name>
+    <title>Validate the Some of function</title>
+    <test-cases>
+        <test-case start='1649930099934' status='passed' stop='1649930109353'>
+            <name>Check fot the Subscription plan and getScreenShot</name>
+            <title>Check fot the Subscription plan and getScreenShot</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.88'/>
+            </parameters>
+            <steps>
+                <step start='1649930099950' status='passed' stop='1649930107557'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='5923c7ae-7f89-4778-8628-a2240120e8b4-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1649930107560' status='passed' stop='1649930108759'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='917b9945-69be-48a4-9e04-d2e32bb7ecc9-attachment.json' type='application/json' size='72'/>
+                        <attachment title='Response' source='37ae1964-1840-4c6f-bf56-54c7d3cd477f-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1649930108770' status='passed' stop='1649930109014'>
+                    <name>POST /session/:sessionId/element/10e6071b-4059-4b2b-993f-a8a54f192f7d/click</name>
+                    <title>POST /session/:sessionId/element/10e6071b-4059-4b2b-993f-a8a54f192f7d/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649930109016' status='passed' stop='1649930109346'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='2230fd9b-db04-427b-8da1-1760b15e31e6-attachment.png' type='image/png' size='310594'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

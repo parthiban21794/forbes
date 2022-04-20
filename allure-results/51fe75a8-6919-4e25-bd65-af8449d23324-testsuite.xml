@@ -1,0 +1,103 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650375828258' stop='1650375844774'>
+    <name>Check function of the home page</name>
+    <title>Check function of the home page</title>
+    <test-cases>
+        <test-case start='1650375828258' status='broken' stop='1650375844772'>
+            <name>Check the Function of Cover News</name>
+            <title>Check the Function of Cover News</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1650375828263' status='passed' stop='1650375835131'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='f7a64782-ebb6-42e1-be9e-9212455b9f34-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650375835132' status='passed' stop='1650375835733'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='d86c5f50-8400-4d3c-8e2e-e0fcc761a5db-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650375840748' status='passed' stop='1650375840783'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='574d2010-99af-4681-a5a1-3ab7d9ff8f30-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='b2cc8d6a-728b-4acf-89f2-8b3bc4d6b119-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650375840793' status='passed' stop='1650375840864'>
+                    <name>POST /session/:sessionId/element/47676e6e-545d-4442-94de-b497b4090003/click</name>
+                    <title>POST /session/:sessionId/element/47676e6e-545d-4442-94de-b497b4090003/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1650375841870' status='passed' stop='1650375843766'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a67f610e-854e-4d73-8aae-e439a8f965c5-attachment.json' type='application/json' size='130'/>
+                        <attachment title='Response' source='846d11a8-f4dd-4e8f-8426-45f893f4453c-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650375843771' status='broken' stop='1650375844771'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3e786739-c5db-4ebb-a2e7-cdf3d12f6576-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps>
+                        <step start='1650375843775' status='passed' stop='1650375844522'>
+                            <name>GET /session/:sessionId/element/a2b45529-49cb-4467-85cd-446c0335d040/text</name>
+                            <title>GET /session/:sessionId/element/a2b45529-49cb-4467-85cd-446c0335d040/text</title>
+                            <attachments>
+                                <attachment title='Response' source='660937e0-58a8-465d-93ba-7ff606c4aa69-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1650375844527' status='passed' stop='1650375844617'>
+                            <name>GET /session/:sessionId/element/008d1ee5-dff6-42ff-8b61-675bdc35a9f1/text</name>
+                            <title>GET /session/:sessionId/element/008d1ee5-dff6-42ff-8b61-675bdc35a9f1/text</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=100.0.4896.127)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=100.0.4896.127)
+                    at getErrorFromResponseBody (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriver\build\utils.js:197:12)
+                    at NodeJSRequest._request (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriver\build\request\index.js:158:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Users\FL_LPT-201\Documents\forbes\node_modules\@wdio\utils\build\shim.js:137:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
