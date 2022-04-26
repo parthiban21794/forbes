@@ -1,0 +1,175 @@
+{
+  "uid" : "56ec259d7717dc25",
+  "name" : "Check fot the Subscription plan and getScreenShot",
+  "fullName" : "Validate the Some of function.Check fot the Subscription plan and getScreenShot",
+  "historyId" : "401c7c06fdd26f68015e7a7d16f32c21",
+  "time" : {
+    "start" : 1649930724793,
+    "stop" : 1649930747436,
+    "duration" : 22643
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1649930724799,
+        "stop" : 1649930741671,
+        "duration" : 16872
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "14ca3468cfba9fd7",
+        "name" : "Request",
+        "source" : "14ca3468cfba9fd7.json",
+        "type" : "application/json",
+        "size" : 38
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1649930741671,
+        "stop" : 1649930741936,
+        "duration" : 265
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "29e5cc23c8ff7144",
+        "name" : "Response",
+        "source" : "29e5cc23c8ff7144.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1649930741939,
+        "stop" : 1649930742075,
+        "duration" : 136
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e2dcff3a462d9e8e",
+        "name" : "Request",
+        "source" : "e2dcff3a462d9e8e.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "de4ff078cc67f43c",
+        "name" : "Response",
+        "source" : "de4ff078cc67f43c.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/f67b90e1-a1fb-4110-8276-f05500c243da/click",
+      "time" : {
+        "start" : 1649930742089,
+        "stop" : 1649930742188,
+        "duration" : 99
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1649930747197,
+        "stop" : 1649930747431,
+        "duration" : 234
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4ad79374a02a7f14",
+        "name" : "Screenshot",
+        "source" : "4ad79374a02a7f14.png",
+        "type" : "image/png",
+        "size" : 170144
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Validate the Some of function"
+  }, {
+    "name" : "testClass",
+    "value" : "Validate the Some of function"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check fot the Subscription plan and getScreenShot"
+  }, {
+    "name" : "package",
+    "value" : "Validate the Some of function"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.88"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "56ec259d7717dc25.json",
+  "parameterValues" : [ "chrome-100.0.4896.88" ]
+}

@@ -1,0 +1,154 @@
+{
+  "uid" : "5fc36048bc9ac654",
+  "name" : "Open Amazon site and assert the url and title",
+  "fullName" : "AmazonTry.Open Amazon site and assert the url and title",
+  "historyId" : "3300ac00031dbbbc66a82625c7adea8c",
+  "time" : {
+    "start" : 1648442153606,
+    "stop" : 1648442155660,
+    "duration" : 2054
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1648442153613,
+        "stop" : 1648442155232,
+        "duration" : 1619
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "21edcaf6293ae431",
+        "name" : "Request",
+        "source" : "21edcaf6293ae431.json",
+        "type" : "application/json",
+        "size" : 37
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1648442155232,
+        "stop" : 1648442155582,
+        "duration" : 350
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4fdca7c087902746",
+        "name" : "Response",
+        "source" : "4fdca7c087902746.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1648442155585,
+        "stop" : 1648442155640,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4987de3d435fb66c",
+        "name" : "Response",
+        "source" : "4987de3d435fb66c.json",
+        "type" : "application/json",
+        "size" : 24
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1648442155647,
+        "stop" : 1648442155657,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c1cba8115c084339",
+        "name" : "Response",
+        "source" : "c1cba8115c084339.json",
+        "type" : "application/json",
+        "size" : 100
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "AmazonTry"
+  }, {
+    "name" : "testClass",
+    "value" : "AmazonTry"
+  }, {
+    "name" : "testMethod",
+    "value" : "Open Amazon site and assert the url and title"
+  }, {
+    "name" : "package",
+    "value" : "AmazonTry"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5fc36048bc9ac654.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

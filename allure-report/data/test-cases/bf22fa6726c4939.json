@@ -1,0 +1,159 @@
+{
+  "uid" : "bf22fa6726c4939",
+  "name" : "Login By LinkedIn",
+  "fullName" : "Check the Sign In Functions.Login By LinkedIn",
+  "historyId" : "8c26ecbefe9cec93e9c18fb6e7cae2c7",
+  "time" : {
+    "start" : 1650373667608,
+    "stop" : 1650373706001,
+    "duration" : 38393
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element click intercepted: Element <button class=\"login\" data-ga-track=\"U20-SignIn\">...</button> is not clickable at point (1460, 28). Other element would receive the click: <div class=\"tp-modal\" style=\"z-index: 300050; display: block;\">...</div>\n                  (Session info: chrome=100.0.4896.127)",
+  "statusTrace" : "element click intercepted: element click intercepted: Element <button class=\"login\" data-ga-track=\"U20-SignIn\">...</button> is not clickable at point (1460, 28). Other element would receive the click: <div class=\"tp-modal\" style=\"z-index: 300050; display: block;\">...</div>\n                  (Session info: chrome=100.0.4896.127)\n                    at getErrorFromResponseBody (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Element.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Element.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Element.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element click intercepted: Element <button class=\"login\" data-ga-track=\"U20-SignIn\">...</button> is not clickable at point (1460, 28). Other element would receive the click: <div class=\"tp-modal\" style=\"z-index: 300050; display: block;\">...</div>\n                  (Session info: chrome=100.0.4896.127)",
+    "statusTrace" : "element click intercepted: element click intercepted: Element <button class=\"login\" data-ga-track=\"U20-SignIn\">...</button> is not clickable at point (1460, 28). Other element would receive the click: <div class=\"tp-modal\" style=\"z-index: 300050; display: block;\">...</div>\n                  (Session info: chrome=100.0.4896.127)\n                    at getErrorFromResponseBody (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Element.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Element.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Element.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1650373667613,
+        "stop" : 1650373699116,
+        "duration" : 31503
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ba0e44e57ec6fccc",
+        "name" : "Request",
+        "source" : "ba0e44e57ec6fccc.json",
+        "type" : "application/json",
+        "size" : 38
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1650373699117,
+        "stop" : 1650373699569,
+        "duration" : 452
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "596e7c5c721bc37a",
+        "name" : "Response",
+        "source" : "596e7c5c721bc37a.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1650373701580,
+        "stop" : 1650373701611,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3dba9b8fddf9aca9",
+        "name" : "Request",
+        "source" : "3dba9b8fddf9aca9.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "9b37dd81195b4a05",
+        "name" : "Response",
+        "source" : "9b37dd81195b4a05.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/253f7eef-7015-424f-ae7c-cbaf9b9f3748/click",
+      "time" : {
+        "start" : 1650373701618,
+        "stop" : 1650373706001,
+        "duration" : 4383
+      },
+      "status" : "broken",
+      "statusMessage" : "element click intercepted: element click intercepted: Element <button class=\"login\" data-ga-track=\"U20-SignIn\">...</button> is not clickable at point (1460, 28). Other element would receive the click: <div class=\"tp-modal\" style=\"z-index: 300050; display: block;\">...</div>\n                  (Session info: chrome=100.0.4896.127)\n                    at getErrorFromResponseBody (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Element.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Element.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Element.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Check the Sign In Functions"
+  }, {
+    "name" : "testClass",
+    "value" : "Check the Sign In Functions"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login By LinkedIn"
+  }, {
+    "name" : "package",
+    "value" : "Check the Sign In Functions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bf22fa6726c4939.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}

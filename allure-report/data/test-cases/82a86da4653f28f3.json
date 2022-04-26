@@ -1,0 +1,133 @@
+{
+  "uid" : "82a86da4653f28f3",
+  "name" : "Open Url And Asser the title",
+  "fullName" : "Home.Open Url And Asser the title",
+  "historyId" : "70ca5d267716877e358ec6f5c1ca99ce",
+  "time" : {
+    "start" : 1648229977936,
+    "stop" : 1648229978471,
+    "duration" : 535
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1648229977942,
+        "stop" : 1648229978227,
+        "duration" : 285
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "212e94f508a375e6",
+        "name" : "Request",
+        "source" : "212e94f508a375e6.json",
+        "type" : "application/json",
+        "size" : 41
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1648229978229,
+        "stop" : 1648229978450,
+        "duration" : 221
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "51d6e880b2af5645",
+        "name" : "Screenshot",
+        "source" : "51d6e880b2af5645.png",
+        "type" : "image/png",
+        "size" : 83487
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1648229978455,
+        "stop" : 1648229978468,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d5241035aaa0f7c3",
+        "name" : "Response",
+        "source" : "d5241035aaa0f7c3.json",
+        "type" : "application/json",
+        "size" : 11
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home"
+  }, {
+    "name" : "testClass",
+    "value" : "Home"
+  }, {
+    "name" : "testMethod",
+    "value" : "Open Url And Asser the title"
+  }, {
+    "name" : "package",
+    "value" : "Home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "82a86da4653f28f3.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

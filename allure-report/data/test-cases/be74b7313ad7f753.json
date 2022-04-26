@@ -1,0 +1,124 @@
+{
+  "uid" : "be74b7313ad7f753",
+  "name" : "Validate THANK YOU FOR YOUR ORDER message ",
+  "fullName" : "Home.Validate THANK YOU FOR YOUR ORDER message ",
+  "historyId" : "10e487df582249bccbf325894b6885fd",
+  "time" : {
+    "start" : 1648229981894,
+    "stop" : 1648229982145,
+    "duration" : 251
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1648229981895,
+        "stop" : 1648229982098,
+        "duration" : 203
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fb4a644228e569a9",
+        "name" : "Request",
+        "source" : "fb4a644228e569a9.json",
+        "type" : "application/json",
+        "size" : 60
+      }, {
+        "uid" : "6d4572cdc33d29da",
+        "name" : "Screenshot",
+        "source" : "6d4572cdc33d29da.png",
+        "type" : "image/png",
+        "size" : 128144
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/045a266c-fa2e-44f7-acd3-012690a67183/text",
+      "time" : {
+        "start" : 1648229982112,
+        "stop" : 1648229982144,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a93540d0e505489c",
+        "name" : "Response",
+        "source" : "a93540d0e505489c.json",
+        "type" : "application/json",
+        "size" : 26
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "e0cd4e75e4aa09b",
+      "name" : "Response",
+      "source" : "e0cd4e75e4aa09b.json",
+      "type" : "application/json",
+      "size" : 83
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home"
+  }, {
+    "name" : "testClass",
+    "value" : "Home"
+  }, {
+    "name" : "testMethod",
+    "value" : "Validate THANK YOU FOR YOUR ORDER message "
+  }, {
+    "name" : "package",
+    "value" : "Home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "be74b7313ad7f753.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

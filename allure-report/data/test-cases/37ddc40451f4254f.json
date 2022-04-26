@@ -1,0 +1,396 @@
+{
+  "uid" : "37ddc40451f4254f",
+  "name" : "subscripe the plan of $49.99",
+  "fullName" : "Function of the subscription page.subscripe the plan of $49.99",
+  "historyId" : "1c52aa81f54d04ebaa556ace24271d6e",
+  "time" : {
+    "start" : 1650180126317,
+    "stop" : 1650180150428,
+    "duration" : 24111
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Malformed type for \"handle\" parameter of command switchToWindow\n                Expected: string\n                Actual: object\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-window\n                ",
+  "statusTrace" : "Error: Malformed type for \"handle\" parameter of command switchToWindow\n                Expected: string\n                Actual: object\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-window\n                \n                    at Browser.protocolCommand (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\command.js:53:23)\n                    at Browser.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:38)\n                    at Context.<anonymous> (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\/Subscribe.js:18:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Malformed type for \"handle\" parameter of command switchToWindow\n                Expected: string\n                Actual: object\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-window\n                ",
+    "statusTrace" : "Error: Malformed type for \"handle\" parameter of command switchToWindow\n                Expected: string\n                Actual: object\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-window\n                \n                    at Browser.protocolCommand (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\command.js:53:23)\n                    at Browser.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:38)\n                    at Context.<anonymous> (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\/Subscribe.js:18:9)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1650180126322,
+        "stop" : 1650180134590,
+        "duration" : 8268
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f17528c7c187f598",
+        "name" : "Request",
+        "source" : "f17528c7c187f598.json",
+        "type" : "application/json",
+        "size" : 38
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1650180134591,
+        "stop" : 1650180134759,
+        "duration" : 168
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "61435716fc1180f5",
+        "name" : "Response",
+        "source" : "61435716fc1180f5.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1650180139777,
+        "stop" : 1650180139804,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6de7a742df80ff0d",
+        "name" : "Request",
+        "source" : "6de7a742df80ff0d.json",
+        "type" : "application/json",
+        "size" : 61
+      }, {
+        "uid" : "7fc4a3c144d56056",
+        "name" : "Response",
+        "source" : "7fc4a3c144d56056.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/776de966-a9bf-43dc-b8d9-efce3d680d31/click",
+      "time" : {
+        "start" : 1650180139813,
+        "stop" : 1650180139967,
+        "duration" : 154
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/window/handles",
+      "time" : {
+        "start" : 1650180144993,
+        "stop" : 1650180145005,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c9c93f4026eaf4a6",
+        "name" : "Response",
+        "source" : "c9c93f4026eaf4a6.json",
+        "type" : "application/json",
+        "size" : 96
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/window",
+      "time" : {
+        "start" : 1650180145005,
+        "stop" : 1650180145047,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1c48c30025643325",
+        "name" : "Request",
+        "source" : "1c48c30025643325.json",
+        "type" : "application/json",
+        "size" : 59
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1650180145047,
+        "stop" : 1650180145088,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "873b490f3604ede4",
+        "name" : "Response",
+        "source" : "873b490f3604ede4.json",
+        "type" : "application/json",
+        "size" : 41
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1650180145088,
+        "stop" : 1650180145107,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c98d7ae639798d15",
+        "name" : "Response",
+        "source" : "c98d7ae639798d15.json",
+        "type" : "application/json",
+        "size" : 8
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1650180145108,
+        "stop" : 1650180145133,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1bb156e5efb1bdb6",
+        "name" : "Request",
+        "source" : "1bb156e5efb1bdb6.json",
+        "type" : "application/json",
+        "size" : 81
+      }, {
+        "uid" : "f8d5514049866d27",
+        "name" : "Response",
+        "source" : "f8d5514049866d27.json",
+        "type" : "application/json",
+        "size" : 10
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/window",
+      "time" : {
+        "start" : 1650180145133,
+        "stop" : 1650180145162,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2d300ba18f9cb3ab",
+        "name" : "Request",
+        "source" : "2d300ba18f9cb3ab.json",
+        "type" : "application/json",
+        "size" : 59
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1650180145162,
+        "stop" : 1650180145224,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fdadbade3f6a0c55",
+        "name" : "Response",
+        "source" : "fdadbade3f6a0c55.json",
+        "type" : "application/json",
+        "size" : 100
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/frame",
+      "time" : {
+        "start" : 1650180145225,
+        "stop" : 1650180145245,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "89e96ee7bb7c2eb5",
+        "name" : "Request",
+        "source" : "89e96ee7bb7c2eb5.json",
+        "type" : "application/json",
+        "size" : 13
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1650180145245,
+        "stop" : 1650180145266,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "87e8736172af34a",
+        "name" : "Request",
+        "source" : "87e8736172af34a.json",
+        "type" : "application/json",
+        "size" : 90
+      }, {
+        "uid" : "63ae39a242ee4aa6",
+        "name" : "Response",
+        "source" : "63ae39a242ee4aa6.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/faea6493-042c-45f6-a692-d6c17f4b6dce/click",
+      "time" : {
+        "start" : 1650180145270,
+        "stop" : 1650180145372,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1650180150389,
+        "stop" : 1650180150427,
+        "duration" : 38
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: Malformed type for \"handle\" parameter of command switchToWindow\n                Expected: string\n                Actual: object\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-window\n                \n                    at Browser.protocolCommand (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\command.js:53:23)\n                    at Browser.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:38)\n                    at Context.<anonymous> (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\/Subscribe.js:18:9)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e5b310d1808ab9ea",
+        "name" : "Request",
+        "source" : "e5b310d1808ab9ea.json",
+        "type" : "application/json",
+        "size" : 67
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 16,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 15
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Function of the subscription page"
+  }, {
+    "name" : "testClass",
+    "value" : "Function of the subscription page"
+  }, {
+    "name" : "testMethod",
+    "value" : "subscripe the plan of $49.99"
+  }, {
+    "name" : "package",
+    "value" : "Function of the subscription page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "37ddc40451f4254f.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}

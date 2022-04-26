@@ -1,0 +1,207 @@
+{
+  "uid" : "ef2b7b9be9589a4c",
+  "name" : "Check fot the Subscription plan and getScreenShot",
+  "fullName" : "Validate the Some of function.Check fot the Subscription plan and getScreenShot",
+  "historyId" : "401c7c06fdd26f68015e7a7d16f32c21",
+  "time" : {
+    "start" : 1650035542082,
+    "stop" : 1650035562253,
+    "duration" : 20171
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=100.0.4896.88)",
+  "statusTrace" : "invalid argument: invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=100.0.4896.88)\n                    at getErrorFromResponseBody (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Browser.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Context.<anonymous> (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\/ForbesHome.js:14:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=100.0.4896.88)",
+    "statusTrace" : "invalid argument: invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=100.0.4896.88)\n                    at getErrorFromResponseBody (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Browser.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Context.<anonymous> (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\/ForbesHome.js:14:9)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1650035542085,
+        "stop" : 1650035551874,
+        "duration" : 9789
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "66accf86bd13ec64",
+        "name" : "Request",
+        "source" : "66accf86bd13ec64.json",
+        "type" : "application/json",
+        "size" : 38
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1650035551874,
+        "stop" : 1650035554038,
+        "duration" : 2164
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "42981024ae977d2c",
+        "name" : "Response",
+        "source" : "42981024ae977d2c.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1650035559047,
+        "stop" : 1650035559078,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9e77e3cfd7ffc98f",
+        "name" : "Request",
+        "source" : "9e77e3cfd7ffc98f.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "433a12fc30cca14",
+        "name" : "Response",
+        "source" : "433a12fc30cca14.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/e8c6f676-0b22-4e45-9129-57d000cbb885/click",
+      "time" : {
+        "start" : 1650035559085,
+        "stop" : 1650035559162,
+        "duration" : 77
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1650035562169,
+        "stop" : 1650035562253,
+        "duration" : 84
+      },
+      "status" : "broken",
+      "statusMessage" : "invalid argument: invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=100.0.4896.88)\n                    at getErrorFromResponseBody (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Browser.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Context.<anonymous> (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\/ForbesHome.js:14:9)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/frame",
+        "time" : {
+          "start" : 1650035562173,
+          "stop" : 1650035562210,
+          "duration" : 37
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "58b0e4dbd69096c0",
+          "name" : "Request",
+          "source" : "58b0e4dbd69096c0.json",
+          "type" : "application/json",
+          "size" : 14
+        }, {
+          "uid" : "88b6f6144e5546f9",
+          "name" : "Response",
+          "source" : "88b6f6144e5546f9.json",
+          "type" : "application/json",
+          "size" : 1062
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "240552c5ef6777c6",
+        "name" : "Request",
+        "source" : "240552c5ef6777c6.json",
+        "type" : "application/json",
+        "size" : 59
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Validate the Some of function"
+  }, {
+    "name" : "testClass",
+    "value" : "Validate the Some of function"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check fot the Subscription plan and getScreenShot"
+  }, {
+    "name" : "package",
+    "value" : "Validate the Some of function"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.88"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ef2b7b9be9589a4c.json",
+  "parameterValues" : [ "chrome-100.0.4896.88" ]
+}

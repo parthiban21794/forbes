@@ -35,6 +35,12 @@ class ForbesPage{
         return $("//button[text()='Sign Out']");
     }
 
+    loginAsValid (username,password){
+        $('#email').setValue(username);
+        $('#password').setValue(password);
+
+    }
+
   
 
     

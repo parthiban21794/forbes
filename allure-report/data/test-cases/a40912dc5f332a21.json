@@ -1,0 +1,132 @@
+{
+  "uid" : "a40912dc5f332a21",
+  "name" : "Check fot the Subscription plan and getScreenShot",
+  "fullName" : "Validate the Some of function.Check fot the Subscription plan and getScreenShot",
+  "historyId" : "401c7c06fdd26f68015e7a7d16f32c21",
+  "time" : {
+    "start" : 1649940692341,
+    "stop" : 1649940735581,
+    "duration" : 43240
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=100.0.4896.88)",
+  "statusTrace" : "no such window: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=100.0.4896.88)\n                    at getErrorFromResponseBody (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Browser.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Browser.$ (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriverio\\build\\commands\\browser\\$.js:88:17)\n                    at Browser.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Context.<anonymous> (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\/ForbesHome.js:9:16)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=100.0.4896.88)",
+    "statusTrace" : "no such window: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=100.0.4896.88)\n                    at getErrorFromResponseBody (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Browser.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Browser.$ (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriverio\\build\\commands\\browser\\$.js:88:17)\n                    at Browser.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Context.<anonymous> (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\/ForbesHome.js:9:16)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1649940692344,
+        "stop" : 1649940733504,
+        "duration" : 41160
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a1aaabe04b8a26f6",
+        "name" : "Request",
+        "source" : "a1aaabe04b8a26f6.json",
+        "type" : "application/json",
+        "size" : 38
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1649940733504,
+        "stop" : 1649940733535,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1649940735550,
+        "stop" : 1649940735580,
+        "duration" : 30
+      },
+      "status" : "broken",
+      "statusMessage" : "no such window: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=100.0.4896.88)\n                    at getErrorFromResponseBody (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Browser.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Browser.$ (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriverio\\build\\commands\\browser\\$.js:88:17)\n                    at Browser.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Context.<anonymous> (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\/ForbesHome.js:9:16)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "facaa8910d52d441",
+        "name" : "Request",
+        "source" : "facaa8910d52d441.json",
+        "type" : "application/json",
+        "size" : 56
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Validate the Some of function"
+  }, {
+    "name" : "testClass",
+    "value" : "Validate the Some of function"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check fot the Subscription plan and getScreenShot"
+  }, {
+    "name" : "package",
+    "value" : "Validate the Some of function"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.88"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a40912dc5f332a21.json",
+  "parameterValues" : [ "chrome-100.0.4896.88" ]
+}

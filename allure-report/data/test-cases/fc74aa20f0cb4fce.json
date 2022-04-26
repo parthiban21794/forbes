@@ -1,0 +1,144 @@
+{
+  "uid" : "fc74aa20f0cb4fce",
+  "name" : "Check fot the Subscription plan and getScreenShot",
+  "fullName" : "Validate the Some of function.Check fot the Subscription plan and getScreenShot",
+  "historyId" : "401c7c06fdd26f68015e7a7d16f32c21",
+  "time" : {
+    "start" : 1650013595121,
+    "stop" : 1650013601086,
+    "duration" : 5965
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=100.0.4896.88)",
+  "statusTrace" : "invalid argument: invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=100.0.4896.88)\n                    at getErrorFromResponseBody (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Browser.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Context.<anonymous> (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\/ForbesHome.js:17:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=100.0.4896.88)",
+    "statusTrace" : "invalid argument: invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=100.0.4896.88)\n                    at getErrorFromResponseBody (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Browser.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Context.<anonymous> (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\/ForbesHome.js:17:7)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1650013595124,
+        "stop" : 1650013598902,
+        "duration" : 3778
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5ef7569463ab0607",
+        "name" : "Request",
+        "source" : "5ef7569463ab0607.json",
+        "type" : "application/json",
+        "size" : 113
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1650013600910,
+        "stop" : 1650013601085,
+        "duration" : 175
+      },
+      "status" : "broken",
+      "statusMessage" : "invalid argument: invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=100.0.4896.88)\n                    at getErrorFromResponseBody (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Browser.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Context.<anonymous> (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\/ForbesHome.js:17:7)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/frame",
+        "time" : {
+          "start" : 1650013600920,
+          "stop" : 1650013600980,
+          "duration" : 60
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "77a67245bc8fe2f2",
+          "name" : "Request",
+          "source" : "77a67245bc8fe2f2.json",
+          "type" : "application/json",
+          "size" : 14
+        }, {
+          "uid" : "65d7b11d04bbb3ad",
+          "name" : "Response",
+          "source" : "65d7b11d04bbb3ad.json",
+          "type" : "application/json",
+          "size" : 1075
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "c23de667a76f2edc",
+        "name" : "Request",
+        "source" : "c23de667a76f2edc.json",
+        "type" : "application/json",
+        "size" : 72
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Validate the Some of function"
+  }, {
+    "name" : "testClass",
+    "value" : "Validate the Some of function"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check fot the Subscription plan and getScreenShot"
+  }, {
+    "name" : "package",
+    "value" : "Validate the Some of function"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.88"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fc74aa20f0cb4fce.json",
+  "parameterValues" : [ "chrome-100.0.4896.88" ]
+}

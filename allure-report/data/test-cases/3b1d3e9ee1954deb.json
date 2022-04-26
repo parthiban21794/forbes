@@ -1,0 +1,217 @@
+{
+  "uid" : "3b1d3e9ee1954deb",
+  "name" : "Check fot the Subscription plan and getScreenShot",
+  "fullName" : "Validate the Some of function.Check fot the Subscription plan and getScreenShot",
+  "historyId" : "401c7c06fdd26f68015e7a7d16f32c21",
+  "time" : {
+    "start" : 1649939475573,
+    "stop" : 1649939487734,
+    "duration" : 12161
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1649939475578,
+        "stop" : 1649939481799,
+        "duration" : 6221
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b8d81c3614a25b6e",
+        "name" : "Request",
+        "source" : "b8d81c3614a25b6e.json",
+        "type" : "application/json",
+        "size" : 38
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1649939481799,
+        "stop" : 1649939483116,
+        "duration" : 1317
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a9cc9272e79a8312",
+        "name" : "Response",
+        "source" : "a9cc9272e79a8312.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1649939485127,
+        "stop" : 1649939485155,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d3a187ea3d9484dc",
+        "name" : "Request",
+        "source" : "d3a187ea3d9484dc.json",
+        "type" : "application/json",
+        "size" : 61
+      }, {
+        "uid" : "9a9c426d269a3402",
+        "name" : "Response",
+        "source" : "9a9c426d269a3402.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/8dcd6d1d-72a9-4121-ba89-15901bd926cd/click",
+      "time" : {
+        "start" : 1649939485161,
+        "stop" : 1649939485266,
+        "duration" : 105
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1649939487271,
+        "stop" : 1649939487296,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1e2e80b349ce6c5e",
+        "name" : "Request",
+        "source" : "1e2e80b349ce6c5e.json",
+        "type" : "application/json",
+        "size" : 56
+      }, {
+        "uid" : "ee7e01288aa5184a",
+        "name" : "Response",
+        "source" : "ee7e01288aa5184a.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/701275e6-d0ab-4741-9dbe-2f0672348218/click",
+      "time" : {
+        "start" : 1649939487300,
+        "stop" : 1649939487368,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1649939487370,
+        "stop" : 1649939487729,
+        "duration" : 359
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5ee387e0fcc0cb7a",
+        "name" : "Screenshot",
+        "source" : "5ee387e0fcc0cb7a.png",
+        "type" : "image/png",
+        "size" : 436684
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Validate the Some of function"
+  }, {
+    "name" : "testClass",
+    "value" : "Validate the Some of function"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check fot the Subscription plan and getScreenShot"
+  }, {
+    "name" : "package",
+    "value" : "Validate the Some of function"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.88"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3b1d3e9ee1954deb.json",
+  "parameterValues" : [ "chrome-100.0.4896.88" ]
+}

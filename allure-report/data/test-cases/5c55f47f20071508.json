@@ -1,0 +1,227 @@
+{
+  "uid" : "5c55f47f20071508",
+  "name" : "Check the Function of Cover News",
+  "fullName" : "Check function of the home page.Check the Function of Cover News",
+  "historyId" : "46e16b38fb470636e7ddaaf304a7bfe",
+  "time" : {
+    "start" : 1650377753553,
+    "stop" : 1650377780762,
+    "duration" : 27209
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect Hotel Chains From Hilton To Shangri-La Are Expanding Across Asia On Post-Pandemic Recovery Hopes to have property value containing\n                \n                Expected: \"Hotel Chains From Hilton To Shangri-La Are Expanding Across Asia On Post-Pandemic Recovery Hopes\"\n                Received: undefined",
+  "statusTrace" : "Error: Expect Hotel Chains From Hilton To Shangri-La Are Expanding Across Asia On Post-Pandemic Recovery Hopes to have property value containing\n                \n                Expected: \"Hotel Chains From Hilton To Shangri-La Are Expanding Across Asia On Post-Pandemic Recovery Hopes\"\n                Received: undefined\n                    at Context.<anonymous> (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\/Home.js:18:39)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect Hotel Chains From Hilton To Shangri-La Are Expanding Across Asia On Post-Pandemic Recovery Hopes to have property value containing\n                \n                Expected: \"Hotel Chains From Hilton To Shangri-La Are Expanding Across Asia On Post-Pandemic Recovery Hopes\"\n                Received: undefined",
+    "statusTrace" : "Error: Expect Hotel Chains From Hilton To Shangri-La Are Expanding Across Asia On Post-Pandemic Recovery Hopes to have property value containing\n                \n                Expected: \"Hotel Chains From Hilton To Shangri-La Are Expanding Across Asia On Post-Pandemic Recovery Hopes\"\n                Received: undefined\n                    at Context.<anonymous> (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\/Home.js:18:39)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1650377753557,
+        "stop" : 1650377762235,
+        "duration" : 8678
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6d97eca6de189fb4",
+        "name" : "Request",
+        "source" : "6d97eca6de189fb4.json",
+        "type" : "application/json",
+        "size" : 38
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1650377762235,
+        "stop" : 1650377762506,
+        "duration" : 271
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ad43f3b5dc2d5845",
+        "name" : "Response",
+        "source" : "ad43f3b5dc2d5845.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1650377767518,
+        "stop" : 1650377767555,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ca9dfb65e6029803",
+        "name" : "Request",
+        "source" : "ca9dfb65e6029803.json",
+        "type" : "application/json",
+        "size" : 71
+      }, {
+        "uid" : "cd120e9297ae101e",
+        "name" : "Response",
+        "source" : "cd120e9297ae101e.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/c2db28bd-181d-43b6-ae96-33da8a0b6eca/click",
+      "time" : {
+        "start" : 1650377767564,
+        "stop" : 1650377767628,
+        "duration" : 64
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1650377768632,
+        "stop" : 1650377770112,
+        "duration" : 1480
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "980e3d96beae222c",
+        "name" : "Request",
+        "source" : "980e3d96beae222c.json",
+        "type" : "application/json",
+        "size" : 130
+      }, {
+        "uid" : "b5d63412e7e676f0",
+        "name" : "Response",
+        "source" : "b5d63412e7e676f0.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1650377770115,
+        "stop" : 1650377770747,
+        "duration" : 632
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/element/d3d2010b-caf4-485e-9459-32a5da3fbae3/text",
+        "time" : {
+          "start" : 1650377770117,
+          "stop" : 1650377770723,
+          "duration" : 606
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "5f677897d12f9f38",
+          "name" : "Response",
+          "source" : "5f677897d12f9f38.json",
+          "type" : "application/json",
+          "size" : 98
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "a6cdf108edfa6b51",
+        "name" : "Response",
+        "source" : "a6cdf108edfa6b51.json",
+        "type" : "application/json",
+        "size" : 98
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Check function of the home page"
+  }, {
+    "name" : "testClass",
+    "value" : "Check function of the home page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check the Function of Cover News"
+  }, {
+    "name" : "package",
+    "value" : "Check function of the home page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5c55f47f20071508.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}

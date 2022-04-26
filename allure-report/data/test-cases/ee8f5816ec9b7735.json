@@ -1,0 +1,360 @@
+{
+  "uid" : "ee8f5816ec9b7735",
+  "name" : "Check fot the Subscription plan and getScreenShot",
+  "fullName" : "Validate the Some of function.Check fot the Subscription plan and getScreenShot",
+  "historyId" : "401c7c06fdd26f68015e7a7d16f32c21",
+  "time" : {
+    "start" : 1650006123215,
+    "stop" : 1650006143117,
+    "duration" : 19902
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=100.0.4896.88)",
+  "statusTrace" : "invalid argument: invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=100.0.4896.88)\n                    at getErrorFromResponseBody (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Browser.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Context.<anonymous> (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\/ForbesHome.js:14:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=100.0.4896.88)",
+    "statusTrace" : "invalid argument: invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=100.0.4896.88)\n                    at getErrorFromResponseBody (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Browser.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Context.<anonymous> (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\/ForbesHome.js:14:7)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1650006123220,
+        "stop" : 1650006135107,
+        "duration" : 11887
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f17b29d236e3f799",
+        "name" : "Request",
+        "source" : "f17b29d236e3f799.json",
+        "type" : "application/json",
+        "size" : 38
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1650006135107,
+        "stop" : 1650006135409,
+        "duration" : 302
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4b015176f183975b",
+        "name" : "Response",
+        "source" : "4b015176f183975b.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1650006140413,
+        "stop" : 1650006140446,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "768f478a623ac43b",
+        "name" : "Request",
+        "source" : "768f478a623ac43b.json",
+        "type" : "application/json",
+        "size" : 61
+      }, {
+        "uid" : "6b7f9aadb7c63694",
+        "name" : "Response",
+        "source" : "6b7f9aadb7c63694.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/cfdc56c7-3519-48a8-a268-ac166ae777f3/click",
+      "time" : {
+        "start" : 1650006140452,
+        "stop" : 1650006140589,
+        "duration" : 137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/window/handles",
+      "time" : {
+        "start" : 1650006142594,
+        "stop" : 1650006142610,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "47bf228f4e9f74b2",
+        "name" : "Response",
+        "source" : "47bf228f4e9f74b2.json",
+        "type" : "application/json",
+        "size" : 96
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/window",
+      "time" : {
+        "start" : 1650006142610,
+        "stop" : 1650006142679,
+        "duration" : 69
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "22b9030d79f1881e",
+        "name" : "Request",
+        "source" : "22b9030d79f1881e.json",
+        "type" : "application/json",
+        "size" : 59
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1650006142679,
+        "stop" : 1650006142716,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c7a579acaf5b6a75",
+        "name" : "Response",
+        "source" : "c7a579acaf5b6a75.json",
+        "type" : "application/json",
+        "size" : 41
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1650006142716,
+        "stop" : 1650006142739,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3e68ec3b79df4079",
+        "name" : "Response",
+        "source" : "3e68ec3b79df4079.json",
+        "type" : "application/json",
+        "size" : 8
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1650006142740,
+        "stop" : 1650006142769,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cf9a601d62d2ec6c",
+        "name" : "Request",
+        "source" : "cf9a601d62d2ec6c.json",
+        "type" : "application/json",
+        "size" : 81
+      }, {
+        "uid" : "c4463495bb5e3311",
+        "name" : "Response",
+        "source" : "c4463495bb5e3311.json",
+        "type" : "application/json",
+        "size" : 10
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/window",
+      "time" : {
+        "start" : 1650006142770,
+        "stop" : 1650006142812,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7e1ab7b7496fa1ba",
+        "name" : "Request",
+        "source" : "7e1ab7b7496fa1ba.json",
+        "type" : "application/json",
+        "size" : 59
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1650006142813,
+        "stop" : 1650006143012,
+        "duration" : 199
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5097aa42f6fa3d30",
+        "name" : "Response",
+        "source" : "5097aa42f6fa3d30.json",
+        "type" : "application/json",
+        "size" : 100
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1650006143013,
+        "stop" : 1650006143117,
+        "duration" : 104
+      },
+      "status" : "broken",
+      "statusMessage" : "invalid argument: invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=100.0.4896.88)\n                    at getErrorFromResponseBody (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Browser.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Context.<anonymous> (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\/ForbesHome.js:14:7)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/frame",
+        "time" : {
+          "start" : 1650006143018,
+          "stop" : 1650006143061,
+          "duration" : 43
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "cc3adce0c85ba48d",
+          "name" : "Request",
+          "source" : "cc3adce0c85ba48d.json",
+          "type" : "application/json",
+          "size" : 14
+        }, {
+          "uid" : "2feeb2edaf2c2d9e",
+          "name" : "Response",
+          "source" : "2feeb2edaf2c2d9e.json",
+          "type" : "application/json",
+          "size" : 1033
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "68413e27efbc4732",
+        "name" : "Request",
+        "source" : "68413e27efbc4732.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 15,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 13
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Validate the Some of function"
+  }, {
+    "name" : "testClass",
+    "value" : "Validate the Some of function"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check fot the Subscription plan and getScreenShot"
+  }, {
+    "name" : "package",
+    "value" : "Validate the Some of function"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.88"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ee8f5816ec9b7735.json",
+  "parameterValues" : [ "chrome-100.0.4896.88" ]
+}

@@ -1,0 +1,179 @@
+{
+  "uid" : "7d999c10d0f3610c",
+  "name" : "Check the Sign in option",
+  "fullName" : "Check the Sign In Functions.Check the Sign in option",
+  "historyId" : "63953bf78799c057d6d5799566ce1a0c",
+  "time" : {
+    "start" : 1650074149224,
+    "stop" : 1650074163882,
+    "duration" : 14658
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "validPass is not defined",
+  "statusTrace" : "ReferenceError: validPass is not defined\n                    at Context.<anonymous> (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\/login.js:13:57)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "validPass is not defined",
+    "statusTrace" : "ReferenceError: validPass is not defined\n                    at Context.<anonymous> (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\/login.js:13:57)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1650074149230,
+        "stop" : 1650074156874,
+        "duration" : 7644
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "987149cc79f6c5f6",
+        "name" : "Request",
+        "source" : "987149cc79f6c5f6.json",
+        "type" : "application/json",
+        "size" : 38
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1650074156874,
+        "stop" : 1650074159680,
+        "duration" : 2806
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6f9a31e0f52f0ccc",
+        "name" : "Response",
+        "source" : "6f9a31e0f52f0ccc.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1650074161700,
+        "stop" : 1650074161745,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7d5f144f3dd86c8",
+        "name" : "Request",
+        "source" : "7d5f144f3dd86c8.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "7ebb352763ebb800",
+        "name" : "Response",
+        "source" : "7ebb352763ebb800.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/5ff3d4cb-4b04-454e-b6f5-bd9134fc03b7/click",
+      "time" : {
+        "start" : 1650074161756,
+        "stop" : 1650074161836,
+        "duration" : 80
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/frame",
+      "time" : {
+        "start" : 1650074163845,
+        "stop" : 1650074163873,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8efad4d383dd0f55",
+        "name" : "Request",
+        "source" : "8efad4d383dd0f55.json",
+        "type" : "application/json",
+        "size" : 14
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Check the Sign In Functions"
+  }, {
+    "name" : "testClass",
+    "value" : "Check the Sign In Functions"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check the Sign in option"
+  }, {
+    "name" : "package",
+    "value" : "Check the Sign In Functions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7d999c10d0f3610c.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}

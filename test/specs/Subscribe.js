@@ -10,10 +10,7 @@ describe('Function of the subscription page and SignUp Page', () => {
         await SubscriptionPage.subscribeBtn.click();
         await browser.pause(5000);
         await browser.saveScreenshot("./ScreenShot/SubScribeScreenShots/enterIntoSubscribePage.png"); 
-        await browser.pause(5000);
-    });
-    it('Check The Subscription Now Button', () => {
-        
+        await browser.pause(5000);  
         await browser.switchWindow('https://account.forbes.com/subscribe?eventSource=header&redirect=https://www.forbes.com/home_asia/');
         await browser.pause(5000);
         await browser.switchToFrame(0);
@@ -46,6 +43,7 @@ describe('Function of the subscription page and SignUp Page', () => {
         await (await SubscriptionPage.signUpPass).setValue(logindata.signupvalidPass8ok);
         await browser.pause(10000);
         await (await SubscriptionPage.createAccBtn).click();
+        await (await $('.error-list')).scrollIntoView();
         await browser.saveScreenshot("./ScreenShot/SubScribeScreenShots/It Accepts Invalid Format Of LName And Fname.png");
         await browser.pause(5000);
         
@@ -61,6 +59,7 @@ describe('Function of the subscription page and SignUp Page', () => {
         await (await SubscriptionPage.signUpPass).setValue(logindata.signupvalidPass8ok);
         await browser.pause(10000);
         await (await SubscriptionPage.createAccBtn).click();
+        await (await $('.error-list')).scrollIntoView();
         await browser.saveScreenshot("./ScreenShot/SubScribeScreenShots/existingEmail.png");
         await browser.pause(5000);
         

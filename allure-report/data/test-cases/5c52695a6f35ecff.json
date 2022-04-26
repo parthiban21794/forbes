@@ -1,0 +1,112 @@
+{
+  "uid" : "5c52695a6f35ecff",
+  "name" : "Checkout the product",
+  "fullName" : "Home.Checkout the product",
+  "historyId" : "e386c8539eca2093e2fb1ce9cfba6de8",
+  "time" : {
+    "start" : 1648106088571,
+    "stop" : 1648106088666,
+    "duration" : 95
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1648106088572,
+        "stop" : 1648106088601,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7023c6e347b55ac1",
+        "name" : "Request",
+        "source" : "7023c6e347b55ac1.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "125faa762db502fe",
+        "name" : "Response",
+        "source" : "125faa762db502fe.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/f86a73e9-06bd-4c41-8e79-64b72ffc8a65/click",
+      "time" : {
+        "start" : 1648106088605,
+        "stop" : 1648106088665,
+        "duration" : 60
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home"
+  }, {
+    "name" : "testClass",
+    "value" : "Home"
+  }, {
+    "name" : "testMethod",
+    "value" : "Checkout the product"
+  }, {
+    "name" : "package",
+    "value" : "Home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5c52695a6f35ecff.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

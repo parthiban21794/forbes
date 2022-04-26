@@ -43,12 +43,8 @@ exports.config = {
     //     smoke: [
     //         './test/specs/**/SauseDemo.js'
     //     ]
-    fullRegression: [
-        './test/specs/Menu.js',
-        './test/specs/login.js',
-    //    './test/specs/file1.spec.js',
-    //    './test/anotherFolder/file7.spec.js'
-    ]},
+    
+    },
 
     // },
     //

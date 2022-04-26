@@ -1,0 +1,143 @@
+{
+  "uid" : "aa523f405874e683",
+  "name" : "Open The Breaking News By BreakingNews Tag",
+  "fullName" : "Check The Function Of BreakingNews.Open The Breaking News By BreakingNews Tag",
+  "historyId" : "77e49d1739efdd6b5b06bbbdbce6f9fe",
+  "time" : {
+    "start" : 1650179064098,
+    "stop" : 1650179115594,
+    "duration" : 51496
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "bnTitle is not defined",
+  "statusTrace" : "ReferenceError: bnTitle is not defined\n                    at Context.<anonymous> (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\/BreakingNews.js:10:21)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "bnTitle is not defined",
+    "statusTrace" : "ReferenceError: bnTitle is not defined\n                    at Context.<anonymous> (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\/BreakingNews.js:10:21)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1650179064102,
+        "stop" : 1650179110303,
+        "duration" : 46201
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f5fa84353fb5fbca",
+        "name" : "Request",
+        "source" : "f5fa84353fb5fbca.json",
+        "type" : "application/json",
+        "size" : 38
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1650179115314,
+        "stop" : 1650179115519,
+        "duration" : 205
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dd8fc526d150e86d",
+        "name" : "Request",
+        "source" : "dd8fc526d150e86d.json",
+        "type" : "application/json",
+        "size" : 77
+      }, {
+        "uid" : "9b15c2671913bfbe",
+        "name" : "Response",
+        "source" : "9b15c2671913bfbe.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/58cae644-8cee-4a35-995c-58c7eb0b5652/text",
+      "time" : {
+        "start" : 1650179115536,
+        "stop" : 1650179115576,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b4938b55cbbb81e",
+        "name" : "Response",
+        "source" : "b4938b55cbbb81e.json",
+        "type" : "application/json",
+        "size" : 82
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Check The Function Of BreakingNews"
+  }, {
+    "name" : "testClass",
+    "value" : "Check The Function Of BreakingNews"
+  }, {
+    "name" : "testMethod",
+    "value" : "Open The Breaking News By BreakingNews Tag"
+  }, {
+    "name" : "package",
+    "value" : "Check The Function Of BreakingNews"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aa523f405874e683.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}

@@ -1,0 +1,97 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650463201310' stop='1650463232381'>
+    <name>Check The Function Of BreakingNews</name>
+    <title>Check The Function Of BreakingNews</title>
+    <test-cases>
+        <test-case start='1650463201311' status='failed' stop='1650463232379'>
+            <name>Open The Breaking News By BreakingNews Tag</name>
+            <title>Open The Breaking News By BreakingNews Tag</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1650463201316' status='passed' stop='1650463211774'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='4bf47db3-7ae4-43f8-816c-803e7a8c1214-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650463211774' status='passed' stop='1650463212467'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='67beb40d-ab15-4b87-ba1e-2a2bc350b0aa-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650463217470' status='passed' stop='1650463217495'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6b87cf0a-e723-4e63-94dd-8a912ac658b7-attachment.json' type='application/json' size='77'/>
+                        <attachment title='Response' source='ec6bd408-576d-4daa-9c50-47e01e011c28-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650463217502' status='passed' stop='1650463217519'>
+                    <name>GET /session/:sessionId/element/4622eb9c-5566-47ac-8206-766ccd2ea5b2/text</name>
+                    <title>GET /session/:sessionId/element/4622eb9c-5566-47ac-8206-766ccd2ea5b2/text</title>
+                    <attachments>
+                        <attachment title='Response' source='9cfba50b-3a71-4942-b50b-39ecff41d82c-attachment.json' type='application/json' size='57'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650463219527' status='passed' stop='1650463219539'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2223f727-5372-4cdf-96d4-5891ac62ee45-attachment.json' type='application/json' size='77'/>
+                        <attachment title='Response' source='332dea2d-7aa7-4e5b-8d3d-596be88073dd-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650463219542' status='passed' stop='1650463219615'>
+                    <name>POST /session/:sessionId/element/4622eb9c-5566-47ac-8206-766ccd2ea5b2/click</name>
+                    <title>POST /session/:sessionId/element/4622eb9c-5566-47ac-8206-766ccd2ea5b2/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1650463221628' status='passed' stop='1650463228311'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b365ffb0-a14c-43f9-b8a0-ac06a52e5168-attachment.png' type='image/png' size='618945'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650463230330' status='passed' stop='1650463230355'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='1509ad1e-cc43-410d-b0e9-5ccd68c1ebd0-attachment.json' type='application/json' size='55'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expect(received).toEqual(expected) // deep equality
+                
+                Expected: "Prince Harry Says He Feels ‘At Home’ Living In The U.S."
+                Received: "Prince Harry Says He Feels At Home Living In The U.S."</message>
+                <stack-trace>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: "Prince Harry Says He Feels ‘At Home’ Living In The U.S."
+                Received: "Prince Harry Says He Feels At Home Living In The U.S."
+                    at Context.&lt;anonymous> (C:\Users\FL_LPT-201\Documents\forbes\test\specs\/BreakingNews.js:20:31)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

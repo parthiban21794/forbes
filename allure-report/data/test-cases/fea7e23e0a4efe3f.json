@@ -1,0 +1,174 @@
+{
+  "uid" : "fea7e23e0a4efe3f",
+  "name" : "Check fot the Subscription plan and getScreenShot",
+  "fullName" : "Validate the Some of function.Check fot the Subscription plan and getScreenShot",
+  "historyId" : "401c7c06fdd26f68015e7a7d16f32c21",
+  "time" : {
+    "start" : 1649933968684,
+    "stop" : 1649933976601,
+    "duration" : 7917
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Malformed type for \"handle\" parameter of command switchToWindow\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-window\n                ",
+  "statusTrace" : "Error: Malformed type for \"handle\" parameter of command switchToWindow\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-window\n                \n                    at Browser.protocolCommand (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\command.js:53:23)\n                    at Browser.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:38)\n                    at Browser.switchToWindow (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n                    at Context.<anonymous> (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\/ForbesHome.js:10:24)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Malformed type for \"handle\" parameter of command switchToWindow\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-window\n                ",
+    "statusTrace" : "Error: Malformed type for \"handle\" parameter of command switchToWindow\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-window\n                \n                    at Browser.protocolCommand (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\command.js:53:23)\n                    at Browser.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:38)\n                    at Browser.switchToWindow (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n                    at Context.<anonymous> (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\/ForbesHome.js:10:24)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1649933968687,
+        "stop" : 1649933975160,
+        "duration" : 6473
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bb92816faa828ecd",
+        "name" : "Request",
+        "source" : "bb92816faa828ecd.json",
+        "type" : "application/json",
+        "size" : 38
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1649933975160,
+        "stop" : 1649933976392,
+        "duration" : 1232
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9ad6769c9428e774",
+        "name" : "Response",
+        "source" : "9ad6769c9428e774.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1649933976395,
+        "stop" : 1649933976428,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e6f659d33b3028b",
+        "name" : "Request",
+        "source" : "e6f659d33b3028b.json",
+        "type" : "application/json",
+        "size" : 61
+      }, {
+        "uid" : "e7de5f2a6b95139b",
+        "name" : "Response",
+        "source" : "e7de5f2a6b95139b.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/a1afe8a0-021a-48d6-80b5-139547a34e12/click",
+      "time" : {
+        "start" : 1649933976441,
+        "stop" : 1649933976585,
+        "duration" : 144
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/window/handles",
+      "time" : {
+        "start" : 1649933976586,
+        "stop" : 1649933976601,
+        "duration" : 15
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: Malformed type for \"handle\" parameter of command switchToWindow\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-window\n                \n                    at Browser.protocolCommand (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\command.js:53:23)\n                    at Browser.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:38)\n                    at Browser.switchToWindow (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n                    at Context.<anonymous> (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\/ForbesHome.js:10:24)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Validate the Some of function"
+  }, {
+    "name" : "testClass",
+    "value" : "Validate the Some of function"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check fot the Subscription plan and getScreenShot"
+  }, {
+    "name" : "package",
+    "value" : "Validate the Some of function"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.88"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fea7e23e0a4efe3f.json",
+  "parameterValues" : [ "chrome-100.0.4896.88" ]
+}

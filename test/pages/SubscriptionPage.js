@@ -52,6 +52,7 @@ return $ ("#email");
         return $ ('#password');
     }
 
+    
 
 }
 export default new SubscribePage

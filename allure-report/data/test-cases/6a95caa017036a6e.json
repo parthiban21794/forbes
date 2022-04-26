@@ -1,0 +1,137 @@
+{
+  "uid" : "6a95caa017036a6e",
+  "name" : "Open Url And Asser the title",
+  "fullName" : "Home.Open Url And Asser the title",
+  "historyId" : "15441b66d0fedf7ff3e84baa22b2139b",
+  "time" : {
+    "start" : 1648088939772,
+    "stop" : 1648088940301,
+    "duration" : 529
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1648088939776,
+        "stop" : 1648088940073,
+        "duration" : 297
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1648088939779,
+          "stop" : 1648088939811,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "86a53e7f9016082d",
+          "name" : "Request",
+          "source" : "86a53e7f9016082d.json",
+          "type" : "application/json",
+          "size" : 41
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1648088940281,
+        "stop" : 1648088940299,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eb44ce0dd7bb313c",
+        "name" : "Response",
+        "source" : "eb44ce0dd7bb313c.json",
+        "type" : "application/json",
+        "size" : 11
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home"
+  }, {
+    "name" : "testClass",
+    "value" : "Home"
+  }, {
+    "name" : "testMethod",
+    "value" : "Open Url And Asser the title"
+  }, {
+    "name" : "package",
+    "value" : "Home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-98.0.1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6bc4e8aac5352d60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648087686775,
+        "stop" : 1648087687320,
+        "duration" : 545
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6a95caa017036a6e.json",
+  "parameterValues" : [ "firefox-98.0.1" ]
+}

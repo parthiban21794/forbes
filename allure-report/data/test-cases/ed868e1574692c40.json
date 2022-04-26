@@ -1,0 +1,222 @@
+{
+  "uid" : "ed868e1574692c40",
+  "name" : "Open The Breaking News By BreakingNews Tag",
+  "fullName" : "Check The Function Of BreakingNews.Open The Breaking News By BreakingNews Tag",
+  "historyId" : "77e49d1739efdd6b5b06bbbdbce6f9fe",
+  "time" : {
+    "start" : 1650376161547,
+    "stop" : 1650376179441,
+    "duration" : 17894
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "invalid session id",
+  "statusTrace" : "invalid session id: invalid session id\n                    at getErrorFromResponseBody (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Browser.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Browser.saveScreenshot (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriverio\\build\\commands\\browser\\saveScreenshot.js:36:26)\n                    at Browser.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Context.<anonymous> (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\/BreakingNews.js:16:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "invalid session id",
+    "statusTrace" : "invalid session id: invalid session id\n                    at getErrorFromResponseBody (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Browser.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Browser.saveScreenshot (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriverio\\build\\commands\\browser\\saveScreenshot.js:36:26)\n                    at Browser.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Context.<anonymous> (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\/BreakingNews.js:16:9)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1650376161551,
+        "stop" : 1650376168891,
+        "duration" : 7340
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "417f17b29ae21a16",
+        "name" : "Request",
+        "source" : "417f17b29ae21a16.json",
+        "type" : "application/json",
+        "size" : 38
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1650376168891,
+        "stop" : 1650376169202,
+        "duration" : 311
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "59c8b4db50ab4aa8",
+        "name" : "Response",
+        "source" : "59c8b4db50ab4aa8.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1650376174221,
+        "stop" : 1650376174252,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bbe971d850bab501",
+        "name" : "Request",
+        "source" : "bbe971d850bab501.json",
+        "type" : "application/json",
+        "size" : 77
+      }, {
+        "uid" : "5768b69de335d8f9",
+        "name" : "Response",
+        "source" : "5768b69de335d8f9.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/ab28a580-81ce-40d5-9b14-f505515acc8a/text",
+      "time" : {
+        "start" : 1650376174258,
+        "stop" : 1650376174275,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cb7594e314fca379",
+        "name" : "Response",
+        "source" : "cb7594e314fca379.json",
+        "type" : "application/json",
+        "size" : 51
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1650376176283,
+        "stop" : 1650376176313,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c5b009cd3b3cd087",
+        "name" : "Request",
+        "source" : "c5b009cd3b3cd087.json",
+        "type" : "application/json",
+        "size" : 77
+      }, {
+        "uid" : "32a428c66932dee0",
+        "name" : "Response",
+        "source" : "32a428c66932dee0.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/ab28a580-81ce-40d5-9b14-f505515acc8a/click",
+      "time" : {
+        "start" : 1650376176318,
+        "stop" : 1650376176385,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1650376178396,
+        "stop" : 1650376179440,
+        "duration" : 1044
+      },
+      "status" : "broken",
+      "statusMessage" : "invalid session id: invalid session id\n                    at getErrorFromResponseBody (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Browser.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Browser.saveScreenshot (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\webdriverio\\build\\commands\\browser\\saveScreenshot.js:36:26)\n                    at Browser.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Context.<anonymous> (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\/BreakingNews.js:16:9)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Check The Function Of BreakingNews"
+  }, {
+    "name" : "testClass",
+    "value" : "Check The Function Of BreakingNews"
+  }, {
+    "name" : "testMethod",
+    "value" : "Open The Breaking News By BreakingNews Tag"
+  }, {
+    "name" : "package",
+    "value" : "Check The Function Of BreakingNews"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ed868e1574692c40.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}

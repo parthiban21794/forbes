@@ -1,0 +1,118 @@
+{
+  "uid" : "f336c584c17c79f2",
+  "name" : "Validate the count in the cart page",
+  "fullName" : "Home.Validate the count in the cart page",
+  "historyId" : "440cf537c547239ed6f1ab32b822dc51",
+  "time" : {
+    "start" : 1648190684005,
+    "stop" : 1648190684085,
+    "duration" : 80
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1648190684006,
+        "stop" : 1648190684046,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a0408cabe8502c2",
+        "name" : "Request",
+        "source" : "a0408cabe8502c2.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "af127c0c88cd8be7",
+        "name" : "Response",
+        "source" : "af127c0c88cd8be7.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/3b58bf05-50eb-41f5-862a-9ec16b545b7e/text",
+      "time" : {
+        "start" : 1648190684050,
+        "stop" : 1648190684084,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "377833b5a4a0a474",
+        "name" : "Response",
+        "source" : "377833b5a4a0a474.json",
+        "type" : "application/json",
+        "size" : 3
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home"
+  }, {
+    "name" : "testClass",
+    "value" : "Home"
+  }, {
+    "name" : "testMethod",
+    "value" : "Validate the count in the cart page"
+  }, {
+    "name" : "package",
+    "value" : "Home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f336c584c17c79f2.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

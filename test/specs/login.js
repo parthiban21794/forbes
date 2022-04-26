@@ -19,12 +19,13 @@ describe('Check the Sign In Functions', () => {
         await browser.pause(3000);
         await browser.saveScreenshot("./ScreenShot/loginpageScreenShoots/EmptyUserName.png");
         await browser.pause(3000);
+
     
     });
 
 
     it('Login Without Password',async () => {
-        await loginPage.loginAsValid(logindata.userName);
+        await loginPage.userName(logindata.userName);
         await browser.pause(2000);
         await (await loginPage.loginBtn).click();
         await browser.pause(3000);

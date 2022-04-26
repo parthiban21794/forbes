@@ -1,0 +1,119 @@
+{
+  "uid" : "140ab226f00fa520",
+  "name" : "Login Without Password",
+  "fullName" : "Check the Sign In Functions.Login Without Password",
+  "historyId" : "e49b6d3bbb9f04194be7c146d6190268",
+  "time" : {
+    "start" : 1650536422564,
+    "stop" : 1650536422580,
+    "duration" : 16
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "_loginPage.default.userName is not a function",
+  "statusTrace" : "TypeError: _loginPage.default.userName is not a function\n                    at Context.<anonymous> (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\/login.js:29:25)\n                    at Context.executeAsync (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:331:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "_loginPage.default.userName is not a function",
+    "statusTrace" : "TypeError: _loginPage.default.userName is not a function\n                    at Context.<anonymous> (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\/login.js:29:25)\n                    at Context.executeAsync (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:331:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1650536422565,
+        "stop" : 1650536422580,
+        "duration" : 15
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: _loginPage.default.userName is not a function\n                    at Context.<anonymous> (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\/login.js:29:25)\n                    at Context.executeAsync (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\shim.js:331:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\FL_LPT-201\\Documents\\forbes\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f88e3e311eba6c8",
+        "name" : "Request",
+        "source" : "f88e3e311eba6c8.json",
+        "type" : "application/json",
+        "size" : 50
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Check the Sign In Functions"
+  }, {
+    "name" : "testClass",
+    "value" : "Check the Sign In Functions"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login Without Password"
+  }, {
+    "name" : "package",
+    "value" : "Check the Sign In Functions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6b2b9dc4a151967e",
+      "status" : "broken",
+      "statusDetails" : "_loginPage.default.userName is not a function",
+      "time" : {
+        "start" : 1650536228540,
+        "stop" : 1650536228578,
+        "duration" : 38
+      }
+    }, {
+      "uid" : "5b54289e7cefcbb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650535963808,
+        "stop" : 1650535969117,
+        "duration" : 5309
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "140ab226f00fa520.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}

@@ -1,0 +1,159 @@
+{
+  "uid" : "33974547d5af9e93",
+  "name" : "Open Url And Asser the title",
+  "fullName" : "Home.Open Url And Asser the title",
+  "historyId" : "70ca5d267716877e358ec6f5c1ca99ce",
+  "time" : {
+    "start" : 1648204399796,
+    "stop" : 1648204400986,
+    "duration" : 1190
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "invalid selector: The result of the xpath expression \"//*[@id=\"login_credentials\"]/text()[2]\" is: [object Text]. It should be an element.\n                  (Session info: chrome=99.0.4844.82)",
+  "statusTrace" : "invalid selector: invalid selector: The result of the xpath expression \"//*[@id=\"login_credentials\"]/text()[2]\" is: [object Text]. It should be an element.\n                  (Session info: chrome=99.0.4844.82)\n                    at getErrorFromResponseBody (C:\\Users\\FL_LPT-201\\Documents\\SauseDemoAssement\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\Users\\FL_LPT-201\\Documents\\SauseDemoAssement\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Browser.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\SauseDemoAssement\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Browser.$ (C:\\Users\\FL_LPT-201\\Documents\\SauseDemoAssement\\node_modules\\webdriverio\\build\\commands\\browser\\$.js:88:17)\n                    at Browser.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\SauseDemoAssement\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Context.<anonymous> (C:\\Users\\FL_LPT-201\\Documents\\SauseDemoAssement\\test\\specs\\/Home.js:12:19)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "invalid selector: The result of the xpath expression \"//*[@id=\"login_credentials\"]/text()[2]\" is: [object Text]. It should be an element.\n                  (Session info: chrome=99.0.4844.82)",
+    "statusTrace" : "invalid selector: invalid selector: The result of the xpath expression \"//*[@id=\"login_credentials\"]/text()[2]\" is: [object Text]. It should be an element.\n                  (Session info: chrome=99.0.4844.82)\n                    at getErrorFromResponseBody (C:\\Users\\FL_LPT-201\\Documents\\SauseDemoAssement\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\Users\\FL_LPT-201\\Documents\\SauseDemoAssement\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Browser.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\SauseDemoAssement\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Browser.$ (C:\\Users\\FL_LPT-201\\Documents\\SauseDemoAssement\\node_modules\\webdriverio\\build\\commands\\browser\\$.js:88:17)\n                    at Browser.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\SauseDemoAssement\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Context.<anonymous> (C:\\Users\\FL_LPT-201\\Documents\\SauseDemoAssement\\test\\specs\\/Home.js:12:19)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1648204399799,
+        "stop" : 1648204400498,
+        "duration" : 699
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d185963b9c97afd7",
+        "name" : "Request",
+        "source" : "d185963b9c97afd7.json",
+        "type" : "application/json",
+        "size" : 41
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1648204400499,
+        "stop" : 1648204400719,
+        "duration" : 220
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dcaed960d1c3fad5",
+        "name" : "Screenshot",
+        "source" : "dcaed960d1c3fad5.png",
+        "type" : "image/png",
+        "size" : 83487
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1648204400731,
+        "stop" : 1648204400770,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d141d21a44f27eb8",
+        "name" : "Response",
+        "source" : "d141d21a44f27eb8.json",
+        "type" : "application/json",
+        "size" : 11
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1648204400779,
+        "stop" : 1648204400985,
+        "duration" : 206
+      },
+      "status" : "broken",
+      "statusMessage" : "invalid selector: invalid selector: The result of the xpath expression \"//*[@id=\"login_credentials\"]/text()[2]\" is: [object Text]. It should be an element.\n                  (Session info: chrome=99.0.4844.82)\n                    at getErrorFromResponseBody (C:\\Users\\FL_LPT-201\\Documents\\SauseDemoAssement\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\Users\\FL_LPT-201\\Documents\\SauseDemoAssement\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Browser.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\SauseDemoAssement\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Browser.$ (C:\\Users\\FL_LPT-201\\Documents\\SauseDemoAssement\\node_modules\\webdriverio\\build\\commands\\browser\\$.js:88:17)\n                    at Browser.wrapCommandFn (C:\\Users\\FL_LPT-201\\Documents\\SauseDemoAssement\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Context.<anonymous> (C:\\Users\\FL_LPT-201\\Documents\\SauseDemoAssement\\test\\specs\\/Home.js:12:19)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4f4d64adb7f43286",
+        "name" : "Request",
+        "source" : "4f4d64adb7f43286.json",
+        "type" : "application/json",
+        "size" : 77
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home"
+  }, {
+    "name" : "testClass",
+    "value" : "Home"
+  }, {
+    "name" : "testMethod",
+    "value" : "Open Url And Asser the title"
+  }, {
+    "name" : "package",
+    "value" : "Home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "33974547d5af9e93.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

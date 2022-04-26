@@ -1,0 +1,91 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650453914263' stop='1650453930916'>
+    <name>Check function of the home page</name>
+    <title>Check function of the home page</title>
+    <test-cases>
+        <test-case start='1650453914264' status='failed' stop='1650453930910'>
+            <name>Check the Function of Cover News</name>
+            <title>Check the Function of Cover News</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps>
+                <step start='1650453914269' status='passed' stop='1650453921516'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='7dbe0760-faeb-4af9-a3a3-40c699186d75-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650453921516' status='passed' stop='1650453921718'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='7e080699-30b4-4172-adda-ed9a779d5032-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650453926731' status='passed' stop='1650453926788'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b3e8b2dc-e9d9-49d3-9c94-cf941cf74684-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='3795b6a7-17c3-4076-a1b9-8a59285c2c15-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650453926806' status='passed' stop='1650453926919'>
+                    <name>POST /session/:sessionId/element/048fe274-743b-40e6-bcd4-c179c62a2a0a/click</name>
+                    <title>POST /session/:sessionId/element/048fe274-743b-40e6-bcd4-c179c62a2a0a/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1650453927922' status='passed' stop='1650453930742'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2652daa1-801b-4e71-b3ad-58295d969d81-attachment.json' type='application/json' size='130'/>
+                        <attachment title='Response' source='3aff25c8-b5ad-4537-9c27-e9e3912efd16-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650453930750' status='failed' stop='1650453930910'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1650453930752' status='passed' stop='1650453930891'>
+                            <name>GET /session/:sessionId/element/b49b1c9d-af16-4cf3-8ad3-de8a662c9888/text</name>
+                            <title>GET /session/:sessionId/element/b49b1c9d-af16-4cf3-8ad3-de8a662c9888/text</title>
+                            <attachments>
+                                <attachment title='Response' source='77943ac6-ae6e-49af-b6eb-51e89986dd3c-attachment.json' type='application/json' size='87'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='58ab8e93-2681-46ab-bbfe-395839d55da7-attachment.json' type='application/json' size='87'/>
+            </attachments>
+            <failure>
+                <message>expect(received).toEqual(expected) // deep equality
+                
+                Expected: "Viu CEO Janice Lee Drops The One-Size-Fits-All Approach To Overtake The Global Giants"
+                Received: {}</message>
+                <stack-trace>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: "Viu CEO Janice Lee Drops The One-Size-Fits-All Approach To Overtake The Global Giants"
+                Received: {}
+                    at Context.&lt;anonymous> (C:\Users\FL_LPT-201\Documents\forbes\test\specs\/Home.js:18:39)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

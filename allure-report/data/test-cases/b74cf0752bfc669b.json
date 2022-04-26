@@ -1,0 +1,248 @@
+{
+  "uid" : "b74cf0752bfc669b",
+  "name" : "Open The Breaking News By BreakingNews Tag",
+  "fullName" : "Check The Function Of BreakingNews.Open The Breaking News By BreakingNews Tag",
+  "historyId" : "77e49d1739efdd6b5b06bbbdbce6f9fe",
+  "time" : {
+    "start" : 1650463201311,
+    "stop" : 1650463232379,
+    "duration" : 31068
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Prince Harry Says He Feels ‘At Home’ Living In The U.S.\"\n                Received: \"Prince Harry Says He Feels At Home Living In The U.S.\"",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Prince Harry Says He Feels ‘At Home’ Living In The U.S.\"\n                Received: \"Prince Harry Says He Feels At Home Living In The U.S.\"\n                    at Context.<anonymous> (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\/BreakingNews.js:20:31)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Prince Harry Says He Feels ‘At Home’ Living In The U.S.\"\n                Received: \"Prince Harry Says He Feels At Home Living In The U.S.\"",
+    "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Prince Harry Says He Feels ‘At Home’ Living In The U.S.\"\n                Received: \"Prince Harry Says He Feels At Home Living In The U.S.\"\n                    at Context.<anonymous> (C:\\Users\\FL_LPT-201\\Documents\\forbes\\test\\specs\\/BreakingNews.js:20:31)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1650463201316,
+        "stop" : 1650463211774,
+        "duration" : 10458
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "811bcb92210bc008",
+        "name" : "Request",
+        "source" : "811bcb92210bc008.json",
+        "type" : "application/json",
+        "size" : 38
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1650463211774,
+        "stop" : 1650463212467,
+        "duration" : 693
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6e0eb30d34334e64",
+        "name" : "Response",
+        "source" : "6e0eb30d34334e64.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1650463217470,
+        "stop" : 1650463217495,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "272e6c6da406865d",
+        "name" : "Request",
+        "source" : "272e6c6da406865d.json",
+        "type" : "application/json",
+        "size" : 77
+      }, {
+        "uid" : "2c973cd88a956e07",
+        "name" : "Response",
+        "source" : "2c973cd88a956e07.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/4622eb9c-5566-47ac-8206-766ccd2ea5b2/text",
+      "time" : {
+        "start" : 1650463217502,
+        "stop" : 1650463217519,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "64266d33a4fcd7f1",
+        "name" : "Response",
+        "source" : "64266d33a4fcd7f1.json",
+        "type" : "application/json",
+        "size" : 61
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1650463219527,
+        "stop" : 1650463219539,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4156f16bb45d6970",
+        "name" : "Request",
+        "source" : "4156f16bb45d6970.json",
+        "type" : "application/json",
+        "size" : 77
+      }, {
+        "uid" : "8c385ed9fa87b08c",
+        "name" : "Response",
+        "source" : "8c385ed9fa87b08c.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/4622eb9c-5566-47ac-8206-766ccd2ea5b2/click",
+      "time" : {
+        "start" : 1650463219542,
+        "stop" : 1650463219615,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1650463221628,
+        "stop" : 1650463228311,
+        "duration" : 6683
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "92a3c44efbb00a25",
+        "name" : "Screenshot",
+        "source" : "92a3c44efbb00a25.png",
+        "type" : "image/png",
+        "size" : 618945
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1650463230330,
+        "stop" : 1650463230355,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1c3748434e1c8abc",
+        "name" : "Response",
+        "source" : "1c3748434e1c8abc.json",
+        "type" : "application/json",
+        "size" : 55
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 8
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Check The Function Of BreakingNews"
+  }, {
+    "name" : "testClass",
+    "value" : "Check The Function Of BreakingNews"
+  }, {
+    "name" : "testMethod",
+    "value" : "Open The Breaking News By BreakingNews Tag"
+  }, {
+    "name" : "package",
+    "value" : "Check The Function Of BreakingNews"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b74cf0752bfc669b.json",
+  "parameterValues" : [ "chrome-100.0.4896.127" ]
+}
